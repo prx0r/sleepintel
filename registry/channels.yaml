@@ -992,3 +992,269 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+- id: 71
+  name: Sleepy Cartography
+  engines:
+  - E5
+  dept: story
+  readiness: ready-ish
+  pitch: 'Maps described slowly: fjords, islands, borders'
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 72
+  name: Sleepy Periodic Table
+  engines:
+  - E5
+  dept: mind
+  readiness: ready-ish
+  pitch: Every element, one per episode
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 73
+  name: Sleepy Taxonomy
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Every species, described gently
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 74
+  name: Sleepy Architecture
+  engines:
+  - E5
+  dept: story
+  readiness: ready-ish
+  pitch: 'Buildings in detail: Pantheon, oculus, light'
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 75
+  name: Sleepy Etymology
+  engines:
+  - E5
+  dept: mind
+  readiness: ready
+  pitch: Word origins as lullabies
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 76
+  name: Sleepy Numbers
+  engines:
+  - E5
+  dept: mind
+  readiness: ready
+  pitch: Constants and sequences as meditation
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 77
+  name: Sleepy Constellations
+  engines:
+  - E5
+  dept: story
+  readiness: ready
+  pitch: Star patterns, one per episode
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 78
+  name: Sleepy Materials
+  engines:
+  - E5
+  dept: mind
+  readiness: ready-ish
+  pitch: What things are made of
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 79
+  name: Sleepy Recipes
+  engines:
+  - E5
+  dept: story
+  readiness: ready
+  pitch: Historical recipes, read slowly
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 80
+  name: Sleepy Letters
+  engines:
+  - E5
+  dept: story
+  readiness: ready
+  pitch: Historical letters read aloud
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 81
+  name: Sleepy Weather
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Weather reports from history
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 82
+  name: Sleepy Timetables
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Train schedules and routes, rhythmically
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 83
+  name: Sleepy Sleep
+  engines:
+  - E5
+  dept: mind
+  readiness: ready
+  pitch: Sleep science, meta
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 84
+  name: Sleepy Instructions
+  engines:
+  - E5
+  dept: mind
+  readiness: ready
+  pitch: Assembly instructions for things
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 85
+  name: Sleepy Legal
+  engines:
+  - E5
+  dept: mind
+  readiness: ready
+  pitch: Legal documents, read slowly
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 86
+  name: Sleepy Code
+  engines:
+  - E5
+  dept: mind
+  readiness: ready
+  pitch: Programming concepts, gently
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 87
+  name: Sleepy Soundtracks
+  engines:
+  - E1
+  dept: music
+  readiness: compile
+  pitch: Film scores analysed
+  shelf: MUSIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 88
+  name: Sleepy Lullabies
+  engines:
+  - E1
+  dept: music
+  readiness: ready
+  pitch: Lullabies from every culture
+  shelf: MUSIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 89
+  name: Sleepy Frequencies
+  engines:
+  - E1
+  dept: music
+  readiness: ready-ish
+  pitch: 432Hz and friends, explained and heard
+  shelf: MUSIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
