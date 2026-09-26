@@ -20,9 +20,25 @@ re-pull the same day.
 
 ## Analytics API (OAuth, our channels only)
 
-Data API has NO retention. HELD (25%) / STAYED (50%) / per-video RETURNED
-come from Analytics `audienceRetention` + `averageViewDuration` per video.
-Requires channel OAuth once; refresh token in vault, never in repo.
+Data API has NO retention. Collect per video via reports.query:
+
+| Metric/dimension | What it feeds |
+|---|---|
+| averageViewDuration + averageViewPercentage | HELD / STAYED |
+| audienceWatchRatio + relativeRetentionPerformance (100-pt curve) | WHERE it holds (intro vs body — first-5s law, scored) |
+| engagedViews, views | OPENED, depth |
+| Traffic source (search / suggested / browse / playlist) | which shelf discovery works |
+| Device type (TV share!) | sleep signal — TV at night is the product working |
+| subscribedStatus (new vs returning) | RETURNED, per video |
+| Playlist adds + playlist retention | series completion (library mechanic, measured) |
+| End-screen CTR + card clicks | bridge effectiveness (next-episode pull) |
+| estimatedRevenue + Premium minutes | RPM vs actuals (ANALYTICS roadmap) |
+| shares, comments, likes | JOINED-adjacent signals |
+
+Variant record (pace, captions, hand, accent, art) joins every metric row
+as dimensions — format features resolve against retention directly.
+Series position (ep N of M) joins playlist retention — completion measured,
+not assumed.
 
 ## Rules
 
