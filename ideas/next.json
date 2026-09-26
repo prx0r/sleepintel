@@ -1,0 +1,37 @@
+[
+ {
+  "channel_id": 1,
+  "channel": "Steiner Sleep",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 3,
+  "channel": "Daimon Dreams",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 4,
+  "channel": "Channeled Wisdom",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 6,
+  "channel": "Sleeping Genius",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 8,
+  "channel": "Alchemical Secrets",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ }
+]

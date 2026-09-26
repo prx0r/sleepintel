@@ -858,7 +858,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
-  sub: E3a
+  sub: E3b
   tags:
   - mech-suggestion
   - type-journey
