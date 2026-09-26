@@ -34,6 +34,8 @@ def main():
         if st["accent"] is not None:
             import re as _re
             assert _re.fullmatch(r"#[0-9A-Fa-f]{6}", st["accent"]), f"channel {c['id']} bad accent"
+        assert c.get("sub", "")[:2] in ENGINES, f"channel {c['id']} bad sub"
+        assert c["sub"][:2] in c["engines"], f"channel {c['id']} sub not under its engine"
         assert c["name"] and c["pitch"], f"channel {c['id']} missing name/pitch"
     print(f"registry OK: {len(data)} channels, engines+readiness valid")
 

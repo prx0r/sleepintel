@@ -13,6 +13,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 2
   name: Near Sleep
   engines:
@@ -27,6 +28,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 3
   name: Daimon Dreams
   engines:
@@ -42,6 +44,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 4
   name: Channeled Wisdom
   engines:
@@ -57,6 +60,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 5
   name: Sleepy Soul
   engines:
@@ -71,6 +75,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 6
   name: Sleeping Genius
   engines:
@@ -85,6 +90,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 7
   name: Good News Tonight
   engines:
@@ -100,6 +106,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E6a
 - id: 8
   name: Alchemical Secrets
   engines:
@@ -114,6 +121,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 9
   name: Angel Sleep
   engines:
@@ -128,6 +136,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 10
   name: Kashmir Readings
   engines:
@@ -142,6 +151,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 11
   name: AGI Scenarios
   engines:
@@ -156,6 +166,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 12
   name: Sleepy Shoggoth
   engines:
@@ -170,6 +181,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 13
   name: Sufi Night
   engines:
@@ -184,6 +196,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 14
   name: Night Dialogues
   engines:
@@ -198,6 +211,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 15
   name: Corbin Sleep
   engines:
@@ -212,6 +226,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 16
   name: Saiva Slumber
   engines:
@@ -226,6 +241,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 17
   name: Ficino Sleep
   engines:
@@ -240,6 +256,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 18
   name: Spell Sleep
   engines:
@@ -254,6 +271,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 19
   name: Company
   engines:
@@ -268,6 +286,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 20
   name: Conspiracy Sleep
   engines:
@@ -282,6 +301,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 21
   name: Tarot Sleep
   engines:
@@ -296,6 +316,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 22
   name: I Ching Sleep
   engines:
@@ -310,6 +331,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 23
   name: Meditations
   engines:
@@ -324,6 +346,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 24
   name: Spanda Sleep
   engines:
@@ -339,6 +362,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E3a
 - id: 25
   name: Plotinus Sleep
   engines:
@@ -353,6 +377,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 26
   name: Sleepy Buddha
   engines:
@@ -367,6 +392,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 27
   name: Sleepy Maths
   engines:
@@ -381,6 +407,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 28
   name: Everyday Truth
   engines:
@@ -395,6 +422,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 29
   name: Cosy Past
   engines:
@@ -409,6 +437,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 30
   name: Lore Sleep
   engines:
@@ -423,6 +452,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 31
   name: Niche Psych
   engines:
@@ -437,6 +467,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 32
   name: Gnostic Sleep
   engines:
@@ -451,6 +482,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 33
   name: Critical Snooze
   engines:
@@ -465,6 +497,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 34
   name: Composer Evenings
   engines:
@@ -479,6 +512,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1a
 - id: 35
   name: Fly on the Wall
   engines:
@@ -493,6 +527,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E4a
 - id: 36
   name: Myth Sleep
   engines:
@@ -507,6 +542,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 37
   name: Sleepy Covers
   engines:
@@ -521,6 +557,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1b
 - id: 38
   name: AGI Sleep
   engines:
@@ -535,6 +572,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 39
   name: Anti-Sleep War
   engines:
@@ -549,6 +587,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E4b
 - id: 40
   name: Fly on the Wall Pure
   engines:
@@ -563,6 +602,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E4a
 - id: 41
   name: Fairy Tales
   engines:
@@ -577,6 +617,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 42
   name: Foreign Folklore
   engines:
@@ -591,6 +632,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 43
   name: Myth Plus
   engines:
@@ -605,6 +647,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 44
   name: Sleep School
   engines:
@@ -619,6 +662,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5b
 - id: 45
   name: Cassiopaean Sleep
   engines:
@@ -633,6 +677,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 46
   name: Sleep Manifestation
   engines:
@@ -647,6 +692,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E3a
 - id: 47
   name: Theurgy Sleep
   engines:
@@ -662,6 +708,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E3a
 - id: 48
   name: Anti-Sleep Arguing
   engines:
@@ -676,6 +723,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E4b
 - id: 49
   name: Deconstructed
   engines:
@@ -690,10 +738,12 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1c
 - id: 50
   name: Kabbalah Sleep
   engines:
   - E2
+  - E3
   dept: tradition
   readiness: ready-ish
   pitch: The Tree of Life as bedtime meditation.
@@ -704,6 +754,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 51
   name: Theosophy Sleep
   engines:
@@ -718,6 +769,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 52
   name: Hindu Sleep
   engines:
@@ -732,6 +784,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 53
   name: Taoist Sleep
   engines:
@@ -746,6 +799,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 54
   name: Christian Mysticism Sleep
   engines:
@@ -760,6 +814,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 55
   name: Egyptian Sleep
   engines:
@@ -774,6 +829,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 56
   name: Manly Hall Sleep
   engines:
@@ -788,6 +844,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2a
 - id: 57
   name: Organ Sleep
   engines:
@@ -803,6 +860,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1a
 - id: 58
   name: Harp Sleep
   engines:
@@ -818,6 +876,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1a
 - id: 59
   name: Choir Sleep
   engines:
@@ -833,6 +892,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1a
 - id: 60
   name: Lullaby Sleep
   engines:
@@ -848,6 +908,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1a
 - id: 61
   name: Opera Sleep
   engines:
@@ -863,6 +924,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1a
 - id: 62
   name: Requiem Sleep
   engines:
@@ -878,6 +940,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1a
 - id: 63
   name: Hymn Sleep
   engines:
@@ -893,6 +956,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1a
 - id: 64
   name: Guitar Sleep
   engines:
@@ -908,6 +972,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1a
 - id: 65
   name: Composed Live
   engines:
@@ -922,6 +987,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1d
 - id: 66
   name: Stems
   engines:
@@ -936,6 +1002,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1c
 - id: 67
   name: Versus
   engines:
@@ -950,6 +1017,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1c
 - id: 68
   name: Era Stroll
   engines:
@@ -964,6 +1032,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1a
 - id: 69
   name: Half Tempo
   engines:
@@ -978,6 +1047,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1c
 - id: 70
   name: Requests
   engines:
@@ -992,6 +1062,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1a
 - id: 71
   name: Sleepy Cartography
   engines:
@@ -1006,6 +1077,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 72
   name: Sleepy Periodic Table
   engines:
@@ -1020,6 +1092,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 73
   name: Sleepy Taxonomy
   engines:
@@ -1034,6 +1107,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 74
   name: Sleepy Architecture
   engines:
@@ -1048,6 +1122,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 75
   name: Sleepy Etymology
   engines:
@@ -1062,6 +1137,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5b
 - id: 76
   name: Sleepy Numbers
   engines:
@@ -1076,6 +1152,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 77
   name: Sleepy Constellations
   engines:
@@ -1090,6 +1167,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 78
   name: Sleepy Materials
   engines:
@@ -1104,6 +1182,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 79
   name: Sleepy Recipes
   engines:
@@ -1118,6 +1197,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 80
   name: Sleepy Letters
   engines:
@@ -1132,6 +1212,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 81
   name: Sleepy Weather
   engines:
@@ -1146,6 +1227,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 82
   name: Sleepy Timetables
   engines:
@@ -1160,6 +1242,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 83
   name: Sleepy Sleep
   engines:
@@ -1174,6 +1257,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 84
   name: Sleepy Instructions
   engines:
@@ -1188,6 +1272,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 85
   name: Sleepy Legal
   engines:
@@ -1202,6 +1287,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 86
   name: Sleepy Code
   engines:
@@ -1216,6 +1302,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 87
   name: Sleepy Soundtracks
   engines:
@@ -1230,6 +1317,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1c
 - id: 88
   name: Cradle World
   engines:
@@ -1244,6 +1332,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1d
 - id: 89
   name: Sleepy Frequencies
   engines:
@@ -1258,6 +1347,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E1d
 - id: 90
   name: Newton's Library
   engines:
@@ -1272,6 +1362,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 91
   name: Thesaurus Sleep
   engines:
@@ -1286,6 +1377,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5b
 - id: 92
   name: Vocab Stories
   engines:
@@ -1300,6 +1392,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5b
 - id: 93
   name: Roots Sleep
   engines:
@@ -1314,6 +1407,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5b
 - id: 94
   name: Idioms Sleep
   engines:
@@ -1328,6 +1422,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5b
 - id: 95
   name: Quotations Sleep
   engines:
@@ -1342,6 +1437,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5b
 - id: 96
   name: Pronunciation Sleep
   engines:
@@ -1356,6 +1452,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5b
 - id: 97
   name: Cognates Sleep
   engines:
@@ -1370,6 +1467,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5b
 - id: 98
   name: Grammar Sleep
   engines:
@@ -1384,6 +1482,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5b
 - id: 99
   name: Darwin's Library
   engines:
@@ -1398,6 +1497,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 100
   name: Da Vinci's Notebooks
   engines:
@@ -1412,6 +1512,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 101
   name: Pepys' Diary
   engines:
@@ -1426,6 +1527,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 102
   name: Seneca's Library
   engines:
@@ -1440,6 +1542,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 103
   name: Epictetus' Library
   engines:
@@ -1454,6 +1557,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 104
   name: Plato's Library
   engines:
@@ -1468,6 +1572,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 105
   name: Aristotle's Library
   engines:
@@ -1482,6 +1587,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 106
   name: Confucius' Library
   engines:
@@ -1496,6 +1602,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 107
   name: Lao Tzu's Library
   engines:
@@ -1510,6 +1617,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 108
   name: Virgil's Library
   engines:
@@ -1524,6 +1632,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 109
   name: Homer's Library
   engines:
@@ -1538,6 +1647,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 110
   name: Dante's Library
   engines:
@@ -1552,6 +1662,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 111
   name: Milton's Library
   engines:
@@ -1566,6 +1677,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 112
   name: Shakespeare's Library
   engines:
@@ -1580,6 +1692,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 113
   name: Forbidden Library
   engines:
@@ -1594,6 +1707,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 114
   name: Emerson's Library
   engines:
@@ -1608,6 +1722,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 115
   name: Thoreau's Library
   engines:
@@ -1622,6 +1737,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 116
   name: Burton's Anatomy
   engines:
@@ -1636,6 +1752,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 117
   name: Montaigne's Library
   engines:
@@ -1650,6 +1767,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 118
   name: Blake's Library
   engines:
@@ -1664,6 +1782,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 119
   name: James's Library
   engines:
@@ -1678,6 +1797,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 120
   name: Goethe's Library
   engines:
@@ -1692,6 +1812,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 121
   name: Nietzsche's Library
   engines:
@@ -1706,6 +1827,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 122
   name: Dostoevsky's Library
   engines:
@@ -1720,6 +1842,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 123
   name: Decameron Nights
   engines:
@@ -1734,6 +1857,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 124
   name: Thousand Nights
   engines:
@@ -1748,6 +1872,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 125
   name: Kalevala Nights
   engines:
@@ -1762,6 +1887,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 126
   name: Gibbon's Decline
   engines:
@@ -1776,6 +1902,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 127
   name: Casanova's Memoirs
   engines:
@@ -1790,6 +1917,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E2c
 - id: 128
   name: Sleepy Electrical
   engines:
@@ -1804,6 +1932,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 129
   name: Sleepy Plumbing
   engines:
@@ -1818,6 +1947,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 130
   name: Sleepy Carpentry
   engines:
@@ -1832,6 +1962,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 131
   name: Sleepy HVAC
   engines:
@@ -1846,6 +1977,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 132
   name: Sleepy Welding
   engines:
@@ -1860,6 +1992,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 133
   name: Sleepy Masonry
   engines:
@@ -1874,6 +2007,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 134
   name: Sleepy Roofing
   engines:
@@ -1888,6 +2022,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 135
   name: Sleepy Painting
   engines:
@@ -1902,6 +2037,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 136
   name: Sleepy Landscaping
   engines:
@@ -1916,6 +2052,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 137
   name: Sleepy Auto Mechanics
   engines:
@@ -1930,6 +2067,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 138
   name: Sleepy Law
   engines:
@@ -1944,6 +2082,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 139
   name: Sleepy Accounting
   engines:
@@ -1958,6 +2097,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 140
   name: Sleepy Medical
   engines:
@@ -1972,6 +2112,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 141
   name: Sleepy Botany
   engines:
@@ -1986,6 +2127,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 142
   name: Sleepy Wikipedia
   engines:
@@ -2000,6 +2142,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5a
 - id: 143
   name: Sleepy Labels
   engines:
@@ -2014,6 +2157,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 144
   name: Sleepy Specifications
   engines:
@@ -2028,6 +2172,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 145
   name: Sleepy Warranty
   engines:
@@ -2042,6 +2187,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 146
   name: Sleepy Privacy
   engines:
@@ -2056,6 +2202,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 147
   name: Sleepy Flags
   engines:
@@ -2070,6 +2217,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 148
   name: Sleepy Coats of Arms
   engines:
@@ -2084,6 +2232,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 149
   name: Sleepy Coordinates
   engines:
@@ -2098,6 +2247,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 150
   name: Sleepy Distances
   engines:
@@ -2112,6 +2262,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 151
   name: Sleepy Time Zones
   engines:
@@ -2126,6 +2277,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 152
   name: Sleepy Coins
   engines:
@@ -2140,6 +2292,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 153
   name: Sleepy Stamps
   engines:
@@ -2154,6 +2307,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 154
   name: Sleepy Tools
   engines:
@@ -2168,6 +2322,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 155
   name: Sleepy Machines
   engines:
@@ -2182,6 +2337,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 156
   name: Sleepy Sequences
   engines:
@@ -2196,6 +2352,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 157
   name: Sleepy Shapes
   engines:
@@ -2210,6 +2367,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 158
   name: Sleepy Patterns
   engines:
@@ -2224,6 +2382,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 159
   name: Sleepy Units
   engines:
@@ -2238,6 +2397,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 160
   name: Sleepy Ingredients
   engines:
@@ -2252,6 +2412,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 161
   name: Sleepy Spices
   engines:
@@ -2266,6 +2427,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 162
   name: Sleepy Cheeses
   engines:
@@ -2280,6 +2442,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 163
   name: Sleepy Wines
   engines:
@@ -2294,6 +2457,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 164
   name: Sleepy Teas
   engines:
@@ -2308,6 +2472,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 165
   name: Sleepy Animal Names
   engines:
@@ -2322,6 +2487,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 166
   name: Sleepy Animal Sounds
   engines:
@@ -2336,6 +2502,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 167
   name: Sleepy Clouds
   engines:
@@ -2350,6 +2517,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 168
   name: Sleepy Trees
   engines:
@@ -2364,6 +2532,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 169
   name: Sleepy Rocks
   engines:
@@ -2378,6 +2547,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 170
   name: Sleepy Manuals
   engines:
@@ -2392,6 +2562,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 171
   name: Sleepy Lists
   engines:
@@ -2406,6 +2577,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 172
   name: Sleepy Alphabet
   engines:
@@ -2420,6 +2592,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 173
   name: Sleepy Financial
   engines:
@@ -2434,6 +2607,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 174
   name: Sleepy Insurance
   engines:
@@ -2448,6 +2622,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 175
   name: Sleepy Tax
   engines:
@@ -2462,6 +2637,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 176
   name: Sleepy French
   engines:
@@ -2476,6 +2652,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5b
 - id: 177
   name: Sleepy Japanese
   engines:
@@ -2490,6 +2667,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5b
 - id: 178
   name: Sleepy Latin
   engines:
@@ -2504,6 +2682,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5b
 - id: 179
   name: Sleepy Greek
   engines:
@@ -2518,6 +2697,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5b
 - id: 180
   name: Sleepy Sanskrit
   engines:
@@ -2532,6 +2712,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5b
 - id: 181
   name: Sleepy Terms
   engines:
@@ -2546,6 +2727,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 182
   name: Sleepy IKEA
   engines:
@@ -2560,6 +2742,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 183
   name: Sleepy Specs
   engines:
@@ -2574,6 +2757,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 184
   name: Sleepy Encyclopaedia
   engines:
@@ -2588,6 +2772,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 185
   name: Sleepy Dinosaurs
   engines:
@@ -2602,6 +2787,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 186
   name: Sleepy Birds
   engines:
@@ -2616,6 +2802,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 187
   name: Sleepy Stars
   engines:
@@ -2630,6 +2817,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 188
   name: Sleepy Countries
   engines:
@@ -2644,6 +2832,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 189
   name: Sleepy Currencies
   engines:
@@ -2658,6 +2847,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 190
   name: Sleepy Languages
   engines:
@@ -2672,6 +2862,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 191
   name: Sleepy Chess
   engines:
@@ -2686,6 +2877,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5d
 - id: 192
   name: Sleepy IKEA Manuals
   engines:
@@ -2700,6 +2892,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
 - id: 193
   name: Sleepy Rules
   engines:
@@ -2714,3 +2907,4 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  sub: E5c
