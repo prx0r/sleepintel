@@ -1384,3 +1384,213 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+- id: 99
+  name: Darwin's Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: Origin to Letters, complete
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 100
+  name: Da Vinci's Notebooks
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: Fifty episodes of genius fragments
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 101
+  name: Pepys' Diary
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: 1660-1669, night by night
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 102
+  name: Seneca's Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: Letters and essays, complete
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 103
+  name: Epictetus' Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: Discourses and handbook
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 104
+  name: Plato's Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: Thirty dialogues
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 105
+  name: Aristotle's Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: Ethics, Politics, Poetics
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 106
+  name: Confucius' Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: Twenty books of Analects
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 107
+  name: Lao Tzu's Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: Eighty-one chapters of Tao
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 108
+  name: Virgil's Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: Twelve books of Aeneid
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 109
+  name: Homer's Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: Iliad plus Odyssey, complete
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 110
+  name: Dante's Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: One hundred cantos
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 111
+  name: Milton's Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: Twelve books of Paradise
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 112
+  name: Shakespeare's Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: Thirty-seven plays
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 113
+  name: Forbidden Library
+  engines:
+  - E2
+  dept: esoteric
+  readiness: ready
+  pitch: Grimoires chapter by chapter
+  shelf: ESOTERIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
