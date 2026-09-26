@@ -10,6 +10,7 @@ except ImportError:
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ENGINES = {"E1", "E2", "E3", "E4", "E5", "E6"}
+SHELVES = {"SPIRITUAL", "ESOTERIC", "STORY", "MIND", "MUSIC", "PLACE", "FRESH"}
 READINESS = {"ready", "ready-ish", "intake", "intake-free", "sourcing",
              "compile", "gap", "originals", "produced", "personal",
              "freshness", "verify", "mixed"}
@@ -25,6 +26,7 @@ def main():
         assert c["engines"], f"channel {c['id']} has no engine"
         assert set(c["engines"]) <= ENGINES, f"channel {c['id']} bad engine"
         assert c["readiness"] in READINESS, f"channel {c['id']} bad readiness"
+        assert c.get("shelf") in SHELVES, f"channel {c['id']} bad/missing shelf"
         assert c["name"] and c["pitch"], f"channel {c['id']} missing name/pitch"
     print(f"registry OK: {len(data)} channels, engines+readiness valid")
 
