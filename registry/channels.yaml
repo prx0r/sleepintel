@@ -908,3 +908,87 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+- id: 65
+  name: Composed Live
+  engines:
+  - E1
+  dept: music
+  readiness: compile
+  pitch: AI writes you a lullaby while the host narrates its choices
+  shelf: MUSIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 66
+  name: Stems
+  engines:
+  - E1
+  dept: music
+  readiness: ready-ish
+  pitch: Hear just the bass line
+  shelf: MUSIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 67
+  name: Versus
+  engines:
+  - E1
+  dept: music
+  readiness: ready
+  pitch: Two recordings, which sleeps you faster
+  shelf: MUSIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 68
+  name: Era Stroll
+  engines:
+  - E1
+  dept: music
+  readiness: ready-ish
+  pitch: One era per night
+  shelf: MUSIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 69
+  name: Half Tempo
+  engines:
+  - E1
+  dept: music
+  readiness: ready
+  pitch: Fast pieces at half speed
+  shelf: MUSIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 70
+  name: Requests
+  engines:
+  - E1
+  dept: music
+  readiness: originals
+  pitch: Composed for your insomnia
+  shelf: MUSIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
