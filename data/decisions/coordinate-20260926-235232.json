@@ -1,0 +1,79 @@
+{
+ "id": "coordinate-20260926-235232",
+ "state": {
+  "board": {
+   "flagged": [
+    {
+     "name": "Stillwave Relax",
+     "ratio": 12.3,
+     "note": "small legit? review"
+    },
+    {
+     "name": "Hysteria",
+     "ratio": 0,
+     "note": "newborn, expected"
+    }
+   ],
+   "top": [
+    {
+     "video_id": "a",
+     "title": "100 Weirdest Planets",
+     "views": 287252
+    },
+    {
+     "video_id": "b",
+     "title": "1700s London",
+     "views": 113213
+    },
+    {
+     "video_id": "c",
+     "title": "Rain in Tent",
+     "views": 3698
+    }
+   ]
+  },
+  "gaps": [
+   "cave rain sleep",
+   "organ lullaby sleep",
+   "good news sleep tonight"
+  ]
+ },
+ "questions": {
+  "round": "choice-set"
+ },
+ "answers": {
+  "fake": {
+   "type": "choice",
+   "choice": "Stillwave Relax",
+   "probabilities": {
+    "other": 0.11,
+    "Stillwave Relax": 0.65,
+    "Hysteria": 0.24
+   },
+   "confidence": 0.48
+  },
+  "breakdown": {
+   "type": "choice",
+   "choice": "a",
+   "probabilities": {
+    "other": 0.14,
+    "b": 0.11,
+    "c": 0.3,
+    "a": 0.45
+   },
+   "confidence": 0.27
+  },
+  "discover": {
+   "type": "choice",
+   "choice": "cave rain sleep",
+   "probabilities": {
+    "cave rain sleep": 0.73,
+    "organ lullaby sleep": 0.15,
+    "good news sleep tonight": 0.05,
+    "other": 0.07
+   },
+   "confidence": 0.65
+  }
+ },
+ "action": "coordinated"
+}

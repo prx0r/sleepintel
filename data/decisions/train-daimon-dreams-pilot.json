@@ -1,0 +1,75 @@
+{
+ "id": "train-daimon-dreams-pilot",
+ "state": {
+  "idea": "Daimon Dreams pilot",
+  "pitch": "meet your guide tonight, violet mist",
+  "niche_exemplars": [
+   {
+    "title": "She Rejected Him\u2026 Then Got Mad When He Moved On",
+    "views": 186911,
+    "template": "unclassified"
+   },
+   {
+    "title": "He\u2019s Just \"My Back Up\" \u2014 She Didn\u2019t Know He Was Listening",
+    "views": 67064,
+    "template": "unclassified"
+   },
+   {
+    "title": "Strong Independent Alpha Woman Mocked Her \u201cBroke\u201d Man\u2026 Not Knowing It ",
+    "views": 59020,
+    "template": "unclassified"
+   },
+   {
+    "title": "You Were Never in Love With Them \u2014 Carl Jung",
+    "views": 1275,
+    "template": "explainer"
+   },
+   {
+    "title": "5 Signs Your Unconscious Is Preparing You for Something Bigger \u2014 Carl ",
+    "views": 250,
+    "template": "explainer"
+   }
+  ],
+  "instruction": "Rate against these comparables, not in a vacuum."
+ },
+ "questions": {
+  "predict": "score+choice"
+ },
+ "answers": {
+  "sleepy": {
+   "type": "score",
+   "score": 0.88,
+   "legend": {
+    "0": "weak",
+    "1": "fair",
+    "2": "strong",
+    "3": "library-grade"
+   },
+   "probabilities": {
+    "0": 0.37,
+    "1": 0.4,
+    "2": 0.21,
+    "3": 0.02
+   },
+   "confidence": 0.37
+  },
+  "template": {
+   "type": "choice",
+   "choice": "journey",
+   "probabilities": {
+    "entry-series": 0.02,
+    "word-format": 0,
+    "one-to-100": 0,
+    "journey": 0.38,
+    "library-season": 0,
+    "silence-title": 0.04,
+    "other": 0.24,
+    "explainer": 0.3,
+    "historical-sweep": 0,
+    "evening-music": 0.02
+   },
+   "confidence": 0.3
+  }
+ },
+ "action": "predicted"
+}
