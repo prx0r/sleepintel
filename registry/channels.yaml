@@ -4529,3 +4529,122 @@ channels:
     bed: null
     jingle_timbre: null
   effort: 2
+- id: 239
+  name: Sleepy Paradoxes
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Level 1 to 100, gently
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+  sub: E5d
+  tags:
+  - type-reference
+  - mech-completionist
+  - mech-collection
+  effort: 3
+- id: 240
+  name: Sleepy Thought Experiments
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Trolleys and brains in vats
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+  sub: E5d
+  tags:
+  - type-reference
+  - mech-completionist
+  - mech-collection
+  effort: 3
+- id: 241
+  name: Sleepy Biases
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: 144 ways you fool yourself
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+  sub: E5d
+  tags:
+  - type-reference
+  - mech-completionist
+  - mech-collection
+  effort: 3
+- id: 242
+  name: Sleepy Phenomena
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Physics that bends minds
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+  sub: E5d
+  tags:
+  - type-reference
+  - mech-completionist
+  - mech-collection
+  effort: 3
+- id: 243
+  name: Sleepy Adaptations
+  engines:
+  - E5
+  dept: place
+  readiness: compile
+  pitch: Nature solving problems
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+  sub: E5d
+  tags:
+  - type-reference
+  - mech-completionist
+  - mech-collection
+  effort: 3
+- id: 244
+  name: Sleepy Silence
+  engines:
+  - E4
+  dept: place
+  readiness: ready
+  pitch: Eight hours of titled silence
+  shelf: PLACE
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+  sub: E4b
+  tags:
+  - type-bed
+  - mech-absurd
+  effort: 1
