@@ -29,5 +29,7 @@ Requires channel OAuth once; refresh token in vault, never in repo.
 - YT_API_KEY + OAuth refresh in env/vault only. Raw JSON → data/yt/<date>/
   immutable. No author PII beyond public comment text + counts.
 - search.list is discovery-only (100/day bucket burns fast).
+- Scale via multi-project pools (ACCOUNTS.md): 5+3+2 projects ≈ 100K/day.
+  Cache search in SQLite; dedupe queries; quota-increase on primary.
 - Retention needs owned channels — competitor retention is inferred
   (views/subs ratios), never claimed as measured.
