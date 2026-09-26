@@ -1,0 +1,9 @@
+{
+  "schema_version": "sleepintel-template.v1",
+  "template_id": "T-EXPLAINER",
+  "name": "Explainer, slowly",
+  "structure": ["one idea", "plain words", "one example", "rest restated"],
+  "engines": ["E5a"],
+  "example": "Navier-Stokes sleep",
+  "created_at": "2026-09-26"
+}

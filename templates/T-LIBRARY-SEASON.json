@@ -1,0 +1,9 @@
+{
+  "schema_version": "sleepintel-template.v1",
+  "template_id": "T-LIBRARY-SEASON",
+  "name": "Library season",
+  "structure": ["chapter N of M", "read or told", "bridge whispering next", "finale event"],
+  "engines": ["E2c"],
+  "example": "Darwin 30-40 episodes; Pepys years",
+  "created_at": "2026-09-26"
+}

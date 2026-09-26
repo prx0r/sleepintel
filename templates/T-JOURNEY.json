@@ -1,0 +1,9 @@
+{
+  "schema_version": "sleepintel-template.v1",
+  "template_id": "T-JOURNEY",
+  "name": "Journey",
+  "structure": ["settle", "picture prompts", "descent", "no return address"],
+  "engines": ["E3a", "E3b"],
+  "example": "Daimon encounter; Kabbalah tree",
+  "created_at": "2026-09-26"
+}

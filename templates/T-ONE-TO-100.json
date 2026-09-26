@@ -1,0 +1,9 @@
+{
+  "schema_version": "sleepintel-template.v1",
+  "template_id": "T-ONE-TO-100",
+  "name": "1-to-100 progression",
+  "structure": ["level N item", "escalating complexity", "count visible", "finish line"],
+  "engines": ["E5d"],
+  "example": "Level 1 to 100 Philosophy Concepts (4.8M views precedent)",
+  "created_at": "2026-09-26"
+}

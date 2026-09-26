@@ -1,0 +1,9 @@
+{
+  "schema_version": "sleepintel-template.v1",
+  "template_id": "T-HISTORICAL-SWEEP",
+  "name": "Historical sweep",
+  "structure": ["origin", "journey through time", "present day", "goodnight"],
+  "engines": ["E5a", "E2a"],
+  "example": "Salary: Rome to inbox",
+  "created_at": "2026-09-26"
+}

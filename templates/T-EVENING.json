@@ -1,0 +1,9 @@
+{
+  "schema_version": "sleepintel-template.v1",
+  "template_id": "T-EVENING",
+  "name": "Evening",
+  "structure": ["arrival", "dimming", "music whole per track", "catch-you-after bridges", "goodnight ritual"],
+  "engines": ["E1a", "E1b", "E1c"],
+  "example": "Satie evening, 730s",
+  "created_at": "2026-09-26"
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": "sleepintel-template.v1",
+  "template_id": "T-WORD-FORMAT",
+  "name": "Word format",
+  "structure": ["today", "origin", "history", "journey", "relatives", "reflection", "goodnight"],
+  "engines": ["E5b"],
+  "example": "Salary chain",
+  "created_at": "2026-09-26"
+}

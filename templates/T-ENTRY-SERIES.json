@@ -1,0 +1,9 @@
+{
+  "schema_version": "sleepintel-template.v1",
+  "template_id": "T-ENTRY-SERIES",
+  "name": "Entry series",
+  "structure": ["entry N of M", "fact + story + poetry", "tomorrow teaser"],
+  "engines": ["E5d"],
+  "example": "Country 1 of 195; Entry 1 of 10,000",
+  "created_at": "2026-09-26"
+}

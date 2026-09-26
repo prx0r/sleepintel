@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sleepintel.local/schemas/template.v1.schema.json",
+  "title": "SleepintelTemplateV1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "template_id", "name", "structure",
+               "engines", "created_at"],
+  "properties": {
+    "schema_version": {"const": "sleepintel-template.v1"},
+    "template_id": {"type": "string", "pattern": "^T[A-Za-z0-9_\\-]+$"},
+    "name": {"type": "string"},
+    "structure": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "engines": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "example": {"type": "string"},
+    "created_at": {"type": "string"}
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": "sleepintel-template.v1",
+  "template_id": "T-SILENCE-TITLE",
+  "name": "Silence plus title",
+  "structure": ["joke title", "8 hours of the thing", "no narration"],
+  "engines": ["E4b"],
+  "example": "Titled silences",
+  "created_at": "2026-09-26"
+}

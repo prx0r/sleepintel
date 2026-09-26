@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sleepintel.local/schemas/assembly.v1.schema.json",
+  "title": "SleepintelAssemblyV1",
+  "description": "Parts manifest an external agent (human, Jev-gated pipeline, other) emits to assemble a video. Each part hashed; gates evaluated between stages.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "assembly_id", "channel_id", "template_id", "parts"],
+  "properties": {
+    "schema_version": {"const": "sleepintel-assembly.v1"},
+    "assembly_id": {"type": "string"},
+    "channel_id": {"type": "integer"},
+    "template_id": {"type": "string"},
+    "parts": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "script": {"type": "object", "required": ["uri", "sha"], "properties": {"uri": {"type": "string"}, "sha": {"type": "string"}}},
+        "voice": {"type": "object", "required": ["uri", "sha"], "properties": {"uri": {"type": "string"}, "sha": {"type": "string"}}},
+        "bed": {"type": "object", "required": ["uri", "sha"], "properties": {"uri": {"type": "string"}, "sha": {"type": "string"}}},
+        "art": {"type": "array", "items": {"type": "object", "required": ["uri", "sha"], "properties": {"uri": {"type": "string"}, "sha": {"type": "string"}}}},
+        "video": {"type": "object", "required": ["uri", "sha"], "properties": {"uri": {"type": "string"}, "sha": {"type": "string"}}}
+      }
+    },
+    "gates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["after", "primitive", "question"],
+        "properties": {
+          "after": {"type": "string"},
+          "primitive": {"enum": ["choice", "noul", "score"]},
+          "question": {"type": "string"},
+          "threshold": {"type": "number"}
+        }
+      }
+    }
+  }
+}
