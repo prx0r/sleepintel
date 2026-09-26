@@ -17,6 +17,13 @@ nobody breaks it.
   by the third night, the sting alone lowers shoulders. Audio queued
   (house piano render on E1).
 
+## Intro pack (build once, theme forever)
+
+Jingle + wedge + title card + bed recipe + textured foley (page, pencil,
+rain-edge) = one pack. New channel = new accent + voice + corpus on the
+same pack. Foley layers into the pack, never into episodes. SFX tags
+(`[SFX:rain]`) may live in scripts as fade-in events under narration.
+
 ## The first-five-seconds law (the secret)
 
 Click → thumbnail → wedge → jingle → voice: one continuous exhale. If the
@@ -24,7 +31,6 @@ viewer doesn't feel the mindset shift by second five, the video failed
 before the content started. Judge pilots on the opening, not the middle.
 
 ## Per-channel variant (registry `style:` block)
-
 accent (hex, null = inherit base gold) · font (null = Montserrat) ·
 voice (null = Aria) · bed (null = low ambient) · jingle_timbre ·
 logo_note. Accents assigned at pilot; everything else inherits until
