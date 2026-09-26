@@ -1272,3 +1272,115 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+- id: 91
+  name: Thesaurus Sleep
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: 'Synonym webs: happy, glad, elated, content'
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 92
+  name: Vocab Stories
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Simple tales in rich words, glossed gently
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 93
+  name: Roots Sleep
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: 'Prefixes and roots as systems: struct, dict, spect'
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 94
+  name: Idioms Sleep
+  engines:
+  - E5
+  dept: mind
+  readiness: ready-ish
+  pitch: One idiom, its story, its sleep
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 95
+  name: Quotations Sleep
+  engines:
+  - E5
+  dept: story
+  readiness: ready-ish
+  pitch: Bartletts a night, with context
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 96
+  name: Pronunciation Sleep
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Minimal pairs and mouth music
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 97
+  name: Cognates Sleep
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: 'One meaning across tongues: night, nacht, noche'
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 98
+  name: Grammar Sleep
+  engines:
+  - E5
+  dept: mind
+  readiness: ready
+  pitch: The subjunctive, softly
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
