@@ -5,7 +5,7 @@ channels:
   - E2
   dept: philosophy
   readiness: ready
-  pitch: Steiner's cosmos, read slow.
+  pitch: 'Steiner on sleep itself: GA 218/226, read slow.'
   shelf: ESOTERIC
   style:
     accent: '#D4A94E'
@@ -63,7 +63,7 @@ channels:
   - E5
   dept: places
   readiness: ready
-  pitch: Fall asleep to Ra's answers about the nature of reality.
+  pitch: 'Session 86: Ra teaches dreaming. Native sleep material.'
   shelf: ESOTERIC
   style:
     accent: null
@@ -155,7 +155,7 @@ channels:
   - E2
   dept: tradition
   readiness: ready
-  pitch: Watched over, kindly.
+  pitch: Guardian encounters; 6.5M-proof demand.
   shelf: SPIRITUAL
   style:
     accent: '#E8D9A0'

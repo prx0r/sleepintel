@@ -33,5 +33,1678 @@
   "slot": "next passage reading",
   "engine": "E2a",
   "readiness_weight": 3
+ },
+ {
+  "channel_id": 9,
+  "channel": "Angel Sleep",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 10,
+  "channel": "Kashmir Readings",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 13,
+  "channel": "Sufi Night",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 14,
+  "channel": "Night Dialogues",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 15,
+  "channel": "Corbin Sleep",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 16,
+  "channel": "Saiva Slumber",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 17,
+  "channel": "Ficino Sleep",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 18,
+  "channel": "Spell Sleep",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 24,
+  "channel": "Spanda Sleep",
+  "slot": "next journey",
+  "engine": "E3a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 25,
+  "channel": "Plotinus Sleep",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 26,
+  "channel": "Sleepy Buddha",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 27,
+  "channel": "Sleepy Maths",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 34,
+  "channel": "Composer Evenings",
+  "slot": "next album evening",
+  "engine": "E1a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 36,
+  "channel": "Myth Sleep",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 41,
+  "channel": "Fairy Tales",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 42,
+  "channel": "Foreign Folklore",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 43,
+  "channel": "Myth Plus",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 45,
+  "channel": "Cassiopaean Sleep",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 47,
+  "channel": "Theurgy Sleep",
+  "slot": "next journey",
+  "engine": "E3a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 49,
+  "channel": "Deconstructed",
+  "slot": "next deconstruction",
+  "engine": "E1c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 54,
+  "channel": "Christian Mysticism Sleep",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 60,
+  "channel": "Lullaby Sleep",
+  "slot": "next album evening",
+  "engine": "E1a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 67,
+  "channel": "Versus",
+  "slot": "next deconstruction",
+  "engine": "E1c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 69,
+  "channel": "Half Tempo",
+  "slot": "next deconstruction",
+  "engine": "E1c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 75,
+  "channel": "Sleepy Etymology",
+  "slot": "next word",
+  "engine": "E5b",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 76,
+  "channel": "Sleepy Numbers",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 77,
+  "channel": "Sleepy Constellations",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 79,
+  "channel": "Sleepy Recipes",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 80,
+  "channel": "Sleepy Letters",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 83,
+  "channel": "Sleepy Sleep",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 84,
+  "channel": "Sleepy Instructions",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 85,
+  "channel": "Sleepy Legal",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 86,
+  "channel": "Sleepy Code",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 88,
+  "channel": "Cradle World",
+  "slot": "next generated bed",
+  "engine": "E1d",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 98,
+  "channel": "Grammar Sleep",
+  "slot": "next word",
+  "engine": "E5b",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 99,
+  "channel": "Darwin's Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 100,
+  "channel": "Da Vinci's Notebooks",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 101,
+  "channel": "Pepys' Diary",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 102,
+  "channel": "Seneca's Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 103,
+  "channel": "Epictetus' Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 104,
+  "channel": "Plato's Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 105,
+  "channel": "Aristotle's Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 106,
+  "channel": "Confucius' Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 107,
+  "channel": "Lao Tzu's Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 108,
+  "channel": "Virgil's Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 109,
+  "channel": "Homer's Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 110,
+  "channel": "Dante's Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 111,
+  "channel": "Milton's Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 112,
+  "channel": "Shakespeare's Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 113,
+  "channel": "Forbidden Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 114,
+  "channel": "Emerson's Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 115,
+  "channel": "Thoreau's Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 116,
+  "channel": "Burton's Anatomy",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 117,
+  "channel": "Montaigne's Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 118,
+  "channel": "Blake's Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 119,
+  "channel": "James's Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 123,
+  "channel": "Decameron Nights",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 124,
+  "channel": "Thousand Nights",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 126,
+  "channel": "Gibbon's Decline",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 244,
+  "channel": "Sleepy Silence",
+  "slot": "next bed recipe",
+  "engine": "E4b",
+  "readiness_weight": 3
+ },
+ {
+  "channel_id": 21,
+  "channel": "Tarot Sleep",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 22,
+  "channel": "I Ching Sleep",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 23,
+  "channel": "Meditations",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 32,
+  "channel": "Gnostic Sleep",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 35,
+  "channel": "Fly on the Wall",
+  "slot": "next place loop",
+  "engine": "E4a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 38,
+  "channel": "AGI Sleep",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 39,
+  "channel": "Anti-Sleep War",
+  "slot": "next bed recipe",
+  "engine": "E4b",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 40,
+  "channel": "Fly on the Wall Pure",
+  "slot": "next place loop",
+  "engine": "E4a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 48,
+  "channel": "Anti-Sleep Arguing",
+  "slot": "next bed recipe",
+  "engine": "E4b",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 50,
+  "channel": "Kabbalah Sleep",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 51,
+  "channel": "Theosophy Sleep",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 52,
+  "channel": "Hindu Sleep",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 53,
+  "channel": "Taoist Sleep",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 55,
+  "channel": "Egyptian Sleep",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 57,
+  "channel": "Organ Sleep",
+  "slot": "next album evening",
+  "engine": "E1a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 58,
+  "channel": "Harp Sleep",
+  "slot": "next album evening",
+  "engine": "E1a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 59,
+  "channel": "Choir Sleep",
+  "slot": "next album evening",
+  "engine": "E1a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 61,
+  "channel": "Opera Sleep",
+  "slot": "next album evening",
+  "engine": "E1a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 62,
+  "channel": "Requiem Sleep",
+  "slot": "next album evening",
+  "engine": "E1a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 63,
+  "channel": "Hymn Sleep",
+  "slot": "next album evening",
+  "engine": "E1a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 64,
+  "channel": "Guitar Sleep",
+  "slot": "next album evening",
+  "engine": "E1a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 66,
+  "channel": "Stems",
+  "slot": "next deconstruction",
+  "engine": "E1c",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 68,
+  "channel": "Era Stroll",
+  "slot": "next album evening",
+  "engine": "E1a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 71,
+  "channel": "Sleepy Cartography",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 72,
+  "channel": "Sleepy Periodic Table",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 74,
+  "channel": "Sleepy Architecture",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 78,
+  "channel": "Sleepy Materials",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 89,
+  "channel": "Sleepy Frequencies",
+  "slot": "next generated bed",
+  "engine": "E1d",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 90,
+  "channel": "Newton's Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 94,
+  "channel": "Idioms Sleep",
+  "slot": "next word",
+  "engine": "E5b",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 95,
+  "channel": "Quotations Sleep",
+  "slot": "next word",
+  "engine": "E5b",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 120,
+  "channel": "Goethe's Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 121,
+  "channel": "Nietzsche's Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 122,
+  "channel": "Dostoevsky's Library",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 125,
+  "channel": "Kalevala Nights",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 127,
+  "channel": "Casanova's Memoirs",
+  "slot": "next chapter",
+  "engine": "E2c",
+  "readiness_weight": 2
+ },
+ {
+  "channel_id": 7,
+  "channel": "Good News Tonight",
+  "slot": "tonight's brief",
+  "engine": "E6a",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 11,
+  "channel": "AGI Scenarios",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 12,
+  "channel": "Sleepy Shoggoth",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 19,
+  "channel": "Company",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 20,
+  "channel": "Conspiracy Sleep",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 30,
+  "channel": "Lore Sleep",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 37,
+  "channel": "Sleepy Covers",
+  "slot": "next cover rendition",
+  "engine": "E1b",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 44,
+  "channel": "Sleep School",
+  "slot": "next word",
+  "engine": "E5b",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 56,
+  "channel": "Manly Hall Sleep",
+  "slot": "next passage reading",
+  "engine": "E2a",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 65,
+  "channel": "Composed Live",
+  "slot": "next generated bed",
+  "engine": "E1d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 70,
+  "channel": "Requests",
+  "slot": "next album evening",
+  "engine": "E1a",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 73,
+  "channel": "Sleepy Taxonomy",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 81,
+  "channel": "Sleepy Weather",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 82,
+  "channel": "Sleepy Timetables",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 87,
+  "channel": "Sleepy Soundtracks",
+  "slot": "next deconstruction",
+  "engine": "E1c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 91,
+  "channel": "Thesaurus Sleep",
+  "slot": "next word",
+  "engine": "E5b",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 92,
+  "channel": "Vocab Stories",
+  "slot": "next word",
+  "engine": "E5b",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 93,
+  "channel": "Roots Sleep",
+  "slot": "next word",
+  "engine": "E5b",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 96,
+  "channel": "Pronunciation Sleep",
+  "slot": "next word",
+  "engine": "E5b",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 97,
+  "channel": "Cognates Sleep",
+  "slot": "next word",
+  "engine": "E5b",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 128,
+  "channel": "Sleepy Electrical",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 129,
+  "channel": "Sleepy Plumbing",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 130,
+  "channel": "Sleepy Carpentry",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 131,
+  "channel": "Sleepy HVAC",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 132,
+  "channel": "Sleepy Welding",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 133,
+  "channel": "Sleepy Masonry",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 134,
+  "channel": "Sleepy Roofing",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 135,
+  "channel": "Sleepy Painting",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 136,
+  "channel": "Sleepy Landscaping",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 137,
+  "channel": "Sleepy Auto Mechanics",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 138,
+  "channel": "Sleepy Law",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 139,
+  "channel": "Sleepy Accounting",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 140,
+  "channel": "Sleepy Medical",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 141,
+  "channel": "Sleepy Botany",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 142,
+  "channel": "Sleepy Wikipedia",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 143,
+  "channel": "Sleepy Labels",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 144,
+  "channel": "Sleepy Specifications",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 145,
+  "channel": "Sleepy Warranty",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 146,
+  "channel": "Sleepy Privacy",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 147,
+  "channel": "Sleepy Flags",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 148,
+  "channel": "Sleepy Coats of Arms",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 149,
+  "channel": "Sleepy Coordinates",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 150,
+  "channel": "Sleepy Distances",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 151,
+  "channel": "Sleepy Time Zones",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 152,
+  "channel": "Sleepy Coins",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 153,
+  "channel": "Sleepy Stamps",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 154,
+  "channel": "Sleepy Tools",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 155,
+  "channel": "Sleepy Machines",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 156,
+  "channel": "Sleepy Sequences",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 157,
+  "channel": "Sleepy Shapes",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 158,
+  "channel": "Sleepy Patterns",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 159,
+  "channel": "Sleepy Units",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 160,
+  "channel": "Sleepy Ingredients",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 161,
+  "channel": "Sleepy Spices",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 162,
+  "channel": "Sleepy Cheeses",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 163,
+  "channel": "Sleepy Wines",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 164,
+  "channel": "Sleepy Teas",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 165,
+  "channel": "Sleepy Animal Names",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 166,
+  "channel": "Sleepy Animal Sounds",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 167,
+  "channel": "Sleepy Clouds",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 168,
+  "channel": "Sleepy Trees",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 169,
+  "channel": "Sleepy Rocks",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 170,
+  "channel": "Sleepy Manuals",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 171,
+  "channel": "Sleepy Lists",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 172,
+  "channel": "Sleepy Alphabet",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 173,
+  "channel": "Sleepy Financial",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 174,
+  "channel": "Sleepy Insurance",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 175,
+  "channel": "Sleepy Tax",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 176,
+  "channel": "Sleepy French",
+  "slot": "next word",
+  "engine": "E5b",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 177,
+  "channel": "Sleepy Japanese",
+  "slot": "next word",
+  "engine": "E5b",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 178,
+  "channel": "Sleepy Latin",
+  "slot": "next word",
+  "engine": "E5b",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 179,
+  "channel": "Sleepy Greek",
+  "slot": "next word",
+  "engine": "E5b",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 180,
+  "channel": "Sleepy Sanskrit",
+  "slot": "next word",
+  "engine": "E5b",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 181,
+  "channel": "Sleepy Terms",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 182,
+  "channel": "Sleepy IKEA",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 183,
+  "channel": "Sleepy Specs",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 184,
+  "channel": "Sleepy Encyclopaedia",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 185,
+  "channel": "Sleepy Dinosaurs",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 186,
+  "channel": "Sleepy Birds",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 187,
+  "channel": "Sleepy Stars",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 188,
+  "channel": "Sleepy Countries",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 189,
+  "channel": "Sleepy Currencies",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 190,
+  "channel": "Sleepy Languages",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 191,
+  "channel": "Sleepy Chess",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 192,
+  "channel": "Sleepy IKEA Manuals",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 193,
+  "channel": "Sleepy Rules",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 194,
+  "channel": "Sleepy Painting",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 195,
+  "channel": "Sleepy Woodworking",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 196,
+  "channel": "Sleepy Knitting",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 197,
+  "channel": "Sleepy Standards",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 198,
+  "channel": "Sleepy Marmot",
+  "slot": "next life stage",
+  "engine": "E5e",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 199,
+  "channel": "Sleepy Housefly",
+  "slot": "next life stage",
+  "engine": "E5e",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 200,
+  "channel": "Sleepy Salmon",
+  "slot": "next life stage",
+  "engine": "E5e",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 201,
+  "channel": "Sleepy Eagle",
+  "slot": "next life stage",
+  "engine": "E5e",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 202,
+  "channel": "Sleepy Octopus",
+  "slot": "next life stage",
+  "engine": "E5e",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 203,
+  "channel": "Sleepy Tardigrade",
+  "slot": "next life stage",
+  "engine": "E5e",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 204,
+  "channel": "Sleepy Butterfly",
+  "slot": "next life stage",
+  "engine": "E5e",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 205,
+  "channel": "Sleepy Frog",
+  "slot": "next life stage",
+  "engine": "E5e",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 206,
+  "channel": "Sleepy Bat",
+  "slot": "next life stage",
+  "engine": "E5e",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 207,
+  "channel": "Sleepy Penguin",
+  "slot": "next life stage",
+  "engine": "E5e",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 208,
+  "channel": "Sleepy Scale",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 209,
+  "channel": "Sleepy Speeds",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 210,
+  "channel": "Sleepy Temperatures",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 211,
+  "channel": "Sleepy Ages",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 212,
+  "channel": "Sleepy Manufacturing",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 213,
+  "channel": "Sleepy Supply Chain",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 214,
+  "channel": "Sleepy Processes",
+  "slot": "next procedure",
+  "engine": "E5c",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 215,
+  "channel": "Sleepy Extremes",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 216,
+  "channel": "Sleepy Firsts",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 217,
+  "channel": "Sleepy Records",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 218,
+  "channel": "Sleepy Anomalies",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 219,
+  "channel": "Sleepy Exceptions",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 220,
+  "channel": "Sleepy Paradoxes",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 221,
+  "channel": "Sleepy Edge Cases",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 222,
+  "channel": "Sleepy Silence",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 223,
+  "channel": "Sleepy Absence",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 224,
+  "channel": "Sleepy Empty Spaces",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 225,
+  "channel": "Sleepy Missing Links",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 226,
+  "channel": "Sleepy Journey",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 227,
+  "channel": "Sleepy Migration",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 228,
+  "channel": "Sleepy Pilgrimage",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 229,
+  "channel": "Sleepy Exploration",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 230,
+  "channel": "Sleepy Systems",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 231,
+  "channel": "Sleepy Networks",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 232,
+  "channel": "Sleepy Infrastructure",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 233,
+  "channel": "Sleepy Ecosystems",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 234,
+  "channel": "Sleepy Time",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 235,
+  "channel": "Sleepy Calendars",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 236,
+  "channel": "Sleepy Clocks",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 237,
+  "channel": "Sleepy Alloys",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 238,
+  "channel": "Sleepy Polymers",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 239,
+  "channel": "Sleepy Paradoxes",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 240,
+  "channel": "Sleepy Thought Experiments",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 241,
+  "channel": "Sleepy Biases",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 242,
+  "channel": "Sleepy Phenomena",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 243,
+  "channel": "Sleepy Adaptations",
+  "slot": "next entry",
+  "engine": "E5d",
+  "readiness_weight": 1
+ },
+ {
+  "channel_id": 2,
+  "channel": "Near Sleep",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 0
+ },
+ {
+  "channel_id": 5,
+  "channel": "Sleepy Soul",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 0
+ },
+ {
+  "channel_id": 28,
+  "channel": "Everyday Truth",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 0
+ },
+ {
+  "channel_id": 29,
+  "channel": "Cosy Past",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 0
+ },
+ {
+  "channel_id": 31,
+  "channel": "Niche Psych",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 0
+ },
+ {
+  "channel_id": 33,
+  "channel": "Critical Snooze",
+  "slot": "next essay",
+  "engine": "E5a",
+  "readiness_weight": 0
+ },
+ {
+  "channel_id": 46,
+  "channel": "Sleep Manifestation",
+  "slot": "next embodiment",
+  "engine": "E3b",
+  "readiness_weight": 0
  }
 ]
