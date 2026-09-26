@@ -11,6 +11,12 @@ Cite the thesis law it rides (place / difficulty / hosted / ritual).
 - Tier 1 — curated/held now (paths, not vibes).
 - Tier 2 — APIs/pipes already owned.
 - Tier 3 — to acquire (with the exact next action).
+Table form: source | what it provides | status (mirrors the filed exemplars).
+
+## Content structure (episode format, numbered beats)
+The per-episode ritual, beat by beat, ending in the shared goodnight
+("And now you know. Sleep well."). Same beats every episode — ritual IS
+the product. This section is mandatory; a thesis without it is a draft.
 
 ## Pipeline (engine + steps)
 Engine + numbered steps + per-episode cost + runtime. If a step needs a
