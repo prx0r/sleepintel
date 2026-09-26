@@ -36,6 +36,23 @@ def main():
             assert _re.fullmatch(r"#[0-9A-Fa-f]{6}", st["accent"]), f"channel {c['id']} bad accent"
         assert c.get("sub", "")[:2] in ENGINES, f"channel {c['id']} bad sub"
         assert c["sub"][:2] in c["engines"], f"channel {c['id']} sub not under its engine"
+        tags = c.get("tags", [])
+        assert tags, f"channel {c['id']} has no tags"
+        allowed = {"type-procedural", "type-manual", "type-lifecycle",
+                   "type-reference", "type-trade", "type-evening",
+                   "type-covers", "type-deconstructed", "type-generated",
+                   "type-reading", "type-library", "type-journey",
+                   "type-embody", "type-ambience", "type-bed",
+                   "type-essay", "type-words", "type-daily",
+                   "mech-completionist", "mech-place", "mech-difficulty",
+                   "mech-hosted", "mech-ritual", "mech-nostalgia",
+                   "mech-eavesdrop", "mech-proportion", "mech-suggestion",
+                   "mech-collection", "mech-curiosity", "mech-contrast",
+                   "mech-rhythm", "mech-sensory", "mech-procedural",
+                   "mech-absurd", "mech-linguistic"}
+        bad_t = [t for t in tags if t not in allowed]
+        assert not bad_t, f"channel {c['id']} bad tags {bad_t}"
+        assert any(t.startswith("type-") for t in tags), f"channel {c['id']} no type tag"
         assert c["name"] and c["pitch"], f"channel {c['id']} missing name/pitch"
     print(f"registry OK: {len(data)} channels, engines+readiness valid")
 

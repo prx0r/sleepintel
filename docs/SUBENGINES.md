@@ -12,6 +12,7 @@ three channels, one distinct run-mode, or it stays a variant.
 - E2c LIBRARY (chapter seasons + completion): 23,99-127
 - E5d REFERENCE (entry-N-of-M + attribution, described not read):
   72,73,76,147-159,165-169,184-191
+- E5e LIFECYCLE (a life, stage by stage): 198-207
 - E3a GUIDED (journeys, "picture…"): 3,24,46,47,50
 - E3b EMBODY (SATS-style, wish-fulfilled): 46 (shared with E3a — mode flag, not split)
 - E4a PLACES (visual loop + bed): 35,40
