@@ -3,13 +3,14 @@
 Pilots out, metrics in, verdicts applied, queue re-ranked. Weekly cadence.
 Secrets: YT_API_KEY env only, never in repo. Quota: cache everything.
 
-## Sense (collect)
+## Sense (collect — contract: YOUTUBE_API.md)
 
 Per video (tracked IDs emitted at pilot): views, watch-time minutes,
 average view duration, CTR (impressions→views), subs gained, likes,
-top comments (文本, newest 20). Endpoints: videos.list (statistics,
-contentDetails), search.list sparingly (quota), commentThreads.list.
-Store raw JSON under data/yt/<date>/ — immutable, never edited.
+top comments (文本, newest 20). Endpoints: videos.list statistics,
+commentThreads.list, Analytics audienceRetention (owned channels only —
+Data API has no retention; competitor retention is inferred, never
+claimed). Store raw JSON under data/yt/<date>/ — immutable, never edited.
 
 ## Decide (rules, no vibes)
 
@@ -35,3 +36,16 @@ production rotation; never delete records.
 EXPOSED (impression) → OPENED (click) → HELD (retained past 25%) →
 STAYED (past 50%) → RETURNED (next video same channel) → JOINED (sub).
 Clicking ≠ watching. Watching ≠ returning. Separate stages, separate rules.
+
+## Return rate is per video (adopted 2026-09-26)
+
+RETURNED is measured per video, not per channel: a visualization people
+return to nightly is worth 10× a story heard once. Track
+`return_viewers_7d` per video ID. Kill rule exception: a low-CTR video
+with high per-video return is a library asset, not a failure — it compounds.
+
+## Open tension: hosted vs ambient (data decides)
+
+Hosted (voice, personality) should win RPM (narrated > ambient); ambient
+should win watch time (leave-it-on). Both are hypotheses (H-HOST,
+H-AMBIENT), not positions. The resolver, not the author, calls it.

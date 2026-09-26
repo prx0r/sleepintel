@@ -43,6 +43,6 @@ Contract: web scan → brief → E5 render, same-day. Inputs: query packs.
 Serves: good-news (primary). Status: UNBUILT — scan-to-brief step only;
 render side exists.
 
-## Build order
-E2 done. E5 running. E1 proven once. E4 next (unlocks four channels).
-E3 needs a run mode. E6 needs only the scan step.
+## Build order (revised 2026-09-26 — review adopted)
+E2 done. E5 running. E1 proven once. **E4 FIRST** (cheapest per hour,
+leave-it-on = highest watch time, simplest build). Then E6, then E3.
