@@ -18,6 +18,29 @@
     {"at": "template-pick", "primitive": "choice",
      "question": "Which template shapes this corpus?",
      "criteria": {"evening": "album-length music", "library-season": "finite book/chapters", "entry-series": "enumerable items", "word-format": "word histories", "journey": "guided visualization", "explainer": "one idea slowly", "historical-sweep": "origin to present", "silence-title": "ambience only", "one-to-100": "progressive complexity", "other": "none fit — propose new template"},
-     "gates": {"auto": 0.7}}
+     "gates": {"auto": 0.7}},
+    {"at": "voice-pick", "primitive": "choice",
+     "question": "Which voice narrates this content?",
+     "criteria": {
+       "V01_Sage": "SPIRITUAL/ESOTERIC reading, wise authoritative tone",
+       "V02_Storyteller": "STORY reading, warm fireside narration",
+       "V03_Lecturer": "MIND essay/reference, clear technical tone",
+       "V04_Mystic": "ESOTERIC journey, deep mysterious tone",
+       "V05_Healer": "FRESH daily, warm caring tone",
+       "V06_Philosopher": "ESOTERIC/MIND essay, contemplative tone",
+       "V07_Navigator": "STORY/MIND reference, steady guiding tone",
+       "V08_Dreamer": "SPIRITUAL journey, ethereal dreamy tone",
+       "V09_Archivist": "SPIRITUAL/ESOTERIC library, formal reverent tone",
+       "V10_Companion": "MIND/STORY/FRESH essay, friendly casual tone",
+       "other": "none fit — human decides"
+     },
+     "gates": {"auto": 0.7}},
+    {"at": "voice-compatibility", "primitive": "noul",
+     "question": "This voice is compatible with this content.",
+     "criteria": {
+       "true": "voice mood matches content mood, voice shelf matches content shelf, voice engine matches content engine",
+       "false": "mismatch on any dimension"
+     },
+     "yes_cutoff": 0.75, "no_cutoff": 0.25}
   ]
 }
