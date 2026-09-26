@@ -1790,3 +1790,199 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+- id: 128
+  name: Sleepy Electrical
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Wiring codes read to rest
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 129
+  name: Sleepy Plumbing
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Pipes and fittings, slowly
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 130
+  name: Sleepy Carpentry
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Wood types and joinery
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 131
+  name: Sleepy HVAC
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Refrigerants and ducts
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 132
+  name: Sleepy Welding
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Electrodes and joints
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 133
+  name: Sleepy Masonry
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Bricks, mortar, loads
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 134
+  name: Sleepy Roofing
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Shingles, pitch, flashing
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 135
+  name: Sleepy Painting
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Paint types and prep
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 136
+  name: Sleepy Landscaping
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Soil, zones, irrigation
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 137
+  name: Sleepy Auto Mechanics
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Engines and codes
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 138
+  name: Sleepy Law
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Binding, softly.
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 139
+  name: Sleepy Accounting
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Debits equal credits
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 140
+  name: Sleepy Medical
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Four chambers and the vessels
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 141
+  name: Sleepy Botany
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Thorns, spines, prickles
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
