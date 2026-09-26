@@ -19,13 +19,13 @@ Mechanisms below; channels in brackets. New channels must name theirs.
   proceedings. Desire: presence without stakes.
 - PROPORTION (dwarf the worry): cosmos channels, requiem 62, deep time.
   Desire: smallness as relief.
-- SUGGESTION (dream incubation): daimon 3, manifestation 46,FYI intentions.
+- SUGGESTION (dream incubation): daimon 3, manifestation 46.
   Desire: direction while drifting.
 - COLLECTION (complete the set): periodic 72 (118), tarot 21 (78), flags 147,
   elements, libraries. Desire: full sets.
 - CURIOSITY-GAP (one question): etymology 75, deconstructed 49, lore 30.
   Desire: a question gentle enough to sleep on.
-- CONTRAST-COMFARM (safe inside): anti-sleep 39, shoggoth 12, NDE 2.
+- CONTRAST-COMFORT (safe inside): anti-sleep 39, shoggoth 12, NDE 2.
   Desire: danger at a distance.
 - RHYTHM (predictable cadence): timetables 82, numbers 76, lists 171.
   Desire: pattern without meaning.
