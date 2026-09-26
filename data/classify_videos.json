@@ -1,0 +1,192 @@
+[
+ {
+  "id": "RNjyJsedOZA",
+  "template": "historical-sweep",
+  "template_conf": 0.48,
+  "mechs": {
+   "completionist": 0.09,
+   "place": 0.84,
+   "difficulty": 0.28,
+   "hosted": 0.52,
+   "ritual": 0.22,
+   "nostalgia": 0.14,
+   "curiosity": 0.81,
+   "collection": 0.2,
+   "contrast": 0.57,
+   "rhythm": 0.34
+  },
+  "cost": 3.9816e-05,
+  "model": "typesafe/jev-1.13-20260917"
+ },
+ {
+  "id": "PqKCy1qt0S4",
+  "template": "explainer",
+  "template_conf": 0.81,
+  "mechs": {
+   "completionist": 0.12,
+   "place": 0.76,
+   "difficulty": 0.18,
+   "hosted": 0.32,
+   "ritual": 0.19,
+   "nostalgia": 0.21,
+   "curiosity": 0.84,
+   "collection": 0.23,
+   "contrast": 0.42,
+   "rhythm": 0.36
+  },
+  "cost": 3.969e-05,
+  "model": "typesafe/jev-1.13-20260917"
+ },
+ {
+  "id": "CQ25L2qvKEE",
+  "template": "explainer",
+  "template_conf": 0.45,
+  "mechs": {
+   "completionist": 0.08,
+   "place": 0.86,
+   "difficulty": 0.63,
+   "hosted": 0.34,
+   "ritual": 0.25,
+   "nostalgia": 0.16,
+   "curiosity": 0.76,
+   "collection": 0.16,
+   "contrast": 0.46,
+   "rhythm": 0.3
+  },
+  "cost": 3.969e-05,
+  "model": "typesafe/jev-1.13-20260917"
+ },
+ {
+  "id": "6PnDGyX2QkE",
+  "template": "journey",
+  "template_conf": 0.62,
+  "mechs": {
+   "completionist": 0.08,
+   "place": 0.61,
+   "difficulty": 0.16,
+   "hosted": 0.35,
+   "ritual": 0.36,
+   "nostalgia": 0.13,
+   "curiosity": 0.67,
+   "collection": 0.17,
+   "contrast": 0.44,
+   "rhythm": 0.56
+  },
+  "cost": 3.9774e-05,
+  "model": "typesafe/jev-1.13-20260917"
+ },
+ {
+  "id": "PjVT58FNihg",
+  "template": "historical-sweep",
+  "template_conf": 0.84,
+  "mechs": {
+   "completionist": 0.11,
+   "place": 0.74,
+   "difficulty": 0.1,
+   "hosted": 0.42,
+   "ritual": 0.37,
+   "nostalgia": 0.32,
+   "curiosity": 0.62,
+   "collection": 0.23,
+   "contrast": 0.69,
+   "rhythm": 0.47
+  },
+  "cost": 3.9648e-05,
+  "model": "typesafe/jev-1.13-20260917"
+ },
+ {
+  "id": "8_2ycPXiSbw",
+  "template": "explainer",
+  "template_conf": 0.48,
+  "mechs": {
+   "completionist": 0.11,
+   "place": 0.87,
+   "difficulty": 0.14,
+   "hosted": 0.43,
+   "ritual": 0.34,
+   "nostalgia": 0.24,
+   "curiosity": 0.71,
+   "collection": 0.2,
+   "contrast": 0.49,
+   "rhythm": 0.5
+  },
+  "cost": 3.969e-05,
+  "model": "typesafe/jev-1.13-20260917"
+ },
+ {
+  "id": "4mMTjYJ3zd4",
+  "template": "explainer",
+  "template_conf": 0.92,
+  "mechs": {
+   "completionist": 0.26,
+   "place": 0.38,
+   "difficulty": 0.16,
+   "hosted": 0.4,
+   "ritual": 0.43,
+   "nostalgia": 0.19,
+   "curiosity": 0.41,
+   "collection": 0.53,
+   "contrast": 0.3,
+   "rhythm": 0.5
+  },
+  "cost": 4.0152e-05,
+  "model": "typesafe/jev-1.13-20260917"
+ },
+ {
+  "id": "YE5iLKvA-G8",
+  "template": "explainer",
+  "template_conf": 0.59,
+  "mechs": {
+   "completionist": 0.09,
+   "place": 0.18,
+   "difficulty": 0.21,
+   "hosted": 0.38,
+   "ritual": 0.25,
+   "nostalgia": 0.14,
+   "curiosity": 0.74,
+   "collection": 0.21,
+   "contrast": 0.65,
+   "rhythm": 0.4
+  },
+  "cost": 3.9732e-05,
+  "model": "typesafe/jev-1.13-20260917"
+ },
+ {
+  "id": "rFf9r2Trs3I",
+  "template": "explainer",
+  "template_conf": 0.5,
+  "mechs": {
+   "completionist": 0.08,
+   "place": 0.21,
+   "difficulty": 0.38,
+   "hosted": 0.41,
+   "ritual": 0.26,
+   "nostalgia": 0.34,
+   "curiosity": 0.76,
+   "collection": 0.17,
+   "contrast": 0.86,
+   "rhythm": 0.41
+  },
+  "cost": 3.9648e-05,
+  "model": "typesafe/jev-1.13-20260917"
+ },
+ {
+  "id": "hPQwPjswssU",
+  "template": "ambience-loop",
+  "template_conf": 0.44,
+  "mechs": {
+   "completionist": 0.12,
+   "place": 0.22,
+   "difficulty": 0.09,
+   "hosted": 0.51,
+   "ritual": 0.56,
+   "nostalgia": 0.38,
+   "curiosity": 0.25,
+   "collection": 0.22,
+   "contrast": 0.25,
+   "rhythm": 0.73
+  },
+  "cost": 4.0152e-05,
+  "model": "typesafe/jev-1.13-20260917"
+ }
+]
