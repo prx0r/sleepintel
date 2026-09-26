@@ -23,17 +23,35 @@ def _key():
     raise RuntimeError("OPENROUTER_API_KEY not found (.env)")
 
 
-def decide(state, questions, model=MODEL):
+def decide(state, questions, model=MODEL, retries=3):
+    import time
+    import urllib.error
     body = json.dumps({"model": model, "state": state,
                        "questions": questions}).encode()
-    req = urllib.request.Request(
-        ENDPOINT, data=body,
-        headers={"Authorization": f"Bearer {_key()}",
-                 "Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        out = json.load(r)
-    out["_pinned_model"] = out.get("model", model)
-    return out
+    delay = 1.0
+    for attempt in range(retries):
+        req = urllib.request.Request(
+            ENDPOINT, data=body,
+            headers={"Authorization": f"Bearer {_key()}",
+                     "Content-Type": "application/json"})
+        try:
+            with urllib.request.urlopen(req, timeout=120) as r:
+                out = json.load(r)
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 529) and attempt < retries - 1:
+                time.sleep(delay)
+                delay *= 2
+                continue
+            raise
+        out["_pinned_model"] = out.get("model", model)
+        return out
+    raise RuntimeError("jev unreachable after retries")
+
+
+def fail_closed(action_default="human"):
+    """Publish/ship gates fail CLOSED (no action on error).
+    Verdict routing fails OPEN to human. Call the right one."""
+    return action_default
 
 
 def band_noul(p, yes=0.8, no=0.2):
