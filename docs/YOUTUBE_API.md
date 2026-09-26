@@ -40,6 +40,24 @@ as dimensions — format features resolve against retention directly.
 Series position (ep N of M) joins playlist retention — completion measured,
 not assumed.
 
+## Cheap-calls playbook (key verified live, 2026-09-26)
+
+1. Batch 50 IDs per videos.list — 1 unit covers 50 videos. All pilots
+   polled in a handful of calls, daily.
+2. ETags + If-None-Match — 304 responses cost ZERO quota. Store etags per
+   video; unchanged videos poll free. Biggest hack on the board.
+3. maxResults=50 everywhere paginated (commentThreads, playlistItems).
+4. playlistItems over search — channel uploads playlist enumerates videos
+   at 1 unit/50; search.list burns the 100/day bucket, forbidden for tracking.
+5. fields= param for bandwidth (not quota — still use it, faster + smaller).
+6. SQLite cache + dedupe + backfill after midnight PT reset.
+7. Quota increase form on primary; multi-project pools per ACCOUNTS.md.
+8. Analytics retention batched per channel per day (owned only).
+
+Math: 500 tracked videos = 10 videos.list calls = 10 units/day. Comments
+on 50 pilots = ~50 units. Full daily sweep under 100 units of 10,000.
+Quota was never the bottleneck — etags make sure of it.
+
 ## Rules
 
 - YT_API_KEY + OAuth refresh in env/vault only. Raw JSON → data/yt/<date>/
