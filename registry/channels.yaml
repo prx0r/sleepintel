@@ -1594,3 +1594,129 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+- id: 114
+  name: Emerson's Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: Essays, Nature, Representative Men, complete
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 115
+  name: Thoreau's Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: Walden and the journals
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 116
+  name: Burton's Anatomy
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: 500,000 words on melancholy
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 117
+  name: Montaigne's Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: Essays, Florio translation
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 118
+  name: Blake's Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: Songs, prophecies, illuminated words
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 119
+  name: James's Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: Varieties of Religious Experience
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 120
+  name: Goethe's Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready-ish
+  pitch: Faust and the wanderings
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 121
+  name: Nietzsche's Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready-ish
+  pitch: Zarathustra and dawn-thoughts
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 122
+  name: Dostoevsky's Library
+  engines:
+  - E2
+  dept: story
+  readiness: ready-ish
+  pitch: The novels, Garnett translations
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
