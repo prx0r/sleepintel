@@ -2574,3 +2574,143 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+- id: 184
+  name: Sleepy Encyclopaedia
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Entry 1 of 10,000
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 185
+  name: Sleepy Dinosaurs
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Dinosaur 1 of 1,000
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 186
+  name: Sleepy Birds
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Bird 1 of 10,000
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 187
+  name: Sleepy Stars
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Star 1 of 1,000
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 188
+  name: Sleepy Countries
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Country 1 of 195
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 189
+  name: Sleepy Currencies
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Currency 1 of 180
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 190
+  name: Sleepy Languages
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Language 1 of 7,000
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 191
+  name: Sleepy Chess
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Opening 1 of 500
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 192
+  name: Sleepy IKEA Manuals
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Instruction 1 of 1,000
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 193
+  name: Sleepy Rules
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Rule 1 of 1,000
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
