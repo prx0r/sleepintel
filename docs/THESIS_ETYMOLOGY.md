@@ -29,3 +29,12 @@ habit-forming ("a new word origin every night").
 
 Etymonline/Wiktionary → extract → rewrite warm → edge_tts 0.7× →
 ambient (optional) → visual: hand-drawn word transforming through languages.
+
+## The deep format (flagship — 2 hours, word tracked to present day)
+
+Exemplar (salary chain): "Salary. From Latin 'salarium.' From 'sal' — salt.
+Roman soldiers received a salt allowance. Salt was currency. Through Old
+French 'salarium' into Middle English. Related: Salad — vegetables dressed
+with salt. Sauce — from Latin 'salsus' — salted. Salutation — from 'salus' —
+health, safety. To salute is to wish someone well. Originally, to wish
+someone salt. Sleep well." One word, its whole family, two hours of history.
