@@ -1,0 +1,21 @@
+{
+ "schema_version": "sleepintel-hypothesis.v1",
+ "hypothesis_id": "H-DATA",
+ "version": 1,
+ "statement": "Every pilot emits tracked IDs; verdicts follow metric rules; the queue re-ranks itself. The network is an organism.",
+ "mechanism": "Sense (metrics) \u2192 decide (promote/iterate/kill/split) \u2192 grow (pilots). Dead ends retained as data.",
+ "status": "active",
+ "parent_hypothesis_ids": [],
+ "channel_ids": [],
+ "engine_ids": [],
+ "predictions": [
+  {
+   "id": "H-DATA-P1",
+   "claim": "every shipped pilot has a recorded verdict within 45 days",
+   "metric": "verdict_coverage",
+   "threshold": "=100%",
+   "window_days": 45
+  }
+ ],
+ "created_at": "2026-09-26"
+}

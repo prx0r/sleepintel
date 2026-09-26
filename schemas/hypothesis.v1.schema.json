@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sleepintel.local/schemas/hypothesis.v1.schema.json",
+  "title": "SleepintelHypothesisV1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "hypothesis_id", "version", "statement",
+               "mechanism", "status", "predictions", "created_at"],
+  "properties": {
+    "schema_version": {"const": "sleepintel-hypothesis.v1"},
+    "hypothesis_id": {"type": "string", "pattern": "^H(-[A-Za-z0-9_\\-]+)+$"},
+    "version": {"type": "integer", "minimum": 1},
+    "statement": {"type": "string", "minLength": 20},
+    "mechanism": {"type": "string", "minLength": 20},
+    "status": {"enum": ["draft", "probation", "active", "promoted", "demoted", "retired"]},
+    "parent_hypothesis_ids": {"type": "array", "items": {"type": "string"}, "default": []},
+    "channel_ids": {"type": "array", "items": {"type": "integer"}, "default": []},
+    "engine_ids": {"type": "array", "items": {"type": "string"}, "default": []},
+    "predictions": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "claim", "metric", "threshold", "window_days"],
+        "properties": {
+          "id": {"type": "string"},
+          "claim": {"type": "string"},
+          "metric": {"type": "string"},
+          "threshold": {"type": "string"},
+          "window_days": {"type": "integer", "minimum": 1}
+        }
+      }
+    },
+    "created_at": {"type": "string"}
+  }
+}

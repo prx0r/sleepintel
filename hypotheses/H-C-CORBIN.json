@@ -1,0 +1,27 @@
+{
+ "schema_version": "sleepintel-hypothesis.v1",
+ "hypothesis_id": "H-C-CORBIN",
+ "version": 1,
+ "statement": "Corbin Sleep wins: the imaginal realm is literally sleep-shaped and unfilmed.",
+ "mechanism": "13M bench + subject (in-between worlds) that maps 1:1 onto hypnagogia.",
+ "status": "probation",
+ "parent_hypothesis_ids": [
+  "H-PLACE"
+ ],
+ "channel_ids": [
+  15
+ ],
+ "engine_ids": [
+  "E2"
+ ],
+ "predictions": [
+  {
+   "id": "H-C-CORBIN-P1",
+   "claim": "avg view duration clears 25% of runtime",
+   "metric": "avd_share",
+   "threshold": ">=0.25",
+   "window_days": 30
+  }
+ ],
+ "created_at": "2026-09-26"
+}

@@ -1,0 +1,28 @@
+{
+ "schema_version": "sleepintel-hypothesis.v1",
+ "hypothesis_id": "H-C-DAIMON",
+ "version": 1,
+ "statement": "Daimon Dreams wins: empty YouTube field + universal guardian fascination + dream-incubation suggestion.",
+ "mechanism": "Everyone wants a guide; 'meet your daimon tonight' is suggestion, story, and series in one line.",
+ "status": "probation",
+ "parent_hypothesis_ids": [
+  "H-PLACE"
+ ],
+ "channel_ids": [
+  3
+ ],
+ "engine_ids": [
+  "E2",
+  "E3"
+ ],
+ "predictions": [
+  {
+   "id": "H-C-DAIMON-P1",
+   "claim": "searchCTR from 'daimon' queries above network median",
+   "metric": "search_ctr",
+   "threshold": ">median",
+   "window_days": 30
+  }
+ ],
+ "created_at": "2026-09-26"
+}

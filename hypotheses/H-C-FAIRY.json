@@ -1,0 +1,28 @@
+{
+ "schema_version": "sleepintel-hypothesis.v1",
+ "hypothesis_id": "H-C-FAIRY",
+ "version": 1,
+ "statement": "Fairy Tales wins: nostalgia + specific tradition beats generic bedtime (683K vs 1.3K precedent).",
+ "mechanism": "Known stories bypass the attention gate; foreign seasons compound the library.",
+ "status": "draft",
+ "parent_hypothesis_ids": [
+  "H-PLACE"
+ ],
+ "channel_ids": [
+  41,
+  42
+ ],
+ "engine_ids": [
+  "E2"
+ ],
+ "predictions": [
+  {
+   "id": "H-C-FAIRY-P1",
+   "claim": "known-tale pilots beat original-tale pilots on CTR",
+   "metric": "ctr_known_vs_original",
+   "threshold": ">1.0x",
+   "window_days": 30
+  }
+ ],
+ "created_at": "2026-09-26"
+}

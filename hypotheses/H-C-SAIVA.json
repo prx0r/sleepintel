@@ -1,0 +1,27 @@
+{
+ "schema_version": "sleepintel-hypothesis.v1",
+ "hypothesis_id": "H-C-SAIVA",
+ "version": 1,
+ "statement": "Saiva Slumber wins: zero-competition Tantraloka readings for an audience that cannot be served elsewhere.",
+ "mechanism": "Open field + unfilmable-by-others texts + recognition-without-effort philosophy (pratyabhijna).",
+ "status": "probation",
+ "parent_hypothesis_ids": [
+  "H-PLACE"
+ ],
+ "channel_ids": [
+  16
+ ],
+ "engine_ids": [
+  "E2"
+ ],
+ "predictions": [
+  {
+   "id": "H-C-SAIVA-P1",
+   "claim": "pilot CTR beats channel median",
+   "metric": "ctr_vs_median",
+   "threshold": ">1.0x",
+   "window_days": 14
+  }
+ ],
+ "created_at": "2026-09-26"
+}
