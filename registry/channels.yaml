@@ -16,6 +16,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 2
   name: Near Sleep
   engines:
@@ -34,6 +35,7 @@ channels:
   tags:
   - mech-contrast
   - type-essay
+  effort: 5
 - id: 3
   name: Daimon Dreams
   engines:
@@ -53,6 +55,7 @@ channels:
   tags:
   - mech-suggestion
   - type-reading
+  effort: 3
 - id: 4
   name: Channeled Wisdom
   engines:
@@ -71,6 +74,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 5
   name: Sleepy Soul
   engines:
@@ -88,6 +92,7 @@ channels:
   sub: E5a
   tags:
   - type-essay
+  effort: 5
 - id: 6
   name: Sleeping Genius
   engines:
@@ -106,6 +111,7 @@ channels:
   tags:
   - mech-difficulty
   - type-essay
+  effort: 5
 - id: 7
   name: Good News Tonight
   engines:
@@ -124,6 +130,7 @@ channels:
   sub: E6a
   tags:
   - type-daily
+  effort: 4
 - id: 8
   name: Alchemical Secrets
   engines:
@@ -141,6 +148,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 9
   name: Angel Sleep
   engines:
@@ -158,6 +166,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 10
   name: Kashmir Readings
   engines:
@@ -175,6 +184,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 11
   name: AGI Scenarios
   engines:
@@ -194,6 +204,7 @@ channels:
   - mech-difficulty
   - mech-proportion
   - type-essay
+  effort: 5
 - id: 12
   name: Sleepy Shoggoth
   engines:
@@ -213,6 +224,7 @@ channels:
   - mech-difficulty
   - mech-contrast
   - type-essay
+  effort: 5
 - id: 13
   name: Sufi Night
   engines:
@@ -230,6 +242,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 14
   name: Night Dialogues
   engines:
@@ -247,6 +260,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 15
   name: Corbin Sleep
   engines:
@@ -264,6 +278,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 16
   name: Saiva Slumber
   engines:
@@ -281,6 +296,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 17
   name: Ficino Sleep
   engines:
@@ -298,6 +314,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 18
   name: Spell Sleep
   engines:
@@ -315,6 +332,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 19
   name: Company
   engines:
@@ -332,6 +350,7 @@ channels:
   sub: E5a
   tags:
   - type-essay
+  effort: 5
 - id: 20
   name: Conspiracy Sleep
   engines:
@@ -349,6 +368,7 @@ channels:
   sub: E5a
   tags:
   - type-essay
+  effort: 5
 - id: 21
   name: Tarot Sleep
   engines:
@@ -368,6 +388,7 @@ channels:
   - mech-completionist
   - mech-collection
   - type-reading
+  effort: 3
 - id: 22
   name: I Ching Sleep
   engines:
@@ -387,6 +408,7 @@ channels:
   - mech-completionist
   - mech-collection
   - type-reading
+  effort: 3
 - id: 23
   name: Meditations
   engines:
@@ -405,6 +427,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 24
   name: Spanda Sleep
   engines:
@@ -423,6 +446,7 @@ channels:
   sub: E3a
   tags:
   - type-journey
+  effort: 6
 - id: 25
   name: Plotinus Sleep
   engines:
@@ -440,6 +464,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 26
   name: Sleepy Buddha
   engines:
@@ -457,6 +482,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 27
   name: Sleepy Maths
   engines:
@@ -475,6 +501,7 @@ channels:
   tags:
   - mech-difficulty
   - type-essay
+  effort: 5
 - id: 28
   name: Everyday Truth
   engines:
@@ -492,6 +519,7 @@ channels:
   sub: E5a
   tags:
   - type-essay
+  effort: 5
 - id: 29
   name: Cosy Past
   engines:
@@ -510,6 +538,7 @@ channels:
   tags:
   - mech-place
   - type-essay
+  effort: 5
 - id: 30
   name: Lore Sleep
   engines:
@@ -528,6 +557,7 @@ channels:
   tags:
   - mech-curiosity
   - type-essay
+  effort: 5
 - id: 31
   name: Niche Psych
   engines:
@@ -545,6 +575,7 @@ channels:
   sub: E5a
   tags:
   - type-essay
+  effort: 5
 - id: 32
   name: Gnostic Sleep
   engines:
@@ -562,6 +593,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 33
   name: Critical Snooze
   engines:
@@ -579,6 +611,7 @@ channels:
   sub: E5a
   tags:
   - type-essay
+  effort: 5
 - id: 34
   name: Composer Evenings
   engines:
@@ -598,6 +631,7 @@ channels:
   - mech-hosted
   - mech-ritual
   - type-evening
+  effort: 7
 - id: 35
   name: Fly on the Wall
   engines:
@@ -617,6 +651,7 @@ channels:
   - mech-place
   - mech-eavesdrop
   - type-ambience
+  effort: 1
 - id: 36
   name: Myth Sleep
   engines:
@@ -634,6 +669,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 37
   name: Sleepy Covers
   engines:
@@ -654,6 +690,7 @@ channels:
   - mech-ritual
   - mech-nostalgia
   - type-covers
+  effort: 6
 - id: 38
   name: AGI Sleep
   engines:
@@ -672,6 +709,7 @@ channels:
   tags:
   - mech-difficulty
   - type-essay
+  effort: 5
 - id: 39
   name: Anti-Sleep War
   engines:
@@ -691,6 +729,7 @@ channels:
   - mech-place
   - mech-contrast
   - type-bed
+  effort: 1
 - id: 40
   name: Fly on the Wall Pure
   engines:
@@ -710,6 +749,7 @@ channels:
   - mech-place
   - mech-eavesdrop
   - type-ambience
+  effort: 1
 - id: 41
   name: Fairy Tales
   engines:
@@ -729,6 +769,7 @@ channels:
   - mech-ritual
   - mech-nostalgia
   - type-reading
+  effort: 3
 - id: 42
   name: Foreign Folklore
   engines:
@@ -747,6 +788,7 @@ channels:
   tags:
   - mech-ritual
   - type-reading
+  effort: 3
 - id: 43
   name: Myth Plus
   engines:
@@ -764,6 +806,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 44
   name: Sleep School
   engines:
@@ -782,6 +825,7 @@ channels:
   tags:
   - mech-linguistic
   - type-words
+  effort: 3
 - id: 45
   name: Cassiopaean Sleep
   engines:
@@ -799,6 +843,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 46
   name: Sleep Manifestation
   engines:
@@ -817,6 +862,7 @@ channels:
   tags:
   - mech-suggestion
   - type-journey
+  effort: 6
 - id: 47
   name: Theurgy Sleep
   engines:
@@ -835,6 +881,7 @@ channels:
   sub: E3a
   tags:
   - type-journey
+  effort: 6
 - id: 48
   name: Anti-Sleep Arguing
   engines:
@@ -854,6 +901,7 @@ channels:
   - mech-place
   - mech-eavesdrop
   - type-bed
+  effort: 1
 - id: 49
   name: Deconstructed
   engines:
@@ -873,6 +921,7 @@ channels:
   - mech-hosted
   - mech-curiosity
   - type-deconstructed
+  effort: 8
 - id: 50
   name: Kabbalah Sleep
   engines:
@@ -891,6 +940,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 51
   name: Theosophy Sleep
   engines:
@@ -909,6 +959,7 @@ channels:
   tags:
   - mech-proportion
   - type-reading
+  effort: 3
 - id: 52
   name: Hindu Sleep
   engines:
@@ -926,6 +977,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 53
   name: Taoist Sleep
   engines:
@@ -943,6 +995,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 54
   name: Christian Mysticism Sleep
   engines:
@@ -960,6 +1013,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 55
   name: Egyptian Sleep
   engines:
@@ -977,6 +1031,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 56
   name: Manly Hall Sleep
   engines:
@@ -994,6 +1049,7 @@ channels:
   sub: E2a
   tags:
   - type-reading
+  effort: 3
 - id: 57
   name: Organ Sleep
   engines:
@@ -1013,6 +1069,7 @@ channels:
   tags:
   - mech-hosted
   - type-evening
+  effort: 7
 - id: 58
   name: Harp Sleep
   engines:
@@ -1032,6 +1089,7 @@ channels:
   tags:
   - mech-hosted
   - type-evening
+  effort: 7
 - id: 59
   name: Choir Sleep
   engines:
@@ -1051,6 +1109,7 @@ channels:
   tags:
   - mech-hosted
   - type-evening
+  effort: 7
 - id: 60
   name: Lullaby Sleep
   engines:
@@ -1070,6 +1129,7 @@ channels:
   tags:
   - mech-hosted
   - type-evening
+  effort: 7
 - id: 61
   name: Opera Sleep
   engines:
@@ -1089,6 +1149,7 @@ channels:
   tags:
   - mech-hosted
   - type-evening
+  effort: 7
 - id: 62
   name: Requiem Sleep
   engines:
@@ -1109,6 +1170,7 @@ channels:
   - mech-hosted
   - mech-proportion
   - type-evening
+  effort: 7
 - id: 63
   name: Hymn Sleep
   engines:
@@ -1128,6 +1190,7 @@ channels:
   tags:
   - mech-hosted
   - type-evening
+  effort: 7
 - id: 64
   name: Guitar Sleep
   engines:
@@ -1147,6 +1210,7 @@ channels:
   tags:
   - mech-hosted
   - type-evening
+  effort: 7
 - id: 65
   name: Composed Live
   engines:
@@ -1165,6 +1229,7 @@ channels:
   tags:
   - mech-hosted
   - type-generated
+  effort: 5
 - id: 66
   name: Stems
   engines:
@@ -1183,6 +1248,7 @@ channels:
   tags:
   - mech-hosted
   - type-deconstructed
+  effort: 8
 - id: 67
   name: Versus
   engines:
@@ -1201,6 +1267,7 @@ channels:
   tags:
   - mech-hosted
   - type-deconstructed
+  effort: 8
 - id: 68
   name: Era Stroll
   engines:
@@ -1219,6 +1286,7 @@ channels:
   tags:
   - mech-hosted
   - type-evening
+  effort: 7
 - id: 69
   name: Half Tempo
   engines:
@@ -1237,6 +1305,7 @@ channels:
   tags:
   - mech-hosted
   - type-deconstructed
+  effort: 8
 - id: 70
   name: Requests
   engines:
@@ -1255,6 +1324,7 @@ channels:
   tags:
   - mech-hosted
   - type-evening
+  effort: 7
 - id: 71
   name: Sleepy Cartography
   engines:
@@ -1272,6 +1342,7 @@ channels:
   sub: E5a
   tags:
   - type-essay
+  effort: 5
 - id: 72
   name: Sleepy Periodic Table
   engines:
@@ -1292,6 +1363,7 @@ channels:
   - mech-completionist
   - mech-collection
   - type-essay
+  effort: 2
 - id: 73
   name: Sleepy Taxonomy
   engines:
@@ -1309,6 +1381,7 @@ channels:
   sub: E5d
   tags:
   - type-essay
+  effort: 2
 - id: 74
   name: Sleepy Architecture
   engines:
@@ -1326,6 +1399,7 @@ channels:
   sub: E5a
   tags:
   - type-essay
+  effort: 5
 - id: 75
   name: Sleepy Etymology
   engines:
@@ -1345,6 +1419,7 @@ channels:
   - mech-curiosity
   - mech-linguistic
   - type-words
+  effort: 3
 - id: 76
   name: Sleepy Numbers
   engines:
@@ -1364,6 +1439,7 @@ channels:
   - type-reference
   - mech-rhythm
   - type-essay
+  effort: 2
 - id: 77
   name: Sleepy Constellations
   engines:
@@ -1381,6 +1457,7 @@ channels:
   sub: E5a
   tags:
   - type-essay
+  effort: 5
 - id: 78
   name: Sleepy Materials
   engines:
@@ -1398,6 +1475,7 @@ channels:
   sub: E5a
   tags:
   - type-essay
+  effort: 5
 - id: 79
   name: Sleepy Recipes
   engines:
@@ -1419,6 +1497,7 @@ channels:
   - mech-sensory
   - mech-procedural
   - type-essay
+  effort: 5
 - id: 80
   name: Sleepy Letters
   engines:
@@ -1437,6 +1516,7 @@ channels:
   tags:
   - mech-eavesdrop
   - type-essay
+  effort: 5
 - id: 81
   name: Sleepy Weather
   engines:
@@ -1454,6 +1534,7 @@ channels:
   sub: E5a
   tags:
   - type-essay
+  effort: 5
 - id: 82
   name: Sleepy Timetables
   engines:
@@ -1472,6 +1553,7 @@ channels:
   tags:
   - mech-rhythm
   - type-essay
+  effort: 5
 - id: 83
   name: Sleepy Sleep
   engines:
@@ -1489,6 +1571,7 @@ channels:
   sub: E5c
   tags:
   - type-essay
+  effort: 5
 - id: 84
   name: Sleepy Instructions
   engines:
@@ -1506,6 +1589,7 @@ channels:
   sub: E5c
   tags:
   - type-essay
+  effort: 5
 - id: 85
   name: Sleepy Legal
   engines:
@@ -1524,6 +1608,7 @@ channels:
   tags:
   - mech-absurd
   - type-essay
+  effort: 5
 - id: 86
   name: Sleepy Code
   engines:
@@ -1541,6 +1626,7 @@ channels:
   sub: E5c
   tags:
   - type-essay
+  effort: 5
 - id: 87
   name: Sleepy Soundtracks
   engines:
@@ -1558,6 +1644,7 @@ channels:
   sub: E1c
   tags:
   - type-deconstructed
+  effort: 8
 - id: 88
   name: Cradle World
   engines:
@@ -1575,6 +1662,7 @@ channels:
   sub: E1d
   tags:
   - type-generated
+  effort: 5
 - id: 89
   name: Sleepy Frequencies
   engines:
@@ -1592,6 +1680,7 @@ channels:
   sub: E1d
   tags:
   - type-generated
+  effort: 5
 - id: 90
   name: Newton's Library
   engines:
@@ -1609,6 +1698,7 @@ channels:
   sub: E2c
   tags:
   - type-library
+  effort: 2
 - id: 91
   name: Thesaurus Sleep
   engines:
@@ -1628,6 +1718,7 @@ channels:
   - mech-curiosity
   - mech-linguistic
   - type-words
+  effort: 3
 - id: 92
   name: Vocab Stories
   engines:
@@ -1647,6 +1738,7 @@ channels:
   - mech-curiosity
   - mech-linguistic
   - type-words
+  effort: 3
 - id: 93
   name: Roots Sleep
   engines:
@@ -1666,6 +1758,7 @@ channels:
   - mech-curiosity
   - mech-linguistic
   - type-words
+  effort: 3
 - id: 94
   name: Idioms Sleep
   engines:
@@ -1685,6 +1778,7 @@ channels:
   - mech-curiosity
   - mech-linguistic
   - type-words
+  effort: 3
 - id: 95
   name: Quotations Sleep
   engines:
@@ -1704,6 +1798,7 @@ channels:
   - mech-curiosity
   - mech-linguistic
   - type-words
+  effort: 3
 - id: 96
   name: Pronunciation Sleep
   engines:
@@ -1723,6 +1818,7 @@ channels:
   - mech-curiosity
   - mech-linguistic
   - type-words
+  effort: 3
 - id: 97
   name: Cognates Sleep
   engines:
@@ -1742,6 +1838,7 @@ channels:
   - mech-curiosity
   - mech-linguistic
   - type-words
+  effort: 3
 - id: 98
   name: Grammar Sleep
   engines:
@@ -1761,6 +1858,7 @@ channels:
   - mech-curiosity
   - mech-linguistic
   - type-words
+  effort: 3
 - id: 99
   name: Darwin's Library
   engines:
@@ -1779,6 +1877,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 100
   name: Da Vinci's Notebooks
   engines:
@@ -1797,6 +1896,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 101
   name: Pepys' Diary
   engines:
@@ -1815,6 +1915,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 102
   name: Seneca's Library
   engines:
@@ -1833,6 +1934,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 103
   name: Epictetus' Library
   engines:
@@ -1851,6 +1953,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 104
   name: Plato's Library
   engines:
@@ -1869,6 +1972,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 105
   name: Aristotle's Library
   engines:
@@ -1887,6 +1991,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 106
   name: Confucius' Library
   engines:
@@ -1905,6 +2010,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 107
   name: Lao Tzu's Library
   engines:
@@ -1923,6 +2029,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 108
   name: Virgil's Library
   engines:
@@ -1941,6 +2048,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 109
   name: Homer's Library
   engines:
@@ -1959,6 +2067,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 110
   name: Dante's Library
   engines:
@@ -1977,6 +2086,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 111
   name: Milton's Library
   engines:
@@ -1995,6 +2105,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 112
   name: Shakespeare's Library
   engines:
@@ -2013,6 +2124,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 113
   name: Forbidden Library
   engines:
@@ -2031,6 +2143,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 114
   name: Emerson's Library
   engines:
@@ -2049,6 +2162,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 115
   name: Thoreau's Library
   engines:
@@ -2067,6 +2181,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 116
   name: Burton's Anatomy
   engines:
@@ -2085,6 +2200,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 117
   name: Montaigne's Library
   engines:
@@ -2103,6 +2219,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 118
   name: Blake's Library
   engines:
@@ -2121,6 +2238,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 119
   name: James's Library
   engines:
@@ -2139,6 +2257,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 120
   name: Goethe's Library
   engines:
@@ -2157,6 +2276,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 121
   name: Nietzsche's Library
   engines:
@@ -2175,6 +2295,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 122
   name: Dostoevsky's Library
   engines:
@@ -2193,6 +2314,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 123
   name: Decameron Nights
   engines:
@@ -2211,6 +2333,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 124
   name: Thousand Nights
   engines:
@@ -2229,6 +2352,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 125
   name: Kalevala Nights
   engines:
@@ -2247,6 +2371,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 126
   name: Gibbon's Decline
   engines:
@@ -2265,6 +2390,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 127
   name: Casanova's Memoirs
   engines:
@@ -2283,6 +2409,7 @@ channels:
   tags:
   - mech-completionist
   - type-library
+  effort: 2
 - id: 128
   name: Sleepy Electrical
   engines:
@@ -2303,6 +2430,7 @@ channels:
   - type-trade
   - mech-difficulty
   - mech-procedural
+  effort: 5
 - id: 129
   name: Sleepy Plumbing
   engines:
@@ -2323,6 +2451,7 @@ channels:
   - type-trade
   - mech-difficulty
   - mech-procedural
+  effort: 5
 - id: 130
   name: Sleepy Carpentry
   engines:
@@ -2343,6 +2472,7 @@ channels:
   - type-trade
   - mech-difficulty
   - mech-procedural
+  effort: 5
 - id: 131
   name: Sleepy HVAC
   engines:
@@ -2363,6 +2493,7 @@ channels:
   - type-trade
   - mech-difficulty
   - mech-procedural
+  effort: 5
 - id: 132
   name: Sleepy Welding
   engines:
@@ -2383,6 +2514,7 @@ channels:
   - type-trade
   - mech-difficulty
   - mech-procedural
+  effort: 5
 - id: 133
   name: Sleepy Masonry
   engines:
@@ -2403,6 +2535,7 @@ channels:
   - type-trade
   - mech-difficulty
   - mech-procedural
+  effort: 5
 - id: 134
   name: Sleepy Roofing
   engines:
@@ -2423,6 +2556,7 @@ channels:
   - type-trade
   - mech-difficulty
   - mech-procedural
+  effort: 5
 - id: 135
   name: Sleepy Painting
   engines:
@@ -2443,6 +2577,7 @@ channels:
   - type-trade
   - mech-difficulty
   - mech-procedural
+  effort: 5
 - id: 136
   name: Sleepy Landscaping
   engines:
@@ -2463,6 +2598,7 @@ channels:
   - type-trade
   - mech-difficulty
   - mech-procedural
+  effort: 5
 - id: 137
   name: Sleepy Auto Mechanics
   engines:
@@ -2483,6 +2619,7 @@ channels:
   - type-trade
   - mech-difficulty
   - mech-procedural
+  effort: 5
 - id: 138
   name: Sleepy Law
   engines:
@@ -2502,6 +2639,7 @@ channels:
   - type-trade
   - mech-difficulty
   - mech-procedural
+  effort: 5
 - id: 139
   name: Sleepy Accounting
   engines:
@@ -2521,6 +2659,7 @@ channels:
   - type-trade
   - mech-difficulty
   - mech-procedural
+  effort: 5
 - id: 140
   name: Sleepy Medical
   engines:
@@ -2540,6 +2679,7 @@ channels:
   - type-trade
   - mech-difficulty
   - mech-procedural
+  effort: 5
 - id: 141
   name: Sleepy Botany
   engines:
@@ -2559,6 +2699,7 @@ channels:
   - type-trade
   - mech-difficulty
   - mech-procedural
+  effort: 5
 - id: 142
   name: Sleepy Wikipedia
   engines:
@@ -2577,6 +2718,7 @@ channels:
   tags:
   - type-reference
   - type-essay
+  effort: 5
 - id: 143
   name: Sleepy Labels
   engines:
@@ -2595,6 +2737,7 @@ channels:
   tags:
   - mech-absurd
   - type-essay
+  effort: 5
 - id: 144
   name: Sleepy Specifications
   engines:
@@ -2612,6 +2755,7 @@ channels:
   sub: E5c
   tags:
   - type-manual
+  effort: 5
 - id: 145
   name: Sleepy Warranty
   engines:
@@ -2630,6 +2774,7 @@ channels:
   tags:
   - type-manual
   - mech-absurd
+  effort: 5
 - id: 146
   name: Sleepy Privacy
   engines:
@@ -2647,6 +2792,7 @@ channels:
   sub: E5c
   tags:
   - type-manual
+  effort: 5
 - id: 147
   name: Sleepy Flags
   engines:
@@ -2666,6 +2812,7 @@ channels:
   - type-reference
   - mech-collection
   - type-essay
+  effort: 2
 - id: 148
   name: Sleepy Coats of Arms
   engines:
@@ -2684,6 +2831,7 @@ channels:
   tags:
   - type-reference
   - type-essay
+  effort: 2
 - id: 149
   name: Sleepy Coordinates
   engines:
@@ -2702,6 +2850,7 @@ channels:
   tags:
   - type-reference
   - type-essay
+  effort: 2
 - id: 150
   name: Sleepy Distances
   engines:
@@ -2720,6 +2869,7 @@ channels:
   tags:
   - type-reference
   - type-essay
+  effort: 2
 - id: 151
   name: Sleepy Time Zones
   engines:
@@ -2738,6 +2888,7 @@ channels:
   tags:
   - type-reference
   - type-essay
+  effort: 2
 - id: 152
   name: Sleepy Coins
   engines:
@@ -2756,6 +2907,7 @@ channels:
   tags:
   - type-reference
   - type-essay
+  effort: 2
 - id: 153
   name: Sleepy Stamps
   engines:
@@ -2774,6 +2926,7 @@ channels:
   tags:
   - type-reference
   - type-essay
+  effort: 2
 - id: 154
   name: Sleepy Tools
   engines:
@@ -2792,6 +2945,7 @@ channels:
   tags:
   - type-reference
   - type-essay
+  effort: 2
 - id: 155
   name: Sleepy Machines
   engines:
@@ -2810,6 +2964,7 @@ channels:
   tags:
   - type-reference
   - type-essay
+  effort: 2
 - id: 156
   name: Sleepy Sequences
   engines:
@@ -2828,6 +2983,7 @@ channels:
   tags:
   - type-reference
   - type-essay
+  effort: 2
 - id: 157
   name: Sleepy Shapes
   engines:
@@ -2846,6 +3002,7 @@ channels:
   tags:
   - type-reference
   - type-essay
+  effort: 2
 - id: 158
   name: Sleepy Patterns
   engines:
@@ -2864,6 +3021,7 @@ channels:
   tags:
   - type-reference
   - type-essay
+  effort: 2
 - id: 159
   name: Sleepy Units
   engines:
@@ -2882,6 +3040,7 @@ channels:
   tags:
   - type-reference
   - type-essay
+  effort: 2
 - id: 160
   name: Sleepy Ingredients
   engines:
@@ -2899,6 +3058,7 @@ channels:
   sub: E5c
   tags:
   - type-essay
+  effort: 5
 - id: 161
   name: Sleepy Spices
   engines:
@@ -2917,6 +3077,7 @@ channels:
   tags:
   - mech-sensory
   - type-essay
+  effort: 5
 - id: 162
   name: Sleepy Cheeses
   engines:
@@ -2935,6 +3096,7 @@ channels:
   tags:
   - mech-sensory
   - type-essay
+  effort: 5
 - id: 163
   name: Sleepy Wines
   engines:
@@ -2953,6 +3115,7 @@ channels:
   tags:
   - mech-sensory
   - type-essay
+  effort: 5
 - id: 164
   name: Sleepy Teas
   engines:
@@ -2972,6 +3135,7 @@ channels:
   - mech-nostalgia
   - mech-sensory
   - type-essay
+  effort: 5
 - id: 165
   name: Sleepy Animal Names
   engines:
@@ -2990,6 +3154,7 @@ channels:
   tags:
   - type-reference
   - type-essay
+  effort: 2
 - id: 166
   name: Sleepy Animal Sounds
   engines:
@@ -3008,6 +3173,7 @@ channels:
   tags:
   - type-reference
   - type-essay
+  effort: 2
 - id: 167
   name: Sleepy Clouds
   engines:
@@ -3026,6 +3192,7 @@ channels:
   tags:
   - type-reference
   - type-essay
+  effort: 2
 - id: 168
   name: Sleepy Trees
   engines:
@@ -3044,6 +3211,7 @@ channels:
   tags:
   - type-reference
   - type-essay
+  effort: 2
 - id: 169
   name: Sleepy Rocks
   engines:
@@ -3062,6 +3230,7 @@ channels:
   tags:
   - type-reference
   - type-essay
+  effort: 2
 - id: 170
   name: Sleepy Manuals
   engines:
@@ -3079,6 +3248,7 @@ channels:
   sub: E5c
   tags:
   - type-manual
+  effort: 5
 - id: 171
   name: Sleepy Lists
   engines:
@@ -3097,6 +3267,7 @@ channels:
   tags:
   - type-manual
   - mech-rhythm
+  effort: 5
 - id: 172
   name: Sleepy Alphabet
   engines:
@@ -3115,6 +3286,7 @@ channels:
   tags:
   - mech-rhythm
   - type-essay
+  effort: 5
 - id: 173
   name: Sleepy Financial
   engines:
@@ -3132,6 +3304,7 @@ channels:
   sub: E5c
   tags:
   - type-essay
+  effort: 5
 - id: 174
   name: Sleepy Insurance
   engines:
@@ -3149,6 +3322,7 @@ channels:
   sub: E5c
   tags:
   - type-essay
+  effort: 5
 - id: 175
   name: Sleepy Tax
   engines:
@@ -3166,6 +3340,7 @@ channels:
   sub: E5c
   tags:
   - type-essay
+  effort: 5
 - id: 176
   name: Sleepy French
   engines:
@@ -3183,6 +3358,7 @@ channels:
   sub: E5b
   tags:
   - type-words
+  effort: 3
 - id: 177
   name: Sleepy Japanese
   engines:
@@ -3200,6 +3376,7 @@ channels:
   sub: E5b
   tags:
   - type-words
+  effort: 3
 - id: 178
   name: Sleepy Latin
   engines:
@@ -3217,6 +3394,7 @@ channels:
   sub: E5b
   tags:
   - type-words
+  effort: 3
 - id: 179
   name: Sleepy Greek
   engines:
@@ -3234,6 +3412,7 @@ channels:
   sub: E5b
   tags:
   - type-words
+  effort: 3
 - id: 180
   name: Sleepy Sanskrit
   engines:
@@ -3251,6 +3430,7 @@ channels:
   sub: E5b
   tags:
   - type-words
+  effort: 3
 - id: 181
   name: Sleepy Terms
   engines:
@@ -3268,6 +3448,7 @@ channels:
   sub: E5c
   tags:
   - type-manual
+  effort: 5
 - id: 182
   name: Sleepy IKEA
   engines:
@@ -3286,6 +3467,7 @@ channels:
   tags:
   - type-procedural
   - mech-procedural
+  effort: 5
 - id: 183
   name: Sleepy Specs
   engines:
@@ -3303,6 +3485,7 @@ channels:
   sub: E5c
   tags:
   - type-manual
+  effort: 5
 - id: 184
   name: Sleepy Encyclopaedia
   engines:
@@ -3323,6 +3506,7 @@ channels:
   - mech-completionist
   - mech-collection
   - type-essay
+  effort: 2
 - id: 185
   name: Sleepy Dinosaurs
   engines:
@@ -3343,6 +3527,7 @@ channels:
   - mech-completionist
   - mech-collection
   - type-essay
+  effort: 2
 - id: 186
   name: Sleepy Birds
   engines:
@@ -3363,6 +3548,7 @@ channels:
   - mech-completionist
   - mech-collection
   - type-essay
+  effort: 2
 - id: 187
   name: Sleepy Stars
   engines:
@@ -3383,6 +3569,7 @@ channels:
   - mech-completionist
   - mech-collection
   - type-essay
+  effort: 2
 - id: 188
   name: Sleepy Countries
   engines:
@@ -3403,6 +3590,7 @@ channels:
   - mech-completionist
   - mech-collection
   - type-essay
+  effort: 2
 - id: 189
   name: Sleepy Currencies
   engines:
@@ -3423,6 +3611,7 @@ channels:
   - mech-completionist
   - mech-collection
   - type-essay
+  effort: 2
 - id: 190
   name: Sleepy Languages
   engines:
@@ -3443,6 +3632,7 @@ channels:
   - mech-completionist
   - mech-collection
   - type-essay
+  effort: 2
 - id: 191
   name: Sleepy Chess
   engines:
@@ -3463,6 +3653,7 @@ channels:
   - mech-completionist
   - mech-collection
   - type-essay
+  effort: 2
 - id: 192
   name: Sleepy IKEA Manuals
   engines:
@@ -3480,6 +3671,7 @@ channels:
   sub: E5c
   tags:
   - type-manual
+  effort: 5
 - id: 193
   name: Sleepy Rules
   engines:
@@ -3497,6 +3689,7 @@ channels:
   sub: E5c
   tags:
   - type-manual
+  effort: 5
 - id: 194
   name: Sleepy Painting
   engines:
@@ -3517,6 +3710,7 @@ channels:
   - mech-ritual
   - mech-procedural
   sub: E5c
+  effort: 5
 - id: 195
   name: Sleepy Woodworking
   engines:
@@ -3537,6 +3731,7 @@ channels:
   - mech-ritual
   - mech-procedural
   sub: E5c
+  effort: 5
 - id: 196
   name: Sleepy Knitting
   engines:
@@ -3557,6 +3752,7 @@ channels:
   - mech-ritual
   - mech-procedural
   sub: E5c
+  effort: 5
 - id: 197
   name: Sleepy Standards
   engines:
@@ -3574,6 +3770,7 @@ channels:
   tags:
   - type-manual
   sub: E5c
+  effort: 5
 - id: 198
   name: Sleepy Marmot
   engines:
@@ -3593,6 +3790,7 @@ channels:
   - mech-completionist
   - mech-place
   sub: E5e
+  effort: 4
 - id: 199
   name: Sleepy Housefly
   engines:
@@ -3612,6 +3810,7 @@ channels:
   - mech-completionist
   - mech-place
   sub: E5e
+  effort: 4
 - id: 200
   name: Sleepy Salmon
   engines:
@@ -3631,6 +3830,7 @@ channels:
   - mech-completionist
   - mech-place
   sub: E5e
+  effort: 4
 - id: 201
   name: Sleepy Eagle
   engines:
@@ -3650,6 +3850,7 @@ channels:
   - mech-completionist
   - mech-place
   sub: E5e
+  effort: 4
 - id: 202
   name: Sleepy Octopus
   engines:
@@ -3669,6 +3870,7 @@ channels:
   - mech-completionist
   - mech-place
   sub: E5e
+  effort: 4
 - id: 203
   name: Sleepy Tardigrade
   engines:
@@ -3688,6 +3890,7 @@ channels:
   - mech-completionist
   - mech-place
   sub: E5e
+  effort: 4
 - id: 204
   name: Sleepy Butterfly
   engines:
@@ -3707,6 +3910,7 @@ channels:
   - mech-completionist
   - mech-place
   sub: E5e
+  effort: 4
 - id: 205
   name: Sleepy Frog
   engines:
@@ -3726,6 +3930,7 @@ channels:
   - mech-completionist
   - mech-place
   sub: E5e
+  effort: 4
 - id: 206
   name: Sleepy Bat
   engines:
@@ -3745,6 +3950,7 @@ channels:
   - mech-completionist
   - mech-place
   sub: E5e
+  effort: 4
 - id: 207
   name: Sleepy Penguin
   engines:
@@ -3764,6 +3970,7 @@ channels:
   - mech-completionist
   - mech-place
   sub: E5e
+  effort: 4
 - id: 208
   name: Sleepy Scale
   engines:
@@ -3781,6 +3988,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 209
   name: Sleepy Speeds
   engines:
@@ -3798,6 +4006,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 210
   name: Sleepy Temperatures
   engines:
@@ -3815,6 +4024,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 211
   name: Sleepy Ages
   engines:
@@ -3832,6 +4042,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 212
   name: Sleepy Manufacturing
   engines:
@@ -3849,6 +4060,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 5
 - id: 213
   name: Sleepy Supply Chain
   engines:
@@ -3866,6 +4078,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 5
 - id: 214
   name: Sleepy Processes
   engines:
@@ -3883,6 +4096,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 5
 - id: 215
   name: Sleepy Extremes
   engines:
@@ -3900,6 +4114,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 216
   name: Sleepy Firsts
   engines:
@@ -3917,6 +4132,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 217
   name: Sleepy Records
   engines:
@@ -3934,6 +4150,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 218
   name: Sleepy Anomalies
   engines:
@@ -3951,6 +4168,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 219
   name: Sleepy Exceptions
   engines:
@@ -3968,6 +4186,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 220
   name: Sleepy Paradoxes
   engines:
@@ -3985,6 +4204,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 221
   name: Sleepy Edge Cases
   engines:
@@ -4002,6 +4222,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 222
   name: Sleepy Silence
   engines:
@@ -4019,6 +4240,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 223
   name: Sleepy Absence
   engines:
@@ -4036,6 +4258,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 224
   name: Sleepy Empty Spaces
   engines:
@@ -4053,6 +4276,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 225
   name: Sleepy Missing Links
   engines:
@@ -4070,6 +4294,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 226
   name: Sleepy Journey
   engines:
@@ -4087,6 +4312,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 5
 - id: 227
   name: Sleepy Migration
   engines:
@@ -4104,6 +4330,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 5
 - id: 228
   name: Sleepy Pilgrimage
   engines:
@@ -4121,6 +4348,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 5
 - id: 229
   name: Sleepy Exploration
   engines:
@@ -4138,6 +4366,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 5
 - id: 230
   name: Sleepy Systems
   engines:
@@ -4155,6 +4384,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 231
   name: Sleepy Networks
   engines:
@@ -4172,6 +4402,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 232
   name: Sleepy Infrastructure
   engines:
@@ -4189,6 +4420,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 233
   name: Sleepy Ecosystems
   engines:
@@ -4206,6 +4438,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 234
   name: Sleepy Time
   engines:
@@ -4223,6 +4456,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 235
   name: Sleepy Calendars
   engines:
@@ -4240,6 +4474,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 236
   name: Sleepy Clocks
   engines:
@@ -4257,6 +4492,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 237
   name: Sleepy Alloys
   engines:
@@ -4274,6 +4510,7 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2
 - id: 238
   name: Sleepy Polymers
   engines:
@@ -4291,3 +4528,4 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+  effort: 2

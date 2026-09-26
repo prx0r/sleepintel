@@ -39,10 +39,11 @@ def score(c):
 
 def main(top=20):
     data = yaml.safe_load(open(os.path.join(ROOT, "registry", "channels.yaml")))["channels"]
-    ranked = sorted(((score(c), c["id"], c["name"]) for c in data), reverse=True)
-    print(f"{'EV':>6}  id   channel")
-    for s, i, n in ranked[:top]:
-        print(f"{s:>6}  {i:<4} {n}")
+    ranked = sorted(((score(c), c["id"], c["name"], c.get("effort", 5)) for c in data), reverse=True)
+    print(f"{'EV':>6}  {'ROI':>6}  id   channel")
+    for s, i, n, e in ranked[:top]:
+        roi = round(s / max(1, e), 3)
+        print(f"{s:>6}  {roi:>6}  {i:<4} {n}")
 
 
 if __name__ == "__main__":

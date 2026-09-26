@@ -54,6 +54,8 @@ def main():
         assert not bad_t, f"channel {c['id']} bad tags {bad_t}"
         assert any(t.startswith("type-") for t in tags), f"channel {c['id']} no type tag"
         assert c["name"] and c["pitch"], f"channel {c['id']} missing name/pitch"
+        assert isinstance(c.get("effort"), int) and 0 <= c["effort"] <= 10, \
+            f"channel {c['id']} bad effort"
     print(f"registry OK: {len(data)} channels, engines+readiness valid")
 
 
