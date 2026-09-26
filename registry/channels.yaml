@@ -1258,3 +1258,17 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+- id: 90
+  name: Newton's Library
+  engines:
+  - E2
+  dept: tradition
+  readiness: intake-free
+  pitch: Principia and Opticks, read to sleep.
+  shelf: SPIRITUAL
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
