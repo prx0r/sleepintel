@@ -1,0 +1,104 @@
+# Voice Registry — sleepintel
+# Each voice is a "character" that can be employed for different content
+
+voices:
+  - id: voice_001
+    name: "Spiritual Guide"
+    description: "Deep, warm male voice. Slow, measured pace. Authoritative but gentle. British accent."
+    designed_from: "Qwen3-TTS-12Hz-1.7B-VoiceDesign"
+    shelf: SPIRITUAL
+    content_types: [reading, journey]
+    accent: '#D4A94E'
+    metrics:
+      videos_used: 0
+      avg_watch_time: 0
+      retention_rate: 0
+      subscriber_growth: 0
+
+  - id: voice_002
+    name: "Storyteller"
+    description: "Soft, gentle female voice. Warm, storytelling tone. Slight smile in the voice."
+    designed_from: "Qwen3-TTS-12Hz-1.7B-VoiceDesign"
+    shelf: STORY
+    content_types: [reading, essay]
+    accent: '#C9A227'
+    metrics:
+      videos_used: 0
+      avg_watch_time: 0
+      retention_rate: 0
+      subscriber_growth: 0
+
+  - id: voice_003
+    name: "Lecturer"
+    description: "Clear, neutral male voice. Precise, technical. American accent."
+    designed_from: "Qwen3-TTS-12Hz-1.7B-VoiceDesign"
+    shelf: MIND
+    content_types: [essay, reference]
+    accent: '#2E8B8B'
+    metrics:
+      videos_used: 0
+      avg_watch_time: 0
+      retention_rate: 0
+      subscriber_growth: 0
+
+  - id: voice_004
+    name: "Mystic"
+    description: "Mysterious, measured voice. Intriguing, slow. Deep resonance."
+    designed_from: "Qwen3-TTS-12Hz-1.7B-VoiceDesign"
+    shelf: ESOTERIC
+    content_types: [reading, journey]
+    accent: '#7A6FF0'
+    metrics:
+      videos_used: 0
+      avg_watch_time: 0
+      retention_rate: 0
+      subscriber_growth: 0
+
+  - id: voice_005
+    name: "Healer"
+    description: "Warm, friendly female voice. Good news, hopeful tone."
+    designed_from: "Qwen3-TTS-12Hz-1.7B-VoiceDesign"
+    shelf: FRESH
+    content_types: [daily, essay]
+    accent: '#FF6B6B'
+    metrics:
+      videos_used: 0
+      avg_watch_time: 0
+      retention_rate: 0
+      subscriber_growth: 0
+
+shelves:
+  SPIRITUAL:
+    primary_voice: voice_001
+    fallback_voice: voice_002
+    voices: [voice_001, voice_004]
+  
+  ESOTERIC:
+    primary_voice: voice_004
+    fallback_voice: voice_001
+    voices: [voice_004, voice_001]
+  
+  STORY:
+    primary_voice: voice_002
+    fallback_voice: voice_001
+    voices: [voice_002, voice_001]
+  
+  MIND:
+    primary_voice: voice_003
+    fallback_voice: voice_001
+    voices: [voice_003, voice_001]
+  
+  MUSIC:
+    primary_voice: voice_001
+    fallback_voice: voice_002
+    voices: [voice_001, voice_002]
+  
+  PLACE:
+    primary_voice: null  # No narration for ambience
+    fallback_voice: null
+    voices: []
+  
+  FRESH:
+    primary_voice: voice_005
+    fallback_voice: voice_002
+    voices: [voice_005, voice_002]
