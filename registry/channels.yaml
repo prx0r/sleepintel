@@ -1720,3 +1720,73 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+- id: 123
+  name: Decameron Nights
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: One hundred tales, one per night
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 124
+  name: Thousand Nights
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: Scheherazade, nightly, complete
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 125
+  name: Kalevala Nights
+  engines:
+  - E2
+  dept: story
+  readiness: ready-ish
+  pitch: Fifty runos of Finnish myth
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 126
+  name: Gibbon's Decline
+  engines:
+  - E2
+  dept: story
+  readiness: ready
+  pitch: Six volumes of falling Rome
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 127
+  name: Casanova's Memoirs
+  engines:
+  - E2
+  dept: story
+  readiness: ready-ish
+  pitch: Twelve volumes of a life
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
