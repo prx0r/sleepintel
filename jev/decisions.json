@@ -1,9 +1,23 @@
 {
-  "model": "typesafe/jev-1.13 via OpenRouter (Decisions API + System One API, key in env)",
+  "model": "typesafe/jev-1.13",
+  "note": "PINNED — thresholds couple to versions. Log model per decision. Never carry a Noul threshold to a Choice.",
+  "bands": {"auto": "act", "confirm": "flag for review", "human": "route to owner, no default"},
   "decisions": [
-    {"at": "pilot-proposed", "primitive": "choice", "question": "promote / iterate / kill this pilot?", "inputs": ["predicted EV", "engine cost", "corpus strength", "rights status"], "acts": {"promote": "queue render", "iterate": "name one variable, re-queue", "kill": "retain as data"}},
-    {"at": "pre-publish", "primitive": "noul", "question": "does this render clear the bar?", "inputs": ["uniqueness score", "lint pass", "dash verify", "rights ledger complete"], "threshold": 0.8, "acts": {"true": "ship", "false": "regenerate variant"}},
-    {"at": "verdict-week", "primitive": "choice", "question": "which hypothesis resolved and how?", "inputs": ["tracked series vs prediction thresholds"], "acts": {"playing_out": "shift resources in", "not_playing_out": "shift out, keep note"}},
-    {"at": "render-step", "primitive": "score", "question": "sleepiness of this cut 1-10?", "inputs": ["pace", "caption mode", "bed level", "voice rate"], "acts": {">=7": "ship", "<7": "slow a dial, re-render"}}
+    {"at": "pilot-proposed", "primitive": "choice",
+     "question": "promote / iterate / kill this pilot?",
+     "criteria": {"promote": "corpus verified, EV above queue median", "iterate": "one named variable would fix it", "kill": "no corpus or failed twice", "other": "none fit — human decides"},
+     "gates": {"promote": {"auto": 0.75}, "kill": {"auto": 0.85}}},
+    {"at": "pre-publish", "primitive": "noul",
+     "question": "This render clears the bar to ship.",
+     "criteria": {"true": "uniqueness high, lint pass, dash verify, rights ledger complete", "false": "any gate failing"},
+     "yes_cutoff": 0.8, "no_cutoff": 0.2},
+    {"at": "render-step", "primitive": "score",
+     "question": "Sleepiness of this cut.",
+     "criteria": ["alert viewing", "calm viewing", "drowsy", "asleep"],
+     "ship_at": 2.0, "rerender_below": 2.0},
+    {"at": "template-pick", "primitive": "choice",
+     "question": "Which template shapes this corpus?",
+     "criteria": {"evening": "album-length music", "library-season": "finite book/chapters", "entry-series": "enumerable items", "word-format": "word histories", "journey": "guided visualization", "explainer": "one idea slowly", "historical-sweep": "origin to present", "silence-title": "ambience only", "one-to-100": "progressive complexity", "other": "none fit — propose new template"},
+     "gates": {"auto": 0.7}}
   ]
 }

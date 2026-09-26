@@ -1,0 +1,65 @@
+{
+ "id": "dec0001",
+ "state": {
+  "corpus": "Satie Gymnopedies: 3 PD piano pieces, lore filed, house renders done",
+  "cut": "historic evening, 730s, pencil handless, wedge, host gaps",
+  "pilot": "satie-evening"
+ },
+ "questions": {
+  "template": {
+   "type": "choice",
+   "instructions": "Which template shapes this corpus?",
+   "criteria": {
+    "evening": "album-length music",
+    "library-season": "finite book chapters",
+    "entry-series": "enumerable items",
+    "word-format": "word histories",
+    "journey": "guided visualization",
+    "other": "none fit"
+   }
+  },
+  "sleepy": {
+   "type": "score",
+   "instructions": "Sleepiness of this cut.",
+   "criteria": [
+    "alert viewing",
+    "calm viewing",
+    "drowsy",
+    "asleep"
+   ]
+  }
+ },
+ "answers": {
+  "template": {
+   "type": "choice",
+   "choice": "evening",
+   "probabilities": {
+    "library-season": 0,
+    "word-format": 0.02,
+    "journey": 0,
+    "entry-series": 0.17,
+    "other": 0.03,
+    "evening": 0.78
+   },
+   "confidence": 0.73
+  },
+  "sleepy": {
+   "type": "score",
+   "score": 1.97,
+   "legend": {
+    "0": "alert viewing",
+    "1": "calm viewing",
+    "2": "drowsy",
+    "3": "asleep"
+   },
+   "probabilities": {
+    "0": 0.01,
+    "1": 0.16,
+    "2": 0.67,
+    "3": 0.16
+   },
+   "confidence": 0.66
+  }
+ },
+ "action": "queued"
+}
