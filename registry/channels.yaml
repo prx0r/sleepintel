@@ -1986,3 +1986,549 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+- id: 142
+  name: Sleepy Wikipedia
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Random articles, read slowly
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 143
+  name: Sleepy Labels
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Product ingredient labels, verbatim
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 144
+  name: Sleepy Specifications
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Specs read to rest
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 145
+  name: Sleepy Warranty
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Warranty documents, slowly
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 146
+  name: Sleepy Privacy
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Privacy policies as lullabies
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 147
+  name: Sleepy Flags
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Every flag, its history and colors
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 148
+  name: Sleepy Coats of Arms
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Eagles, cacti, serpents
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 149
+  name: Sleepy Coordinates
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: GPS points of wonder
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 150
+  name: Sleepy Distances
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: City to city, gently
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 151
+  name: Sleepy Time Zones
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Every offset, its history
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 152
+  name: Sleepy Coins
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Britannia since 1707
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 153
+  name: Sleepy Stamps
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Penny Black and friends
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 154
+  name: Sleepy Tools
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: 'Wrench: a tool that runs'
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 155
+  name: Sleepy Machines
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Four strokes to sleep
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 156
+  name: Sleepy Sequences
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Fibonacci onward
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 157
+  name: Sleepy Shapes
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Hexagons and honeycombs
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 158
+  name: Sleepy Patterns
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Spirals in shells and galaxies
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 159
+  name: Sleepy Units
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Meters, grams, seconds
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 160
+  name: Sleepy Ingredients
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Salt, sodium chloride, oldest seasoning
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 161
+  name: Sleepy Spices
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Cinnamon, four thousand years
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 162
+  name: Sleepy Cheeses
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Cheddar to chèvre
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 163
+  name: Sleepy Wines
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Chardonnay and dark cellars
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 164
+  name: Sleepy Teas
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Earl Grey at midnight
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 165
+  name: Sleepy Animal Names
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Chien, Hund, perro, inu
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 166
+  name: Sleepy Animal Sounds
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Whale song, described
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 167
+  name: Sleepy Clouds
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: 'Cumulus: heap'
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 168
+  name: Sleepy Trees
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: 'Oak: Quercus, a thousand years'
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 169
+  name: Sleepy Rocks
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: 'Granite: quartz, feldspar, mica'
+  shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 170
+  name: Sleepy Manuals
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: 'Step one: remove packaging'
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 171
+  name: Sleepy Lists
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Item one. Item two. Item three.
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 172
+  name: Sleepy Alphabet
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: A. The first letter.
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 173
+  name: Sleepy Financial
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Compound interest, softly
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 174
+  name: Sleepy Insurance
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Deductibles and calm
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 175
+  name: Sleepy Tax
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Depreciation over time
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 176
+  name: Sleepy French
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Bonjour, comment allez-vous
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 177
+  name: Sleepy Japanese
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Konnichiwa, arigatou
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 178
+  name: Sleepy Latin
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Carpe noctem
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 179
+  name: Sleepy Greek
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: 'Philosophia: love of wisdom'
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 180
+  name: Sleepy Sanskrit
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: 'Namaste: I bow to you'
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
