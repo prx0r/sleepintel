@@ -21,8 +21,9 @@ Near · Soul · Cosy Past · Conspiracy Ramble
 ## 4. MIND SLEEP (6) — hard stuff, gently
 Genius · Maths · AGI Scenarios · Shoggoth · AGI Sleep · School
 
-## 5. MUSIC SLEEP (3) — evenings with a host
-Composer Evenings · Sleepy Covers · Deconstructed (+ Classical Charts)
+## 5. MUSIC SLEEP (11) — evenings with a host
+Composer Evenings · Sleepy Covers · Deconstructed · Organ · Harp · Choir ·
+Lullaby · Opera · Requiem · Hymn · Guitar (+ Classical Charts)
 
 ## 6. PLACE SLEEP (4) — pure environment
 Fly on the Wall ×2 · Anti-Sleep war · Anti-Sleep arguing (+ Rain variants)
