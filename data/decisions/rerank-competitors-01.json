@@ -1,0 +1,41 @@
+{
+ "id": "rerank-competitors-01",
+ "state": {
+  "candidates": {
+   "Stormy Night Rain": "59K subs 36M views rain-tent machine",
+   "Healing Music Timur": "30K sufi music",
+   "MoZenBuddha": "9.7K buddhist music",
+   "The Tao Within": "7.8K tao lane",
+   "Shift To Abundance": "79K manifestation adjacency",
+   "Organ in Light": "113 organ vids",
+   "Origin 6": "157 vids in 4mo",
+   "Etymology-Expert": "55 etymology vids",
+   "Science Before Sleep": "65K space sleep",
+   "Fairy Tale Sleep": "20 adult fairy vids"
+  }
+ },
+ "questions": {
+  "pick": "choice"
+ },
+ "answers": {
+  "pick": {
+   "type": "choice",
+   "choice": "Science Before Sleep",
+   "probabilities": {
+    "Organ in Light": 0.01,
+    "other": 0,
+    "Fairy Tale Sleep": 0.01,
+    "MoZenBuddha": 0,
+    "Healing Music Timur": 0,
+    "Origin 6": 0.1,
+    "Science Before Sleep": 0.67,
+    "Etymology-Expert": 0,
+    "Stormy Night Rain": 0.19,
+    "Shift To Abundance": 0.02,
+    "The Tao Within": 0
+   },
+   "confidence": 0.62
+  }
+ },
+ "action": "Science Before Sleep"
+}
