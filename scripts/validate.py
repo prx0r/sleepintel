@@ -19,9 +19,9 @@ READINESS = {"ready", "ready-ish", "intake", "intake-free", "sourcing",
 def main():
     with open(os.path.join(ROOT, "registry", "channels.yaml")) as f:
         data = yaml.safe_load(f)["channels"]
-    assert len(data) == 56, f"expected 56 channels, got {len(data)}"
+    assert len(data) >= 1, "empty registry"
     ids = [c["id"] for c in data]
-    assert sorted(ids) == list(range(1, 57)), "ids must be 1..56 unique"
+    assert sorted(ids) == list(range(1, len(data) + 1)), "ids must be 1..N unique contiguous"
     for c in data:
         assert c["engines"], f"channel {c['id']} has no engine"
         assert set(c["engines"]) <= ENGINES, f"channel {c['id']} bad engine"

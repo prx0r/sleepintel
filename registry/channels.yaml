@@ -788,3 +788,123 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+- id: 57
+  name: Organ Sleep
+  engines:
+  - E1
+  dept: music
+  readiness: ready-ish
+  accent: null
+  pitch: Bach and the night organ
+  shelf: MUSIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 58
+  name: Harp Sleep
+  engines:
+  - E1
+  dept: music
+  readiness: ready-ish
+  accent: null
+  pitch: Strings that barely touch
+  shelf: MUSIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 59
+  name: Choir Sleep
+  engines:
+  - E1
+  dept: music
+  readiness: ready-ish
+  accent: null
+  pitch: Chant and polyphony
+  shelf: MUSIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 60
+  name: Lullaby Sleep
+  engines:
+  - E1
+  dept: music
+  readiness: ready
+  accent: null
+  pitch: Brahms Wiegenlied and kin
+  shelf: MUSIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 61
+  name: Opera Sleep
+  engines:
+  - E1
+  dept: music
+  readiness: ready-ish
+  accent: null
+  pitch: Arias at half speed
+  shelf: MUSIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 62
+  name: Requiem Sleep
+  engines:
+  - E1
+  dept: music
+  readiness: ready-ish
+  accent: null
+  pitch: Mozart, Verdi, Faure at night
+  shelf: MUSIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 63
+  name: Hymn Sleep
+  engines:
+  - E1
+  dept: music
+  readiness: ready-ish
+  accent: null
+  pitch: Hymns as lullabies
+  shelf: MUSIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 64
+  name: Guitar Sleep
+  engines:
+  - E1
+  dept: music
+  readiness: ready-ish
+  accent: null
+  pitch: Tarrega and the Spanish night
+  shelf: MUSIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
