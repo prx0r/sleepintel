@@ -2532,3 +2532,45 @@ channels:
     voice: null
     bed: null
     jingle_timbre: null
+- id: 181
+  name: Sleepy Terms
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Terms and conditions, read to rest
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 182
+  name: Sleepy IKEA
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Flat-pack assembly as lullaby
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 183
+  name: Sleepy Specs
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Product specs with great titles
+  shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
