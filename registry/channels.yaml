@@ -3764,3 +3764,530 @@ channels:
   - mech-completionist
   - mech-place
   sub: E5e
+- id: 208
+  name: Sleepy Scale
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Atoms to galaxies, one step
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 209
+  name: Sleepy Speeds
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: How fast things go
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 210
+  name: Sleepy Temperatures
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Temperatures of things
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 211
+  name: Sleepy Ages
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Ages of things
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 212
+  name: Sleepy Manufacturing
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: How It's Made, for sleep
+  shelf: MIND
+  sub: E5c
+  tags:
+  - type-procedural
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 213
+  name: Sleepy Supply Chain
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Where things come from
+  shelf: MIND
+  sub: E5c
+  tags:
+  - type-procedural
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 214
+  name: Sleepy Processes
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: How processes work
+  shelf: MIND
+  sub: E5c
+  tags:
+  - type-procedural
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 215
+  name: Sleepy Extremes
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Most, least, biggest, smallest
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 216
+  name: Sleepy Firsts
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: First times things happened
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 217
+  name: Sleepy Records
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: World records, read calm
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 218
+  name: Sleepy Anomalies
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Weird things that happen
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 219
+  name: Sleepy Exceptions
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Things that break rules
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 220
+  name: Sleepy Paradoxes
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Theseus and friends
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 221
+  name: Sleepy Edge Cases
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Boundary conditions
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 222
+  name: Sleepy Silence
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: What's NOT being said
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 223
+  name: Sleepy Absence
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: What's missing
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 224
+  name: Sleepy Empty Spaces
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Empty places
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 225
+  name: Sleepy Missing Links
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Things we haven't found
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 226
+  name: Sleepy Journey
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: A to B, slowly
+  shelf: STORY
+  sub: E5a
+  tags:
+  - type-essay
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 227
+  name: Sleepy Migration
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Pole to pole with terns
+  shelf: STORY
+  sub: E5a
+  tags:
+  - type-essay
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 228
+  name: Sleepy Pilgrimage
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Camino and circuits
+  shelf: STORY
+  sub: E5a
+  tags:
+  - type-essay
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 229
+  name: Sleepy Exploration
+  engines:
+  - E5
+  dept: story
+  readiness: compile
+  pitch: Endurance across ice
+  shelf: STORY
+  sub: E5a
+  tags:
+  - type-essay
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 230
+  name: Sleepy Systems
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: How systems work
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 231
+  name: Sleepy Networks
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: How networks work
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 232
+  name: Sleepy Infrastructure
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Grids and pipes
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 233
+  name: Sleepy Ecosystems
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Reefs and webs
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 234
+  name: Sleepy Time
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Time itself
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 235
+  name: Sleepy Calendars
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: 365.2425 days
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 236
+  name: Sleepy Clocks
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Huygens to quartz
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 237
+  name: Sleepy Alloys
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Bronze and mixtures
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
+- id: 238
+  name: Sleepy Polymers
+  engines:
+  - E5
+  dept: mind
+  readiness: compile
+  pitch: Nylon, 1935
+  shelf: MIND
+  sub: E5d
+  tags:
+  - type-reference
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
