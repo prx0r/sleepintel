@@ -5,18 +5,28 @@ channels:
   - E2
   dept: philosophy
   readiness: ready
-  accent: '#D4A94E'
   pitch: Steiner's cosmos, read slow.
   shelf: ESOTERIC
+  style:
+    accent: '#D4A94E'
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 2
   name: Near Sleep
   engines:
   - E5
   dept: human-stories
   readiness: intake
-  accent: null
   pitch: Death described gently, by witnesses.
   shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 3
   name: Daimon Dreams
   engines:
@@ -24,9 +34,14 @@ channels:
   - E3
   dept: philosophy
   readiness: ready
-  accent: '#7A6FF0'
   pitch: Meet your daimon in a dream tonight.
   shelf: ESOTERIC
+  style:
+    accent: '#7A6FF0'
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 4
   name: Channeled Wisdom
   engines:
@@ -34,27 +49,42 @@ channels:
   - E5
   dept: places
   readiness: ready
-  accent: null
   pitch: Fall asleep to Ra's answers about the nature of reality.
   shelf: ESOTERIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 5
   name: Sleepy Soul
   engines:
   - E5
   dept: human-stories
   readiness: intake
-  accent: null
   pitch: Past lives, reviewed kindly.
   shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 6
   name: Sleeping Genius
   engines:
   - E5
   dept: hard-stuff
   readiness: ready
-  accent: null
   pitch: Geometry too vast to finish.
   shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 7
   name: Good News Tonight
   engines:
@@ -62,153 +92,238 @@ channels:
   - E6
   dept: human-stories
   readiness: freshness
-  accent: null
   pitch: The day, forgiven.
   shelf: FRESH
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 8
   name: Alchemical Secrets
   engines:
   - E2
   dept: esoteric-craft
   readiness: ready
-  accent: '#D4A94E'
   pitch: One emblem a night.
   shelf: ESOTERIC
+  style:
+    accent: '#D4A94E'
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 9
   name: Angel Sleep
   engines:
   - E2
   dept: tradition
   readiness: ready
-  accent: '#E8D9A0'
   pitch: Watched over, kindly.
   shelf: SPIRITUAL
+  style:
+    accent: '#E8D9A0'
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 10
   name: Kashmir Readings
   engines:
   - E2
   dept: tradition
   readiness: ready
-  accent: null
   pitch: The Tantrasara, passage by passage.
   shelf: SPIRITUAL
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 11
   name: AGI Scenarios
   engines:
   - E5
   dept: hard-stuff
   readiness: compile
-  accent: null
   pitch: Every future, mapped softly.
   shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 12
   name: Sleepy Shoggoth
   engines:
   - E5
   dept: hard-stuff
   readiness: compile
-  accent: null
   pitch: Dread at a safe distance.
   shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 13
   name: Sufi Night
   engines:
   - E2
   dept: tradition
   readiness: ready
-  accent: null
   pitch: Rumi's poetry as bedtime stories for the soul.
   shelf: SPIRITUAL
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 14
   name: Night Dialogues
   engines:
   - E2
   dept: philosophy
   readiness: ready
-  accent: null
   pitch: Two voices by candlelight.
   shelf: ESOTERIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 15
   name: Corbin Sleep
   engines:
   - E2
   dept: tradition
   readiness: ready
-  accent: '#8B7BC7'
   pitch: The imaginal realm, nightly.
   shelf: SPIRITUAL
+  style:
+    accent: '#8B7BC7'
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 16
   name: Saiva Slumber
   engines:
   - E2
   dept: tradition
   readiness: ready
-  accent: '#E8641B'
   pitch: Tantra to sleep to.
   shelf: SPIRITUAL
+  style:
+    accent: '#E8641B'
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 17
   name: Ficino Sleep
   engines:
   - E2
   dept: philosophy
   readiness: ready
-  accent: '#2E5CF6'
   pitch: Renaissance magic for melancholy.
   shelf: ESOTERIC
+  style:
+    accent: '#2E5CF6'
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 18
   name: Spell Sleep
   engines:
   - E2
   dept: esoteric-craft
   readiness: ready
-  accent: '#C0C0D0'
   pitch: One spell a night.
   shelf: ESOTERIC
+  style:
+    accent: '#C0C0D0'
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 19
   name: Company
   engines:
   - E5
   dept: human-stories
   readiness: originals
-  accent: null
   pitch: Tell me about your day.
   shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 20
   name: Conspiracy Sleep
   engines:
   - E5
   dept: places
   readiness: compile
-  accent: null
   pitch: Lore as stories, never claims.
   shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 21
   name: Tarot Sleep
   engines:
   - E2
   dept: lore
   readiness: ready-ish
-  accent: null
   pitch: A card a night, 78 nights.
   shelf: ESOTERIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 22
   name: I Ching Sleep
   engines:
   - E2
   dept: lore
   readiness: ready-ish
-  accent: null
   pitch: A hexagram a night, 64 nights.
   shelf: ESOTERIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 23
   name: Meditations
   engines:
   - E2
   dept: tradition
   readiness: intake-free
-  accent: null
   pitch: An emperor's diary, nightly.
   shelf: SPIRITUAL
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 24
   name: Spanda Sleep
   engines:
@@ -216,207 +331,322 @@ channels:
   - E3
   dept: tradition
   readiness: ready
-  accent: null
   pitch: Everything pulsing gently.
   shelf: SPIRITUAL
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 25
   name: Plotinus Sleep
   engines:
   - E2
   dept: philosophy
   readiness: ready
-  accent: null
   pitch: Emanation as descent into sleep.
   shelf: ESOTERIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 26
   name: Sleepy Buddha
   engines:
   - E2
   dept: tradition
   readiness: ready
-  accent: '#8A3B3B'
   pitch: The mind, stilled.
   shelf: SPIRITUAL
+  style:
+    accent: '#8A3B3B'
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 27
   name: Sleepy Maths
   engines:
   - E5
   dept: hard-stuff
   readiness: ready
-  accent: null
   pitch: Too interesting to finish.
   shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 28
   name: Everyday Truth
   engines:
   - E5
   dept: human-stories
   readiness: sourcing
-  accent: null
   pitch: One story, settled.
   shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 29
   name: Cosy Past
   engines:
   - E5
   dept: places
   readiness: gap
-  accent: null
   pitch: Ordinary centuries.
   shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 30
   name: Lore Sleep
   engines:
   - E5
   dept: lore
   readiness: originals
-  accent: null
   pitch: Worlds you already love, asleep at last.
   shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 31
   name: Niche Psych
   engines:
   - E5
   dept: philosophy
   readiness: sourcing
-  accent: null
   pitch: Density without narrative.
   shelf: ESOTERIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 32
   name: Gnostic Sleep
   engines:
   - E2
   dept: tradition
   readiness: ready-ish
-  accent: null
   pitch: As above, so below — as you drift off.
   shelf: SPIRITUAL
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 33
   name: Critical Snooze
   engines:
   - E5
   dept: philosophy
   readiness: sourcing
-  accent: null
   pitch: Theory as lullaby.
   shelf: ESOTERIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 34
   name: Composer Evenings
   engines:
   - E1
   dept: music
   readiness: ready
-  accent: '#D4A94E'
   pitch: An evening with…
   shelf: MUSIC
+  style:
+    accent: '#D4A94E'
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 35
   name: Fly on the Wall
   engines:
   - E4
   dept: places
   readiness: produced
-  accent: null
   pitch: Be somewhere else.
   shelf: PLACE
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 36
   name: Myth Sleep
   engines:
   - E2
   dept: lore
   readiness: ready
-  accent: null
   pitch: Campfire tech.
   shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 37
   name: Sleepy Covers
   engines:
   - E1
   dept: music
   readiness: originals
-  accent: '#1B2A5B'
   pitch: The songs you love, asleep at last.
   shelf: MUSIC
+  style:
+    accent: '#1B2A5B'
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 38
   name: AGI Sleep
   engines:
   - E5
   dept: hard-stuff
   readiness: ready-ish
-  accent: '#2E8B8B'
   pitch: The future, softly.
   shelf: MIND
+  style:
+    accent: '#2E8B8B'
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 39
   name: Anti-Sleep War
   engines:
   - E4
   dept: places
   readiness: produced
-  accent: null
   pitch: Safe inside, storm outside.
   shelf: PLACE
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 40
   name: Fly on the Wall Pure
   engines:
   - E4
   dept: places
   readiness: produced
-  accent: null
   pitch: The room IS the content.
   shelf: PLACE
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 41
   name: Fairy Tales
   engines:
   - E2
   dept: places
   readiness: ready
-  accent: '#C9A227'
   pitch: The originals — not Disney.
   shelf: STORY
+  style:
+    accent: '#C9A227'
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 42
   name: Foreign Folklore
   engines:
   - E2
   dept: places
   readiness: ready
-  accent: null
   pitch: Stories the algorithm forgot.
   shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 43
   name: Myth Plus
   engines:
   - E2
   dept: lore
   readiness: ready
-  accent: null
   pitch: Gods before bed.
   shelf: STORY
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 44
   name: Sleep School
   engines:
   - E5
   dept: places
   readiness: compile
-  accent: null
   pitch: Learn without trying.
   shelf: MIND
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 45
   name: Cassiopaean Sleep
   engines:
   - E2
   dept: places
   readiness: ready
-  accent: null
   pitch: Weirder than Ra.
   shelf: ESOTERIC
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 46
   name: Sleep Manifestation
   engines:
   - E3
   dept: places
   readiness: personal
-  accent: null
   pitch: Feel the wish fulfilled.
   shelf: SPIRITUAL
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 47
   name: Theurgy Sleep
   engines:
@@ -424,87 +654,137 @@ channels:
   - E3
   dept: places
   readiness: ready
-  accent: null
   pitch: Take the shape of the gods.
   shelf: SPIRITUAL
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 48
   name: Anti-Sleep Arguing
   engines:
   - E4
   dept: places
   readiness: produced
-  accent: null
   pitch: Distant, boring, safe.
   shelf: PLACE
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 49
   name: Deconstructed
   engines:
   - E1
   dept: music
   readiness: ready
-  accent: '#D4A94E'
   pitch: Hear it, understand it, sleep inside it.
   shelf: MUSIC
+  style:
+    accent: '#D4A94E'
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 50
   name: Kabbalah Sleep
   engines:
   - E2
   dept: tradition
   readiness: ready-ish
-  accent: null
   pitch: The Tree of Life as bedtime meditation.
   shelf: SPIRITUAL
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 51
   name: Theosophy Sleep
   engines:
   - E2
   dept: tradition
   readiness: ready-ish
-  accent: null
   pitch: The cosmos as lullaby.
   shelf: SPIRITUAL
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 52
   name: Hindu Sleep
   engines:
   - E2
   dept: tradition
   readiness: ready-ish
-  accent: null
   pitch: The Upanishads — consciousness as pillow.
   shelf: SPIRITUAL
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 53
   name: Taoist Sleep
   engines:
   - E2
   dept: tradition
   readiness: ready-ish
-  accent: null
   pitch: The gentlest philosophy.
   shelf: SPIRITUAL
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 54
   name: Christian Mysticism Sleep
   engines:
   - E2
   dept: tradition
   readiness: ready
-  accent: null
   pitch: The mystic's bedtime.
   shelf: SPIRITUAL
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 55
   name: Egyptian Sleep
   engines:
   - E2
   dept: tradition
   readiness: ready-ish
-  accent: null
   pitch: Your journey tonight.
   shelf: SPIRITUAL
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null
 - id: 56
   name: Manly Hall Sleep
   engines:
   - E2
   dept: tradition
   readiness: verify
-  accent: null
   pitch: Everything, slowly.
   shelf: SPIRITUAL
+  style:
+    accent: null
+    font: null
+    voice: null
+    bed: null
+    jingle_timbre: null

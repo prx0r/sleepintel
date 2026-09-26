@@ -27,6 +27,13 @@ def main():
         assert set(c["engines"]) <= ENGINES, f"channel {c['id']} bad engine"
         assert c["readiness"] in READINESS, f"channel {c['id']} bad readiness"
         assert c.get("shelf") in SHELVES, f"channel {c['id']} bad/missing shelf"
+        st = c.get("style")
+        assert isinstance(st, dict), f"channel {c['id']} missing style block"
+        for k in ("accent", "font", "voice", "bed", "jingle_timbre"):
+            assert k in st, f"channel {c['id']} style missing {k}"
+        if st["accent"] is not None:
+            import re as _re
+            assert _re.fullmatch(r"#[0-9A-Fa-f]{6}", st["accent"]), f"channel {c['id']} bad accent"
         assert c["name"] and c["pitch"], f"channel {c['id']} missing name/pitch"
     print(f"registry OK: {len(data)} channels, engines+readiness valid")
 
