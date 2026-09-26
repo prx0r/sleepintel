@@ -1,0 +1,46 @@
+{
+ "id": "hypo-rain-in-tent",
+ "state": {
+  "idea": "Rain in Tent"
+ },
+ "questions": {
+  "t": "choice"
+ },
+ "answers": {
+  "template": {
+   "type": "choice",
+   "choice": "silence-title",
+   "probabilities": {
+    "journey": 0.01,
+    "evening": 0.02,
+    "other": 0.08,
+    "explainer": 0.13,
+    "entry-series": 0.16,
+    "library-season": 0.01,
+    "one-to-100": 0.05,
+    "historical-sweep": 0.01,
+    "silence-title": 0.51,
+    "word-format": 0.02
+   },
+   "confidence": 0.47
+  },
+  "sleepy": {
+   "type": "score",
+   "score": 1.15,
+   "legend": {
+    "0": "weak",
+    "1": "fair",
+    "2": "strong",
+    "3": "library-grade"
+   },
+   "probabilities": {
+    "0": 0.3,
+    "1": 0.33,
+    "2": 0.3,
+    "3": 0.07
+   },
+   "confidence": 0.26
+  }
+ },
+ "action": "queued"
+}

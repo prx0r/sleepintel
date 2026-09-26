@@ -1,0 +1,46 @@
+{
+ "id": "hypo-decameron-nights",
+ "state": {
+  "idea": "Decameron Nights"
+ },
+ "questions": {
+  "t": "choice"
+ },
+ "answers": {
+  "template": {
+   "type": "choice",
+   "choice": "one-to-100",
+   "probabilities": {
+    "explainer": 0,
+    "one-to-100": 0.82,
+    "entry-series": 0.11,
+    "evening": 0.06,
+    "journey": 0,
+    "silence-title": 0,
+    "other": 0,
+    "library-season": 0.01,
+    "historical-sweep": 0,
+    "word-format": 0
+   },
+   "confidence": 0.8
+  },
+  "sleepy": {
+   "type": "score",
+   "score": 1.42,
+   "legend": {
+    "0": "weak",
+    "1": "fair",
+    "2": "strong",
+    "3": "library-grade"
+   },
+   "probabilities": {
+    "0": 0.17,
+    "1": 0.35,
+    "2": 0.36,
+    "3": 0.12
+   },
+   "confidence": 0.19
+  }
+ },
+ "action": "queued"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "hypo-daimon-dreams",
+ "state": {
+  "idea": "Daimon Dreams"
+ },
+ "questions": {
+  "t": "choice"
+ },
+ "answers": {
+  "template": {
+   "type": "choice",
+   "choice": "journey",
+   "probabilities": {
+    "one-to-100": 0.03,
+    "silence-title": 0.04,
+    "journey": 0.79,
+    "library-season": 0,
+    "word-format": 0,
+    "entry-series": 0.12,
+    "evening": 0,
+    "historical-sweep": 0,
+    "explainer": 0.01,
+    "other": 0.01
+   },
+   "confidence": 0.77
+  },
+  "sleepy": {
+   "type": "score",
+   "score": 0.57,
+   "legend": {
+    "0": "weak",
+    "1": "fair",
+    "2": "strong",
+    "3": "library-grade"
+   },
+   "probabilities": {
+    "0": 0.55,
+    "1": 0.33,
+    "2": 0.1,
+    "3": 0.02
+   },
+   "confidence": 0.43
+  }
+ },
+ "action": "queued"
+}
