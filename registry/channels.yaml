@@ -1,0 +1,59 @@
+# channels registry — every expression of the engines (v1, 56 channels)
+# fields: id, name, engines[], dept, readiness, accent, pitch
+channels:
+  - {id: 1, name: Steiner Sleep, engines: [E2], dept: philosophy, readiness: ready, accent: "#D4A94E", pitch: "Steiner's cosmos, read slow."}
+  - {id: 2, name: Near Sleep, engines: [E5], dept: human-stories, readiness: intake, accent: null, pitch: "Death described gently, by witnesses."}
+  - {id: 3, name: Daimon Dreams, engines: [E2, E3], dept: philosophy, readiness: ready, accent: "#7A6FF0", pitch: "Meet your daimon in a dream tonight."}
+  - {id: 4, name: Channeled Wisdom, engines: [E2, E5], dept: places, readiness: ready, accent: null, pitch: "Fall asleep to Ra's answers about the nature of reality."}
+  - {id: 5, name: Sleepy Soul, engines: [E5], dept: human-stories, readiness: intake, accent: null, pitch: "Past lives, reviewed kindly."}
+  - {id: 6, name: Sleeping Genius, engines: [E5], dept: hard-stuff, readiness: ready, accent: null, pitch: "Geometry too vast to finish."}
+  - {id: 7, name: Good News Tonight, engines: [E5, E6], dept: human-stories, readiness: freshness, accent: null, pitch: "The day, forgiven."}
+  - {id: 8, name: Alchemical Secrets, engines: [E2], dept: esoteric-craft, readiness: ready, accent: "#D4A94E", pitch: "One emblem a night."}
+  - {id: 9, name: Angel Sleep, engines: [E2], dept: tradition, readiness: ready, accent: "#E8D9A0", pitch: "Watched over, kindly."}
+  - {id: 10, name: Kashmir Readings, engines: [E2], dept: tradition, readiness: ready, accent: null, pitch: "The Tantrasara, passage by passage."}
+  - {id: 11, name: AGI Scenarios, engines: [E5], dept: hard-stuff, readiness: compile, accent: null, pitch: "Every future, mapped softly."}
+  - {id: 12, name: Sleepy Shoggoth, engines: [E5], dept: hard-stuff, readiness: compile, accent: null, pitch: "Dread at a safe distance."}
+  - {id: 13, name: Sufi Night, engines: [E2], dept: tradition, readiness: ready, accent: null, pitch: "Rumi's poetry as bedtime stories for the soul."}
+  - {id: 14, name: Night Dialogues, engines: [E2], dept: philosophy, readiness: ready, accent: null, pitch: "Two voices by candlelight."}
+  - {id: 15, name: Corbin Sleep, engines: [E2], dept: tradition, readiness: ready, accent: "#8B7BC7", pitch: "The imaginal realm, nightly."}
+  - {id: 16, name: Saiva Slumber, engines: [E2], dept: tradition, readiness: ready, accent: "#E8641B", pitch: "Tantra to sleep to."}
+  - {id: 17, name: Ficino Sleep, engines: [E2], dept: philosophy, readiness: ready, accent: "#2E5CF6", pitch: "Renaissance magic for melancholy."}
+  - {id: 18, name: Spell Sleep, engines: [E2], dept: esoteric-craft, readiness: ready, accent: "#C0C0D0", pitch: "One spell a night."}
+  - {id: 19, name: Company, engines: [E5], dept: human-stories, readiness: originals, accent: null, pitch: "Tell me about your day."}
+  - {id: 20, name: Conspiracy Sleep, engines: [E5], dept: places, readiness: compile, accent: null, pitch: "Lore as stories, never claims."}
+  - {id: 21, name: Tarot Sleep, engines: [E2], dept: lore, readiness: ready-ish, accent: null, pitch: "A card a night, 78 nights."}
+  - {id: 22, name: I Ching Sleep, engines: [E2], dept: lore, readiness: ready-ish, accent: null, pitch: "A hexagram a night, 64 nights."}
+  - {id: 23, name: Meditations, engines: [E2], dept: tradition, readiness: intake-free, accent: null, pitch: "An emperor's diary, nightly."}
+  - {id: 24, name: Spanda Sleep, engines: [E2, E3], dept: tradition, readiness: ready, accent: null, pitch: "Everything pulsing gently."}
+  - {id: 25, name: Plotinus Sleep, engines: [E2], dept: philosophy, readiness: ready, accent: null, pitch: "Emanation as descent into sleep."}
+  - {id: 26, name: Sleepy Buddha, engines: [E2], dept: tradition, readiness: ready, accent: "#8A3B3B", pitch: "The mind, stilled."}
+  - {id: 27, name: Sleepy Maths, engines: [E5], dept: hard-stuff, readiness: ready, accent: null, pitch: "Too interesting to finish."}
+  - {id: 28, name: Everyday Truth, engines: [E5], dept: human-stories, readiness: sourcing, accent: null, pitch: "One story, settled."}
+  - {id: 29, name: Cosy Past, engines: [E5], dept: places, readiness: gap, accent: null, pitch: "Ordinary centuries."}
+  - {id: 30, name: Lore Sleep, engines: [E5], dept: lore, readiness: originals, accent: null, pitch: "Worlds you already love, asleep at last."}
+  - {id: 31, name: Niche Psych, engines: [E5], dept: philosophy, readiness: sourcing, accent: null, pitch: "Density without narrative."}
+  - {id: 32, name: Gnostic Sleep, engines: [E2], dept: tradition, readiness: ready-ish, accent: null, pitch: "As above, so below — as you drift off."}
+  - {id: 33, name: Critical Snooze, engines: [E5], dept: philosophy, readiness: sourcing, accent: null, pitch: "Theory as lullaby."}
+  - {id: 34, name: Composer Evenings, engines: [E1], dept: music, readiness: ready, accent: "#D4A94E", pitch: "An evening with…"}
+  - {id: 35, name: Fly on the Wall, engines: [E4], dept: places, readiness: produced, accent: null, pitch: "Be somewhere else."}
+  - {id: 36, name: Myth Sleep, engines: [E2], dept: lore, readiness: ready, accent: null, pitch: "Campfire tech."}
+  - {id: 37, name: Sleepy Covers, engines: [E1], dept: music, readiness: originals, accent: "#1B2A5B", pitch: "The songs you love, asleep at last."}
+  - {id: 38, name: AGI Sleep, engines: [E5], dept: hard-stuff, readiness: ready-ish, accent: "#2E8B8B", pitch: "The future, softly."}
+  - {id: 39, name: Anti-Sleep War, engines: [E4], dept: places, readiness: produced, accent: null, pitch: "Safe inside, storm outside."}
+  - {id: 40, name: Fly on the Wall Pure, engines: [E4], dept: places, readiness: produced, accent: null, pitch: "The room IS the content."}
+  - {id: 41, name: Fairy Tales, engines: [E2], dept: places, readiness: ready, accent: "#C9A227", pitch: "The originals — not Disney."}
+  - {id: 42, name: Foreign Folklore, engines: [E2], dept: places, readiness: ready, accent: null, pitch: "Stories the algorithm forgot."}
+  - {id: 43, name: Myth Plus, engines: [E2], dept: lore, readiness: ready, accent: null, pitch: "Gods before bed."}
+  - {id: 44, name: Sleep School, engines: [E5], dept: places, readiness: compile, accent: null, pitch: "Learn without trying."}
+  - {id: 45, name: Cassiopaean Sleep, engines: [E2], dept: places, readiness: ready, accent: null, pitch: "Weirder than Ra."}
+  - {id: 46, name: Sleep Manifestation, engines: [E3], dept: places, readiness: personal, accent: null, pitch: "Feel the wish fulfilled."}
+  - {id: 47, name: Theurgy Sleep, engines: [E2, E3], dept: places, readiness: ready, accent: null, pitch: "Take the shape of the gods."}
+  - {id: 48, name: Anti-Sleep Arguing, engines: [E4], dept: places, readiness: produced, accent: null, pitch: "Distant, boring, safe."}
+  - {id: 49, name: Deconstructed, engines: [E1], dept: music, readiness: ready, accent: "#D4A94E", pitch: "Hear it, understand it, sleep inside it."}
+  - {id: 50, name: Kabbalah Sleep, engines: [E2], dept: tradition, readiness: ready-ish, accent: null, pitch: "The Tree of Life as bedtime meditation."}
+  - {id: 51, name: Theosophy Sleep, engines: [E2], dept: tradition, readiness: ready-ish, accent: null, pitch: "The cosmos as lullaby."}
+  - {id: 52, name: Hindu Sleep, engines: [E2], dept: tradition, readiness: ready-ish, accent: null, pitch: "The Upanishads — consciousness as pillow."}
+  - {id: 53, name: Taoist Sleep, engines: [E2], dept: tradition, readiness: ready-ish, accent: null, pitch: "The gentlest philosophy."}
+  - {id: 54, name: Christian Mysticism Sleep, engines: [E2], dept: tradition, readiness: ready, accent: null, pitch: "The mystic's bedtime."}
+  - {id: 55, name: Egyptian Sleep, engines: [E2], dept: tradition, readiness: ready-ish, accent: null, pitch: "Your journey tonight."}
+  - {id: 56, name: Manly Hall Sleep, engines: [E2], dept: tradition, readiness: verify, accent: null, pitch: "Everything, slowly."}
