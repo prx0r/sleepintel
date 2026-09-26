@@ -1231,12 +1231,12 @@ channels:
     bed: null
     jingle_timbre: null
 - id: 88
-  name: Sleepy Lullabies
+  name: Cradle World
   engines:
   - E1
   dept: music
   readiness: ready
-  pitch: Lullabies from every culture
+  pitch: Lullabies from every culture, one piano.
   shelf: MUSIC
   style:
     accent: null

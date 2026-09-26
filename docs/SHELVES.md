@@ -14,16 +14,20 @@ Daimon Dreams · Theurgy · Plotinus · Ficino · Niche Psych · Critical Snooze
 Night Dialogues · Channeled Wisdom · Cassiopaean · Alchemy · Spell ·
 Tarot · I Ching
 
-## 3. STORY SLEEP (11) — tales and human nights
+## 3. STORY SLEEP (17) — tales and human nights
 Fairy Tales · Foreign Folklore · Myth · Myth+ · Lore · Company · Truth ·
-Near · Soul · Cosy Past · Conspiracy Ramble
+Near · Soul · Cosy Past · Conspiracy Ramble · Cartography · Architecture ·
+Recipes · Letters · Weather · Timetables
 
-## 4. MIND SLEEP (6) — hard stuff, gently
-Genius · Maths · AGI Scenarios · Shoggoth · AGI Sleep · School
+## 4. MIND SLEEP (16) — hard stuff, gently
+Genius · Maths · AGI Scenarios · Shoggoth · AGI Sleep · School ·
+Periodic Table · Taxonomy · Etymology · Numbers · Constellations ·
+Materials · Sleep Science · Instructions · Legal · Code
 
-## 5. MUSIC SLEEP (11) — evenings with a host
+## 5. MUSIC SLEEP (14) — evenings with a host
 Composer Evenings · Sleepy Covers · Deconstructed · Organ · Harp · Choir ·
-Lullaby · Opera · Requiem · Hymn · Guitar (+ Classical Charts)
+Lullaby · Opera · Requiem · Hymn · Guitar · Soundtracks · Cradle World ·
+Frequencies (+ Classical Charts)
 
 ## 6. PLACE SLEEP (4) — pure environment
 Fly on the Wall ×2 · Anti-Sleep war · Anti-Sleep arguing (+ Rain variants)

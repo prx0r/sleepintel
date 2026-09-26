@@ -66,4 +66,4 @@ graph TD
   E6[FRESHNESS<br/>daily scan] --> C7
 ```
 
-Counts: E1·11 E2·32 E3·4 E4·4 E5·17 E6·1 (splits intentional — engines compose).
+Counts: E1·14 E2·32 E3·4 E4·4 E5·32 E6·1 (splits intentional — engines compose).
