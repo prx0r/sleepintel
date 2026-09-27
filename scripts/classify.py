@@ -78,6 +78,19 @@ def main():
     recs = [classify(i) for i in items]
     tag = "channels" if "--channels" in sys.argv else "videos"
     json.dump(recs, open(os.path.join(ROOT, "data", f"classify_{tag}.json"), "w"), indent=1)
+    corr = [a for a in sys.argv if a.startswith("--corrections=")]
+    if corr:
+        fixes = {}
+        for line in open(corr[0].split("=", 1)[1]):
+            line = line.strip()
+            if line and "," in line:
+                k, v = line.split(",", 1)
+                fixes[k.strip()] = v.strip()
+        agree = sum(1 for r in recs if r["id"] in fixes and r["template"] == fixes[r["id"]])
+        cases = [{"id": r["id"], "was": r["template"],
+                  "correct": fixes[r["id"]]} for r in recs if r["id"] in fixes]
+        json.dump(cases, open(os.path.join(ROOT, "data", "cases.jsonl"), "a+"))
+        print(f"corrections: {agree}/{len(cases)} agreed, cases appended")
     need_review = sum(1 for r in recs if r["template_conf"] < 0.5)
     print(f"classified {len(recs)}, review queue {need_review}, "
           f"cost ${sum(r['cost'] for r in recs):.6f}")
