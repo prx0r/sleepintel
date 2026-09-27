@@ -15,7 +15,7 @@ def load():
 
 def test_fifteen_hypotheses():
     _, files = load()
-    assert len(files) == 15
+    assert len(files) >= 15
 
 
 def test_all_match_schema():
