@@ -11,7 +11,7 @@ receipt; every receipt is data.
 ## The pieces (read in order)
 
 1. THESIS.md — five laws. 2. GLOSSARY.md — words. 3. ENGINES.md +
-   SUBENGINES.md — parents and run-modes. 4. channels.yaml — 238
+   SUBENGINES.md — parents and run-modes. 4. channels.yaml — 244
    expressions, all tagged. 5. SHELVES.md — audience layer. 6. STYLE.md —
    global base + variants + intro pack. 7. hypotheses/ — falsifiable claims
    with metric thresholds. 8. ORGANISM.md + YOUTUBE_API.md + ANALYTICS.md —

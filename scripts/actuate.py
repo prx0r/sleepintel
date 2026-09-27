@@ -21,20 +21,35 @@ def main():
     top = ideas[0]
     reg = yaml.safe_load(open(os.path.join(ROOT, "registry", "channels.yaml")))["channels"]
     ch = next(c for c in reg if c["id"] == top["channel_id"])
-    out = jev.decide(
-        {"idea": top, "channel": {"name": ch["name"], "pitch": ch.get("pitch", ""),
-                                  "readiness": ch["readiness"], "engines": ch["engines"]}},
-        {"go": {"type": "choice",
-                "instructions": "Promote this pilot to render, iterate it, or kill it?",
-                "criteria": {"promote": "corpus verified, EV above queue median",
-                             "iterate": "one named variable would fix it",
-                             "kill": "no corpus or failed twice",
-                             "other": "none fit — human decides"}}})
+    try:
+        out = jev.decide(
+            {"idea": top, "channel": {"name": ch["name"], "pitch": ch.get("pitch", ""),
+                                      "readiness": ch["readiness"], "engines": ch["engines"]}},
+            {"go": {"type": "choice",
+                    "instructions": "Promote this pilot to render, iterate it, or kill it?",
+                    "criteria": {"promote": "corpus verified, EV above queue median",
+                                 "iterate": "one named variable would fix it",
+                                 "kill": "no corpus or failed twice",
+                                 "other": "none fit — human decides"}}})
+    except Exception as e:
+        # Declared fail direction: CLOSED. No gate, no brief, queue untouched.
+        jev.record("actuate-" + str(top["channel_id"]), {"idea": top},
+                   {"go": "choice"}, {"error": f"{type(e).__name__}: {e}"},
+                   "held-error", extra={"fail_direction": "closed"})
+        print(f"GATE ERROR ({type(e).__name__}): HELD, no brief written (fail-closed)")
+        return
     ans = out["answers"]["go"]
+    conf = ans.get("confidence", 0)
+    passed = ans["choice"] == "promote" and conf >= 0.75
     jev.record("actuate-" + str(top["channel_id"]), {"idea": top},
-               {"go": "choice"}, out["answers"], ans["choice"])
-    print(f"gate: {ans['choice']} conf={ans.get('confidence', 0):.2f} cost={out['usage']['cost']}")
-    if ans["choice"] != "promote" or ans.get("confidence", 0) < 0.75:
+               {"go": "choice"}, out["answers"],
+               "briefed" if passed else f"held-{ans['choice']}",
+               extra={"model": out.get("_pinned_model"),
+                      "band": jev.band_confidence(conf),
+                      "threshold_applied": {"promote_auto": 0.75},
+                      "cost": (out.get("usage") or {}).get("cost")})
+    print(f"gate: {ans['choice']} conf={conf:.2f} cost={(out.get('usage') or {}).get('cost')}")
+    if not passed:
         print("HELD: no brief written (fail-closed)")
         return
     slug = ch["name"].lower().replace(" ", "_")

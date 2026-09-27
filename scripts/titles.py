@@ -19,22 +19,36 @@ def variants(base, n=3):
     return out[:n]
 
 
+# Provisional floor: no calibration data yet. Move to decisions when measured.
+TITLE_FLOOR = 0.5
+
+
 def main():
     base = sys.argv[1]
     n = int(sys.argv[2]) if len(sys.argv) > 2 else 3
     vs = variants(base, n)
-    out = jev.decide(
-        {"base": base, "variants": vs},
-        {"pick": {"type": "choice",
-                  "instructions": "Which title earns the click for sleep content?",
-                  "criteria": {f"v{i}": v for i, v in enumerate(vs)} | {"other": "none fit"}}})
+    try:
+        out = jev.decide(
+            {"base": base, "variants": vs},
+            {"pick": {"type": "choice",
+                      "instructions": "Which title earns the click for sleep content?",
+                      "criteria": {f"v{i}": v for i, v in enumerate(vs)} | {"other": "none fit"}}})
+    except Exception as e:
+        print(f"GATE ERROR ({type(e).__name__}): human picks (fail-open to human)")
+        return
     a = out["answers"]["pick"]
+    conf = a.get("confidence", 0)
+    action = a["choice"] if conf >= TITLE_FLOOR else "human-picks"
     jev.record("title-" + str(abs(hash(base)) % 99999), {"base": base},
-               {"pick": "choice"}, out["answers"], a["choice"])
+               {"pick": "choice"}, out["answers"], action,
+               extra={"model": out.get("_pinned_model"),
+                      "band": jev.band_confidence(conf),
+                      "threshold_applied": {"floor": TITLE_FLOOR},
+                      "cost": (out.get("usage") or {}).get("cost")})
     for i, v in enumerate(vs):
-        mark = " <-- PICK" if a["choice"] == f"v{i}" else ""
+        mark = " <-- PICK" if action == f"v{i}" else ""
         print(f"[v{i}] {v}{mark}")
-    print(f"conf={a.get('confidence', 0):.2f} cost={out['usage']['cost']}")
+    print(f"conf={conf:.2f} action={action} cost={(out.get('usage') or {}).get('cost')}")
 
 
 if __name__ == "__main__":

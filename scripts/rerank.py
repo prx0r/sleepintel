@@ -10,6 +10,9 @@ import jev  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BLOCKED = {"sourcing", "gap", "intake", "personal", "verify"}
+# Provisional floor: no calibration data yet (see docs/CALIBRATION.md).
+# Move to jev/decisions.json once accuracy-by-confidence is measured.
+RERANK_FLOOR = 0.5
 
 
 def rerank(candidates, n=5):
@@ -31,16 +34,24 @@ def rerank(candidates, n=5):
     except Exception:
         return [c["id"] for c in eligible[:n]]  # fail: queue order stands
     ans = out["answers"]["pick"]
+    conf = ans.get("confidence", 0)
+    if ans["choice"] == "other" or conf < RERANK_FLOOR:
+        action = "keep-queue-order"
+        order = [c["id"] for c in eligible[:n]]
+    else:
+        action = f"promote-{ans['choice']}"
+        first = int(ans["choice"])
+        rest = [c["id"] for c in eligible[:20] if c["id"] != first]
+        order = [first] + rest[:n - 1]
     jev.record("rerank-" + "-".join(str(c["id"]) for c in eligible[:5]),
                state, {"pick": "choice over pilots"}, out["answers"],
-               ans["choice"])
-    print(f"# jev pick={ans['choice']} conf={ans.get('confidence', 0):.2f} "
+               action, extra={"model": out.get("_pinned_model"),
+                              "band": jev.band_confidence(conf),
+                              "threshold_applied": {"floor": RERANK_FLOOR},
+                              "cost": (out.get("usage") or {}).get("cost")})
+    print(f"# jev pick={ans['choice']} conf={conf:.2f} action={action} "
           f"model={out.get('_pinned_model')}", file=sys.stderr)
-    if ans["choice"] == "other" or ans.get("confidence", 0) < 0.5:
-        return [c["id"] for c in eligible[:n]]
-    first = int(ans["choice"])
-    rest = [c["id"] for c in eligible[:20] if c["id"] != first]
-    return [first] + rest[:n - 1]
+    return order
 
 
 if __name__ == "__main__":
