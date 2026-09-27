@@ -10,6 +10,12 @@ the registry formats.
 - tubeintel = SENSES. Competitor pulls, DNA rows, quota ledgers. Sees.
 - influence = FACE. Each channel is an identity: voice persona + accent +
   wedge + jingle + host flavor. Passports as the shape of any appearance.
+  Adoptable patterns: hloop (bank prediction BEFORE decide — preregistration
+  with teeth), quarantine (untrusted intake stays untrusted), trend-radar
+  spec (trends → ranked candidates = fisherman design), influencer-studio
+  spec (job queue → artifact + receipt = content-gen design). Our studio
+  builds on OUR dash with these patterns; no literal pi harness found
+  (community pi-jev reviewed separately).
 - noslop = IMMUNE SYSTEM. Uniqueness gate, slop detection, quality floor.
   Nothing ships that fails the body.
 - sleepsearch = SCOUT. Queries, niches, keywords ahead of the main force.
