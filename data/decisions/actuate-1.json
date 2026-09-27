@@ -17,12 +17,12 @@
    "type": "choice",
    "choice": "iterate",
    "probabilities": {
-    "promote": 0.32,
-    "iterate": 0.58,
-    "other": 0.06,
-    "kill": 0.04
+    "promote": 0.33,
+    "other": 0.08,
+    "kill": 0.04,
+    "iterate": 0.55
    },
-   "confidence": 0.45
+   "confidence": 0.4
   }
  },
  "action": "iterate"
