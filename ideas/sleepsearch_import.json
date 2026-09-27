@@ -1,0 +1,322 @@
+[
+ {
+  "idea": "idea_001",
+  "name": "Sleepy Standards",
+  "pitch": "ISO and ASTM standards read slowly \u2014 the ultimate boring content",
+  "effort": 2,
+  "match_channel": 197,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_002",
+  "name": "Sleepy Patent Reads",
+  "pitch": "Patent applications read slowly \u2014 inventions described in excruciating detail",
+  "effort": 2,
+  "match_channel": 183,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_003",
+  "name": "Sleepy Building Codes",
+  "pitch": "Building codes and regulations read slowly",
+  "effort": 2,
+  "match_channel": 150,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_004",
+  "name": "Sleepy Tax Codes",
+  "pitch": "Tax regulations read slowly \u2014 the ultimate sleep aid",
+  "effort": 2,
+  "match_channel": 86,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_005",
+  "name": "Sleepy Census Data",
+  "pitch": "Historical census data read slowly \u2014 population numbers, demographics",
+  "effort": 2,
+  "match_channel": null,
+  "verdict": "investigate"
+ },
+ {
+  "idea": "idea_006",
+  "name": "Sleepy Ship Logs",
+  "pitch": "Historical ship logs read slowly \u2014 voyages, weather, coordinates",
+  "effort": 2,
+  "match_channel": null,
+  "verdict": "investigate"
+ },
+ {
+  "idea": "idea_007",
+  "name": "Sleepy Weather Records",
+  "pitch": "Historical weather data read slowly \u2014 temperatures, pressures, conditions",
+  "effort": 2,
+  "match_channel": 81,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_008",
+  "name": "Sleepy Train Schedules",
+  "pitch": "Historical and current train timetables read slowly",
+  "effort": 2,
+  "match_channel": 168,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_009",
+  "name": "Sleepy Phone Specs",
+  "pitch": "Phone specifications read slowly \u2014 every model, every year",
+  "effort": 2,
+  "match_channel": 183,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_010",
+  "name": "Sleepy Car Specs",
+  "pitch": "Car specifications read slowly \u2014 every model, every year",
+  "effort": 2,
+  "match_channel": 183,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_011",
+  "name": "Sleepy Audio Gear",
+  "pitch": "Audio equipment specifications read slowly",
+  "effort": 2,
+  "match_channel": 185,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_012",
+  "name": "Sleepy Camera Specs",
+  "pitch": "Camera specifications read slowly",
+  "effort": 2,
+  "match_channel": 183,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_013",
+  "name": "Sleepy Latin",
+  "pitch": "Latin vocabulary and grammar read slowly",
+  "effort": 3,
+  "match_channel": 178,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_014",
+  "name": "Sleepy Greek",
+  "pitch": "Ancient Greek vocabulary read slowly",
+  "effort": 3,
+  "match_channel": 179,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_015",
+  "name": "Sleepy Sanskrit",
+  "pitch": "Sanskrit terms read slowly \u2014 yoga, meditation, philosophy",
+  "effort": 3,
+  "match_channel": 180,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_016",
+  "name": "Sleepy Hebrew",
+  "pitch": "Hebrew terms read slowly \u2014 Kabbalah, Jewish mysticism",
+  "effort": 3,
+  "match_channel": 81,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_017",
+  "name": "Sleepy Arabic",
+  "pitch": "Arabic terms read slowly \u2014 Sufism, Islamic mysticism",
+  "effort": 3,
+  "match_channel": 131,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_018",
+  "name": "Sleepy Star Catalog",
+  "pitch": "Star data read slowly \u2014 every named star",
+  "effort": 2,
+  "match_channel": 187,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_019",
+  "name": "Sleepy Constellation Guide",
+  "pitch": "Constellation data read slowly \u2014 every constellation, every star",
+  "effort": 2,
+  "match_channel": 77,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_020",
+  "name": "Sleepy Planet Profiles",
+  "pitch": "Planet data read slowly \u2014 every planet, every moon",
+  "effort": 2,
+  "match_channel": 143,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_021",
+  "name": "Sleepy Element Stories",
+  "pitch": "The story behind each element \u2014 discovery, uses, mythology",
+  "effort": 2,
+  "match_channel": 80,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_022",
+  "name": "Sleepy Geological Time",
+  "pitch": "Geological time periods read slowly \u2014 eons, eras, periods",
+  "effort": 2,
+  "match_channel": 234,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_023",
+  "name": "Sleepy Color Theory",
+  "pitch": "Color theory and history read slowly",
+  "effort": 3,
+  "match_channel": 149,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_024",
+  "name": "Sleepy Typography",
+  "pitch": "Typography history and theory read slowly",
+  "effort": 3,
+  "match_channel": 71,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_025",
+  "name": "Sleepy Perfume Notes",
+  "pitch": "Perfume notes and fragrance families read slowly",
+  "effort": 3,
+  "match_channel": 156,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_026",
+  "name": "Sleepy Tea Varieties",
+  "pitch": "Tea varieties and origins read slowly",
+  "effort": 3,
+  "match_channel": 168,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_027",
+  "name": "Sleepy Coffee Origins",
+  "pitch": "Coffee origins and processing read slowly",
+  "effort": 3,
+  "match_channel": 152,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_028",
+  "name": "Sleepy Map Coordinates",
+  "pitch": "GPS coordinates of interesting places read slowly",
+  "effort": 3,
+  "match_channel": 149,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_029",
+  "name": "Sleepy Airport Codes",
+  "pitch": "Airport codes and information read slowly",
+  "effort": 3,
+  "match_channel": 86,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_030",
+  "name": "Sleepy Currency Exchange",
+  "pitch": "Currency information read slowly",
+  "effort": 3,
+  "match_channel": 189,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_031",
+  "name": "Sleepy National Anthems",
+  "pitch": "National anthem history and lyrics read slowly",
+  "effort": 3,
+  "match_channel": 165,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_032",
+  "name": "Sleepy Olympic Records",
+  "pitch": "Olympic records read slowly \u2014 every sport, every record",
+  "effort": 3,
+  "match_channel": 217,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_033",
+  "name": "Sleepy Space Missions",
+  "pitch": "Space mission data read slowly \u2014 every mission, every detail",
+  "effort": 3,
+  "match_channel": 144,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_034",
+  "name": "Sleepy Nobel Prizes",
+  "pitch": "Nobel Prize winners and their work read slowly",
+  "effort": 3,
+  "match_channel": 218,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_035",
+  "name": "Sleepy World Heritage Sites",
+  "pitch": "UNESCO World Heritage Sites read slowly",
+  "effort": 3,
+  "match_channel": 149,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_036",
+  "name": "Sleepy Languages",
+  "pitch": "Language facts read slowly \u2014 every language, every family",
+  "effort": 3,
+  "match_channel": 190,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_037",
+  "name": "Sleepy Mythology",
+  "pitch": "Mythology from every culture read slowly",
+  "effort": 3,
+  "match_channel": 75,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_038",
+  "name": "Sleepy Alphabets",
+  "pitch": "Writing systems and alphabets read slowly",
+  "effort": 3,
+  "match_channel": 172,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_039",
+  "name": "Sleepy Math Proofs",
+  "pitch": "Mathematical proofs read slowly \u2014 the beauty of logic",
+  "effort": 3,
+  "match_channel": 27,
+  "verdict": "merge"
+ },
+ {
+  "idea": "idea_040",
+  "name": "Sleepy Ingredients",
+  "pitch": "Product ingredient labels read slowly \u2014 the most boring content possible",
+  "effort": 1,
+  "match_channel": 160,
+  "verdict": "merge"
+ }
+]
