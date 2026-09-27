@@ -1,0 +1,29 @@
+{
+ "id": "actuate-1",
+ "state": {
+  "idea": {
+   "channel_id": 1,
+   "channel": "Steiner Sleep",
+   "slot": "next passage reading",
+   "engine": "E2a",
+   "readiness_weight": 3
+  }
+ },
+ "questions": {
+  "go": "choice"
+ },
+ "answers": {
+  "go": {
+   "type": "choice",
+   "choice": "iterate",
+   "probabilities": {
+    "promote": 0.32,
+    "iterate": 0.58,
+    "other": 0.06,
+    "kill": 0.04
+   },
+   "confidence": 0.45
+  }
+ },
+ "action": "iterate"
+}
