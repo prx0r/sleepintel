@@ -37,10 +37,20 @@ def main():
     if ans["choice"] != "promote" or ans.get("confidence", 0) < 0.75:
         print("HELD: no brief written (fail-closed)")
         return
-    brief = {"channel_id": ch["id"], "channel": ch["name"],
-             "template": "tbd-by-template-pick", "slot": top.get("slot"),
-             "variant": {"pace": "slow", "captions": "off"},
-             "sources": [], "gated_by": out.get("_pinned_model")}
+    slug = ch["name"].lower().replace(" ", "_")
+    mechs = [t.split("-", 1)[1] for t in ch.get("tags", []) if t.startswith("mech-")]
+    topic = ch["name"].replace(" Sleep", "").replace("Sleepy ", "")
+    brief = {"video_id": f"video:{slug}:001", "channel": f"channel:{slug}",
+             "title": f"{ch.get('pitch', ch['name'])}",
+             "voice": (ch.get("style") or {}).get("voice") or "voice:lecturer",
+             "pace": -0.3, "mechanism": [f"mechanism:{m}" for m in mechs],
+             "shelf": f"shelf:{ch['shelf'].lower()}", "engine": ch.get("sub", ""),
+             "status": "briefed",
+             "seo": {"primary_keyword": f"{topic} sleep",
+                     "tags": [topic, "sleep", "deep sleep", "fall asleep", "explained slowly"],
+                     "hashtags": ["#sleep", f"#{topic.replace(' ', '')}", "#deepsleep"]},
+             "sources": [], "script": None,
+             "gated_by": out.get("_pinned_model")}
     if dry:
         print("dry-run, brief would be:", json.dumps(brief)[:200])
         return
