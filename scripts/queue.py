@@ -15,6 +15,22 @@ sys.path.insert(0, os.path.join(ROOT, "scripts"))
 from score import score  # noqa: E402
 
 
+SHELF_MEDIAN = {"STORY": 46916, "MUSIC": 52669, "MIND": 185063}
+# medians from tubeintel mirror.json (competitor top-5s, 2026-09-27).
+# Missing shelves use network median until covered. All projections are
+# ranges, never points — reference-class baselines, re-fit quarterly.
+GRAMMAR_MULT = {"count": 1.2, "place": 1.15, "question": 1.1}
+
+
+def projected_views(channel, shelf, tags):
+    base = SHELF_MEDIAN.get(shelf, 50000)
+    m = 1.0
+    for t in tags:
+        m *= GRAMMAR_MULT.get(t, 1.0)
+    lo, hi = int(base * m * 0.5), int(base * m * 2.0)
+    return lo, hi
+
+
 def main(top=10):
     data = yaml.safe_load(open(os.path.join(ROOT, "registry", "channels.yaml")))["channels"]
     evs = [(score(c), c) for c in data]
@@ -36,11 +52,12 @@ def main(top=10):
         p = round((s / mx) * boost.get(c["id"], 1.0), 3)
         rpm = round(p * {"MUSIC": 12, "PLACE": 10, "MIND": 8, "STORY": 8,
                          "SPIRITUAL": 7, "ESOTERIC": 7, "FRESH": 6}.get(c["shelf"], 7), 2)
-        ranked.append((rpm, p, c["id"], c["name"]))
+        lo, hi = projected_views(c["name"], c["shelf"], c.get("tags", []))
+        ranked.append((rpm, p, c["id"], c["name"], lo, hi))
     ranked.sort(reverse=True)
-    print(f"{'xRPM':>6}  {'P':>5}  id   channel")
-    for r, p, i, n in ranked[:top]:
-        print(f"{r:>6}  {p:>5}  {i:<4} {n}")
+    print(f"{'xRPM':>6}  {'P':>5}  {'views':>17}  id   channel")
+    for r, p, i, n, lo, hi in ranked[:top]:
+        print(f"{r:>6}  {p:>5}  {lo:>7}-{hi:<7}  {i:<4} {n}")
 
 
 if __name__ == "__main__":

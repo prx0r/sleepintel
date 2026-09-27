@@ -1,0 +1,23 @@
+{
+ "id": "title-96780",
+ "state": {
+  "base": "Navier-Stokes sleep"
+ },
+ "questions": {
+  "pick": "choice"
+ },
+ "answers": {
+  "pick": {
+   "type": "choice",
+   "choice": "v1",
+   "probabilities": {
+    "v1": 0.91,
+    "v0": 0.06,
+    "other": 0.01,
+    "v2": 0.02
+   },
+   "confidence": 0.89
+  }
+ },
+ "action": "v1"
+}
