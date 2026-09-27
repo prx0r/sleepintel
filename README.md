@@ -1,16 +1,13 @@
-# sleepintel — the sleep-channel incubator and organism
+# sleepintel — the sleep-channel controller and organism
 
-Theory + registry + feedback loop for a 238-channel sleep network.
+Theory + registry + feedback loop for a 244-channel sleep network.
 Renders nothing — engines do that. Decides what gets rendered, tracks
 what happened, grows the network. When a video posts, it becomes a child
 of its channel and live-updates from the API.
 
-Start: `docs/THESIS.md` → `docs/GLOSSARY.md` → `docs/SYSTEM.md` →
-`docs/ENGINES.md` → `docs/SUBENGINES.md` → `registry/channels.yaml` →
-`docs/GRAPH.md` → `docs/SHELVES.md` → `docs/STYLE.md` →
-`docs/ORGANISM.md` → `docs/YOUTUBE_API.md` → `docs/ANALYTICS.md` →
-`docs/VIDEOS.md` → `docs/ROADMAP.md` → `docs/ACCOUNTS.md` →
-`docs/INCUBATOR.md` → `docs/PIPELINE.md` (powvid).
-
-Validate: `python3 scripts/validate.py`. Ideas: `python3 scripts/ideas.py`.
-Score: `python3 scripts/score.py`.
+Start: `docs/SYSTEM.md` (full map), then `docs/DEV_PLAN.md` (current phase).
+Every doc is listed in SYSTEM.md §The pieces. Key runs:
+`scripts/score.py` (rank) · `scripts/queue.py` (xRPM) · `scripts/actuate.py`
+(gated briefs) · `scripts/rerank.py` · `scripts/classify.py` ·
+`scripts/ideas.py` · `scripts/fisher.py`.
+Validate: `python3 scripts/validate.py`. Tests: `pytest tests/ -q`.
