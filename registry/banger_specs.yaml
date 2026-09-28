@@ -1,0 +1,1911 @@
+# Banger Channel Specs — PA Sources & Production Specs
+# Highlighted by user 2026-09-28. All have strong PA source availability.
+
+# ============================================================
+# MUSIC THEMED (E1 hosted-music engine)
+# ============================================================
+
+- id: organ_sleep
+  name: Organ Sleep
+  engine: E1
+  shelf: MUSIC
+  readiness: ready
+  pa_sources:
+    - name: "Musopen"
+      url: "https://musopen.org"
+      license: "Public Domain"
+      format: "MP3/FLAC — full organ repertoire (Bach, Buxtehude, Widor, Franck)"
+      content: "Complete organ works, cathedral recordings, 2+ hour performances"
+    - name: "Internet Archive — Pipe Organ"
+      url: "https://archive.org/details/pipe_organ"
+      license: "Public Domain / CC"
+      format: "MP3 — historic organ recordings from 1920s-1960s"
+    - name: "Choral Public Domain Library"
+      url: "https://www.cpdl.org"
+      license: "Public Domain"
+      format: "Sheet music + recordings — organ accompaniment"
+  spec:
+    format: "Full organ piece, 60-90 min, no narration"
+    structure: "Single piece or themed set (Bach Toccata & Fugue, Widor Toccata, etc.)"
+    audio: "Raw organ recording + subtle room tone"
+    visual: "Black screen OR slow cathedral interior pan"
+    voice: null
+    seo:
+      title_formula: "{Piece} — {Composer} | Organ Sleep | {Duration}"
+      primary_keyword: "organ sleep"
+      tags: ["organ", "pipe organ", "classical", "sleep", "bach", "cathedral", "ambience"]
+
+- id: harp_sleep
+  name: Harp Sleep
+  engine: E1
+  shelf: MUSIC
+  readiness: ready
+  pa_sources:
+    - name: "Musopen — Harp"
+      url: "https://musopen.org/music/instrument/harp/"
+      license: "Public Domain"
+      format: "MP3/FLAC — harp repertoire (Handel, Debussy, Tournier)"
+    - name: "Internet Archive — Harp"
+      url: "https://archive.org/details/harp"
+      license: "Public Domain"
+      format: "MP3 — historic harp recordings"
+  spec:
+    format: "Harp piece, 60-90 min, no narration"
+    structure: "Single piece or themed set"
+    audio: "Raw harp recording + subtle room tone"
+    visual: "Black screen OR slow candlelit room"
+    voice: null
+    seo:
+      title_formula: "{Piece} — {Composer} | Harp Sleep | {Duration}"
+      primary_keyword: "harp sleep"
+      tags: ["harp", "classical", "sleep", "relaxing", "meditation"]
+
+- id: choir_sleep
+  name: Choir Sleep
+  engine: E1
+  shelf: MUSIC
+  readiness: ready
+  pa_sources:
+    - name: "Musopen — Choral"
+      url: "https://musopen.org/music/genre/Choral/"
+      license: "Public Domain"
+      format: "MP3/FLAC — choir repertoire (Palestrina, Bach motets, Tallis)"
+    - name: "Choral Public Domain Library"
+      url: "https://www.cpdl.org"
+      license: "Public Domain"
+      format: "Recordings + sheet music"
+    - name: "Internet Archive — Choir"
+      url: "https://archive.org/details/choir"
+      license: "Public Domain"
+      format: "MP3 — historic choir recordings"
+  spec:
+    format: "Choral piece, 60-90 min, no narration"
+    structure: "Single work or themed set (evensong, requiem, motets)"
+    audio: "Raw choir recording + cathedral reverb"
+    visual: "Black screen OR slow candlelit church interior"
+    voice: null
+    seo:
+      title_formula: "{Piece} — {Composer} | Choir Sleep | {Duration}"
+      primary_keyword: "choir sleep"
+      tags: ["choir", "choral", "classical", "sleep", "cathedral", "sacred"]
+
+- id: lullaby_sleep
+  name: Lullaby Sleep
+  engine: E1
+  shelf: MUSIC
+  readiness: ready
+  pa_sources:
+    - name: "Musopen — Lullabies"
+      url: "https://musopen.org"
+      license: "Public Domain"
+      format: "MP3/FLAC — Brahms, Mozart, Schubert lullabies"
+    - name: "Internet Archive — Lullabies"
+      url: "https://archive.org/details/lullabies"
+      license: "Public Domain"
+      format: "MP3 — historic lullaby recordings"
+    - name: "Project Gutenberg — Nursery Rhymes"
+      url: "https://www.gutenberg.org"
+      license: "Public Domain"
+      format: "Text — traditional lullabies and rhymes"
+  spec:
+    format: "Lullaby collection, 60-90 min, no narration"
+    structure: "Themed set (Brahms Lullaby, traditional lullabies, gentle classical)"
+    audio: "Raw lullaby recordings, soft dynamics"
+    visual: "Black screen OR slow nursery/cot mobile"
+    voice: null
+    seo:
+      title_formula: "Lullabies for Sleep — {Theme} | {Duration}"
+      primary_keyword: "lullaby sleep"
+      tags: ["lullaby", "sleep", "baby", "relaxing", "gentle", "classical"]
+
+- id: opera_sleep
+  name: Opera Sleep
+  engine: E1
+  shelf: MUSIC
+  readiness: ready
+  pa_sources:
+    - name: "Musopen — Opera"
+      url: "https://musopen.org/music/genre/Opera/"
+      license: "Public Domain"
+      format: "MP3/FLAC — opera arias and excerpts (Verdi, Puccini, Mozart)"
+    - name: "Internet Archive — Opera"
+      url: "https://archive.org/details/opera"
+      license: "Public Domain"
+      format: "MP3 — historic opera recordings"
+  spec:
+    format: "Opera arias, 60-90 min, no narration"
+    structure: "Themed set (love arias, death arias, sleep arias)"
+    audio: "Raw opera recording, full dynamic range"
+    visual: "Black screen OR slow opera house interior"
+    voice: null
+    seo:
+      title_formula: "{Theme} Opera Arias for Sleep | {Duration}"
+      primary_keyword: "opera sleep"
+      tags: ["operaria", "classical", "sleep", "verdi", "puccini", "mozart"]
+
+- id: requiem_sleep
+  name: Requiem Sleep
+  engine: E1
+  shelf: MUSIC
+  readiness: ready
+  pa_sources:
+    - name: "Musopen — Requiem"
+      url: "https://musopen.org"
+      license: "Public Domain"
+      format: "MP3/FLAC — Mozart, Verdi, Fauré, Duruflé requiems"
+    - name: "Choral Public Domain Library"
+      url: "https://www.cpdl.org"
+      license: "Public Domain"
+      format: "Recordings + sheet music"
+  spec:
+    format: "Full requiem mass, 60-90 min, no narration"
+    structure: "Complete requiem (Introit, Dies Irae, etc.)"
+    audio: "Raw choral/orchestral recording"
+    visual: "Black screen OR slow cathedral interior"
+    voice: null
+    seo:
+      title_formula: "{Composer} Requiem for Sleep | {Duration}"
+      primary_keyword: "requiem sleep"
+      tags: ["requiem", "classical", "sleep", "mozart", "verdi", "fauré", "sacred"]
+
+- id: hymn_sleep
+  name: Hymn Sleep
+  engine: E1
+  shelf: MUSIC
+  readiness: ready
+  pa_sources:
+    - name: "Musopen — Hymns"
+      url: "https://musopen.org"
+      license: "Public Domain"
+      format: "MP3/FLAC — hymn repertoire"
+    - name: "Project Gutenberg — Hymns"
+      url: "https://www.gutenberg.org"
+      license: "Public Domain"
+      format: "Text — hymn lyrics and scores"
+    - name: "Internet Archive — Hymns"
+      url: "https://archive.org/details/hymns"
+      license: "Public Domain"
+      format: "MP3 — historic hymn recordings"
+  spec:
+    format: "Hymn collection, 60-90 min, no narration"
+    structure: "Themed set (evening hymns, comfort hymns, sleep hymns)"
+    audio: "Raw hymn recordings, soft dynamics"
+    visual: "Black screen OR slow candlelit church"
+    voice: null
+    seo:
+      title_formula: "{Theme} Hymns for Sleep | {Duration}"
+      primary_keyword: "hymn sleep"
+      tags: ["hymn", "sleep", "sacred", "comfort", "gentle", "church"]
+
+- id: guitar_sleep
+  name: Guitar Sleep
+  engine: E1
+  shelf: MUSIC
+  readiness: ready
+  pa_sources:
+    - name: "Musopen — Guitar"
+      url: "https://musopen.org/music/instrument/guitar/"
+      license: "Public Domain"
+      format: "MP3/FLAC — classical guitar (Brouwer, Villa-Lobos, Tárrega)"
+    - name: "Internet Archive — Guitar"
+      url: "https://archive.org/details/guitar"
+      license: "Public Domain"
+      format: "MP3 — historic guitar recordings"
+  spec:
+    format: "Classical guitar, 60-90 min, no narration"
+    structure: "Single piece or themed set"
+    audio: "Raw guitar recording, close mic"
+    visual: "Black screen OR slow candlelit room"
+    voice: null
+    seo:
+      title_formula: "{Piece} — {Composer} | Guitar Sleep | {Duration}"
+      primary_keyword: "guitar sleep"
+      tags: ["guitar", "classical guitar", "sleep", "relaxing", "spanish"]
+
+- id: composer_evenings
+  name: Composer Evenings
+  engine: E1
+  shelf: MUSIC
+  readiness: ready
+  pa_sources:
+    - name: "Musopen"
+      url: "https://musopen.org"
+      license: "Public Domain"
+      format: "MP3/FLAC — complete composer works"
+    - name: "Internet Archive — Classical"
+      url: "https://archive.org/details/classical"
+      license: "Public Domain"
+      format: "MP3 — historic classical recordings"
+  spec:
+    format: "One composer per episode, 60-90 min, no narration"
+    structure: "Themed evening (Mozart Evening, Chopin Evening, Satie Evening)"
+    audio: "Raw recordings, curated selection"
+    visual: "Black screen OR slow period-appropriate interior"
+    voice: null
+    seo:
+      title_formula: "{Composer} Evening — Classical Music for Sleep | {Duration}"
+      primary_keyword: "composer sleep"
+      tags: ["classical", "sleep", "mozart", "chopin", "satie", "evening"]
+
+- id: sleepy_covers
+  name: Sleepy Covers
+  engine: E1
+  shelf: MUSIC
+  readiness: ready
+  pa_sources:
+    - name: "Musopen — Covers"
+      url: "https://musopen.org"
+      license: "Public Domain"
+      format: "MP3/FLAC — classical covers of popular songs"
+    - name: "Internet Archive — Covers"
+      url: "https://archive.org/details/covers"
+      license: "Public Domain"
+      format: "MP3 — historic cover recordings"
+  spec:
+    format: "Classical covers of popular songs, 60-90 min, no narration"
+    structure: "Themed set (Radiohead classical, Beatles classical, etc.)"
+    audio: "Raw cover recordings"
+    visual: "Black screen OR slow visual"
+    voice: null
+    seo:
+      title_formula: "Sleepy Covers — {Artist} Classical Versions for Sleep | {Duration}"
+      primary_keyword: "sleepy covers"
+      tags: ["covers", "classical", "sleep", "popular", "relaxing"]
+
+- id: deconstructed
+  name: Deconstructed
+  engine: E1
+  shelf: MUSIC
+  readiness: ready
+  pa_sources:
+    - name: "Musopen — Stems"
+      url: "https://musopen.org"
+      license: "Public Domain"
+      format: "MP3/FLAC — individual instrument tracks"
+    - name: "Internet Archive — Stems"
+      url: "https://archive.org/details/stems"
+      license: "Public Domain"
+      format: "MP3 — isolated instrument recordings"
+  spec:
+    format: "One instrument at a time, 60-90 min, no narration"
+    structure: "Deconstruct a piece — hear each instrument alone, then together"
+    audio: "Isolated stems, crossfaded"
+    visual: "Black screen OR slow visual"
+    voice: null
+    seo:
+      title_formula: "Deconstructed — {Piece} | {Instrument} Focus | {Duration}"
+      primary_keyword: "deconstructed music"
+      tags: ["deconstructed", "stems", "classical", "sleep", "instruments"]
+
+- id: stems
+  name: Stems
+  engine: E1
+  shelf: MUSIC
+  readiness: ready
+  pa_sources:
+    - name: "Musopen — Stems"
+      url: "https://musopen.org"
+      license: "Public Domain"
+      format: "MP3/FLAC — individual instrument tracks"
+  spec:
+    format: "Isolated instrument tracks, 60-90 min, no narration"
+    structure: "One instrument per episode (strings only, brass only, etc.)"
+    audio: "Isolated stems"
+    visual: "Black screen"
+    voice: null
+    seo:
+      title_formula: "{Instrument} Stems for Sleep | {Duration}"
+      primary_keyword: "stems sleep"
+      tags: ["stems", "instruments", "classical", "sleep"]
+
+- id: versus
+  name: Versus
+  engine: E1
+  shelf: MUSIC
+  readiness: ready
+  pa_sources:
+    - name: "Musopen"
+      url: "https://musopen.org"
+      license: "Public Domain"
+      format: "MP3/FLAC — multiple recordings of same piece"
+  spec:
+    format: "Two versions of same piece, 60-90 min, no narration"
+    structure: "Version A vs Version B, crossfaded"
+    audio: "Two recordings, A/B comparison"
+    visual: "Black screen"
+    voice: null
+    seo:
+      title_formula: "{Piece} — Version A vs Version B | {Duration}"
+      primary_keyword: "versus music"
+      tags: ["versus", "comparison", "classical", "sleep"]
+
+- id: era_stroll
+  name: Era Stroll
+  engine: E1
+  shelf: MUSIC
+  readiness: ready
+  pa_sources:
+    - name: "Musopen"
+      url: "https://musopen.org"
+      license: "Public Domain"
+      format: "MP3/FLAC — all classical eras"
+  spec:
+    format: "Musical era tour, 60-90 min, no narration"
+    structure: "Baroque → Classical → Romantic → Modern, one era per episode"
+    audio: "Curated recordings from each era"
+    visual: "Black screen"
+    voice: null
+    seo:
+      title_formula: "{Era} Era — Classical Music for Sleep | {Duration}"
+      primary_keyword: "era stroll"
+      tags: ["era", "classical", "sleep", "baroque", "romantic", "modern"]
+
+- id: half_tempo
+  name: Half Tempo
+  engine: E1
+  shelf: MUSIC
+  readiness: ready
+  pa_sources:
+    - name: "Musopen"
+      url: "https://musopen.org"
+      license: "Public Domain"
+      format: "MP3/FLAC — all classical works"
+  spec:
+    format: "Famous pieces at half speed, 60-90 min, no narration"
+    structure: "Iconic pieces slowed to 50% tempo"
+    audio: "Time-stretched recordings"
+    visual: "Black screen"
+    voice: null
+    seo:
+      title_formula: "{Piece} — Half Tempo for Sleep | {Duration}"
+      primary_keyword: "half tempo"
+      tags: ["half tempo", "slowed", "classical", "sleep"]
+
+- id: requests
+  name: Requests
+  engine: E1
+  shelf: MUSIC
+  readiness: ready
+  pa_sources:
+    - name: "Musopen"
+      url: "https://musopen.org"
+      license: "Public Domain"
+      format: "MP3/FLAC — all classical works"
+  spec:
+    format: "Listener-requested pieces, 60-90 min, no narration"
+    structure: "Curated from community requests"
+    audio: "Raw recordings"
+    visual: "Black screen"
+    voice: null
+    seo:
+      title_formula: "Requested — {Piece} for Sleep | {Duration}"
+      primary_keyword: "requests sleep"
+      tags: ["requests", "classical", "sleep", "community"]
+
+# ============================================================
+# ANTI-SLEEP (E4 ambience engine)
+# ============================================================
+
+- id: anti_sleep_war
+  name: Anti-Sleep War
+  engine: E4
+  shelf: PLACE
+  readiness: ready
+  pa_sources:
+    - name: "Freesound — War Ambience"
+      url: "https://freesound.org"
+      license: "CC0/CC-BY"
+      format: "WAV/MP3 — artillery, rain, generator hum, distant explosions"
+      content: "Distant artillery + rain on concrete + generator hum"
+    - name: "Internet Archive — War Ambience"
+      url: "https://archive.org/details/war"
+      license: "Public Domain"
+      format: "MP3 — historic war recordings"
+  spec:
+    format: "Bunker ambience, 60-120 min, no narration"
+    structure: "Distant artillery + rain on concrete + generator hum"
+    audio: "Layered war ambience, no narration"
+    visual: "Dark bunker static"
+    voice: null
+    seo:
+      title_formula: "Bunker — Safe Inside, Storm Outside — {Duration}"
+      primary_keyword: "bunker ambience sleep"
+      tags: ["bunker", "ambience", "rain", "sleep", "anti-sleep", "war"]
+
+- id: anti_sleep_arguing
+  name: Anti-Sleep Arguing
+  engine: E4
+  shelf: PLACE
+  readiness: ready
+  pa_sources:
+    - name: "Freesound — Arguing"
+      url: "https://freesound.org"
+      license: "CC0/CC-BY"
+      format: "WAV/MP3 — distant arguing, muffled voices"
+    - name: "Internet Archive — Arguing"
+      url: "https://archive.org/details/arguing"
+      license: "Public Domain"
+      format: "MP3 — historic arguing recordings"
+  spec:
+    format: "Distant arguing ambience, 60-120 min, no narration"
+    structure: "Muffled arguing through walls, never intelligible"
+    audio: "Layered arguing ambience"
+    visual: "Dark room static"
+    voice: null
+    seo:
+      title_formula: "Distant Arguing — Neighbors Fighting for Sleep — {Duration}"
+      primary_keyword: "arguing sleep"
+      tags: ["arguing", "ambience", "sleep", "neighbors", "anti-sleep"]
+
+# ============================================================
+# MANIFESTATION (E3 guided engine — binaural beats)
+# ============================================================
+
+- id: sleep_manifestation
+  name: Sleep Manifestation
+  engine: E3
+  shelf: ESOTERIC
+  readiness: ready
+  pa_sources:
+    - name: "Binaural Beats Research"
+      url: "https://pubmed.ncbi.nlm.nih.gov/?term=binaural+beats+sleep"
+      license: "Academic"
+      format: "Research papers — binaural beats and sleep science"
+    - name: "Brainwave Entrainment Studies"
+      url: "https://scholar.google.com/scholar?q=binaural+beats+delta+theta+sleep"
+      license: "Academic"
+      format: "Research papers — delta/theta entrainment"
+    - name: "Freesound — Binaural"
+      url: "https://freesound.org"
+      license: "CC0/CC-BY"
+      format: "WAV/MP3 — binaural beat recordings"
+  spec:
+    format: "Binaural beats + guided manifestation, 60-120 min"
+    structure: "Delta/theta binaural beats + soft manifestation narration + drone bed"
+    audio: "Binaural beats (delta 0.5-4Hz, theta 4-8Hz) + soft narration + drone"
+    visual: "Black screen OR slow cosmic visual"
+    voice: "V01 Sage or V04 Mystic"
+    seo:
+      title_formula: "Sleep Manifestation — {Theme} with Binaural Beats | {Duration}"
+      primary_keyword: "sleep manifestation"
+      tags: ["manifestation", "binaural beats", "sleep", "delta", "theta", "guided"]
+    science_notes:
+      - "Delta waves (0.5-4Hz) associated with deep sleep"
+      - "Theta waves (4-8Hz) associated with REM and meditation"
+      - "Binaural beats require headphones for full effect"
+      - "Frequency difference between ears creates perceived beat"
+      - "Research shows mixed but promising results for sleep quality"
+
+# ============================================================
+# SLEEPY SLEEP (E2 reading engine)
+# ============================================================
+
+- id: sleepy_sleep
+  name: Sleepy Sleep
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — Sleep"
+      url: "https://en.wikipedia.org/wiki/Sleep"
+      license: "CC-BY-SA"
+      format: "Text — sleep science, stages, disorders"
+    - name: "PubMed — Sleep Research"
+      url: "https://pubmed.ncbi.nlm.nih.gov/?term=sleep"
+      license: "Academic"
+      format: "Research papers — sleep science"
+    - name: "Project Gutenberg — Sleep Texts"
+      url: "https://www.gutenberg.org"
+      license: "Public Domain"
+      format: "Text — historic sleep literature"
+  spec:
+    format: "Sleep science essay, 60-120 min"
+    structure: "What is sleep? Stages, cycles, dreams, disorders, science of rest"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Sleep — The Science of Rest for Sleep | {Duration}"
+      primary_keyword: "sleep science"
+      tags: ["sleep", "science", "rest", "dreams", "relaxing"]
+
+# ============================================================
+# VOCABULARY EXPANSION (E5 talk engine)
+# ============================================================
+
+- id: vocab_stories
+  name: Vocab Stories
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Etymonline"
+      url: "https://www.etymonline.com"
+      license: "Free"
+      format: "Web — word origins and histories"
+    - name: "Wiktionary"
+      url: "https://en.wiktionary.org"
+      license: "CC-BY-SA"
+      format: "Web — definitions, etymologies, cognates"
+    - name: "Project Gutenberg — Vocabulary"
+      url: "https://www.gutenberg.org"
+      license: "Public Domain"
+      format: "Text — vocabulary builders"
+  spec:
+    format: "One word per episode, 60-120 min"
+    structure: "Word story — origin, history, usage, examples, related words"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "The Word '{Word}' — A Vocabulary Story for Sleep | {Duration}"
+      primary_keyword: "vocabulary sleep"
+      tags: ["vocabulary", "words", "sleep", "etymology", "learning"]
+
+- id: idioms_sleep
+  name: Idioms Sleep
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wiktionary — Idioms"
+      url: "https://en.wiktionary.org"
+      license: "CC-BY-SA"
+      format: "Web — idiom definitions and origins"
+    - name: "Project Gutenberg — Idioms"
+      url: "https://www.gutenberg.org"
+      license: "Public Domain"
+      format: "Text — idiom collections"
+  spec:
+    format: "One idiom per episode, 60-120 min"
+    structure: "Idiom story — origin, meaning, usage, examples"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "The Idiom '{Idiom}' — A Story for Sleep | {Duration}"
+      primary_keyword: "idioms sleep"
+      tags: ["idioms", "phrases", "sleep", "learning", "english"]
+
+- id: roots_sleep
+  name: Roots Sleep
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Etymonline"
+      url: "https://www.etymonline.com"
+      license: "Free"
+      format: "Web — PIE roots and word families"
+    - name: "Wiktionary — Roots"
+      url: "https://en.wiktionary.org"
+      license: "CC-BY-SA"
+      format: "Web — root words and derivatives"
+  spec:
+    format: "One root per episode, 60-120 min"
+    structure: "Root story — PIE root, derivatives, cognates, modern usage"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "The Root '{Root}' — A Word Family for Sleep | {Duration}"
+      primary_keyword: "roots sleep"
+      tags: ["roots", "etymology", "sleep", "word family", "learning"]
+
+- id: quotations_sleep
+  name: Quotations Sleep
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Project Gutenberg — Quotations"
+      url: "https://www.gutenberg.org"
+      license: "Public Domain"
+      format: "Text — quotation collections"
+    - name: "Wikiquote"
+      url: "https://en.wikiquote.org"
+      license: "CC-BY-SA"
+      format: "Web — famous quotations"
+  spec:
+    format: "One quotation per episode, 60-120 min"
+    structure: "Quotation story — context, author, meaning, legacy"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "The Quotation '{Quote}' — A Story for Sleep | {Duration}"
+      primary_keyword: "quotations sleep"
+      tags: ["quotations", "famous quotes", "sleep", "learning", "wisdom"]
+
+- id: pronunciation_sleep
+  name: Pronunciation Sleep
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wiktionary — Pronunciation"
+      url: "https://en.wiktionary.org"
+      license: "CC-BY-SA"
+      format: "Web — IPA pronunciations"
+    - name: "Forvo"
+      url: "https://forvo.com"
+      license: "CC-BY"
+      format: "Audio — native pronunciations"
+  spec:
+    format: "One word per episode, 60-120 min"
+    structure: "Pronunciation story — IPA, history of pronunciation, regional variants"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "How to Pronounce '{Word}' — A Story for Sleep | {Duration}"
+      primary_keyword: "pronunciation sleep"
+      tags: ["pronunciation", "words", "sleep", "learning", "IPA"]
+
+- id: cognates_sleep
+  name: Cognates Sleep
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Etymonline"
+      url: "https://www.etymonline.com"
+      license: "Free"
+      format: "Web — cognates and word families"
+    - name: "Wiktionary — Cognates"
+      url: "https://en.wiktionary.org"
+      license: "CC-BY-SA"
+      format: "Web — cognate lists"
+  spec:
+    format: "One cognate set per episode, 60-120 min"
+    structure: "Cognate story — shared root, language family, modern forms"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Cognates of '{Word}' — A Language Family for Sleep | {Duration}"
+      primary_keyword: "cognates sleep"
+      tags: ["cognates", "languages", "sleep", "etymology", "learning"]
+
+- id: grammar_sleep
+  name: Grammar Sleep
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Project Gutenberg — Grammar"
+      url: "https://www.gutenberg.org"
+      license: "Public Domain"
+      format: "Text — grammar textbooks"
+    - name: "Wiktionary — Grammar"
+      url: "https://en.wiktionary.org"
+      license: "CC-BY-SA"
+      format: "Web — grammatical terms"
+  spec:
+    format: "One grammar concept per episode, 60-120 min"
+    structure: "Grammar story — concept, history, usage, examples"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "The Grammar of '{Concept}' — A Story for Sleep | {Duration}"
+      primary_keyword: "grammar sleep"
+      tags: ["grammar", "language", "sleep", "learning", "english"]
+
+- id: thesaurus_sleep
+  name: Thesaurus Sleep
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Project Gutenberg — Thesaurus"
+      url: "https://www.gutenberg.org"
+      license: "Public Domain"
+      format: "Text — thesaurus entries"
+    - name: "Wiktionary — Synonyms"
+      url: "https://en.wiktionary.org"
+      license: "CC-BY-SA"
+      format: "Web — synonym lists"
+  spec:
+    format: "One word per episode, 60-120 min"
+    structure: "Thesaurus story — synonyms, antonyms, nuances, usage"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Synonyms of '{Word}' — A Thesaurus Story for Sleep | {Duration}"
+      primary_keyword: "thesaurus sleep"
+      tags: ["thesaurus", "synonyms", "sleep", "vocabulary", "learning"]
+
+# ============================================================
+# TAXONOMY (E5 talk engine)
+# ============================================================
+
+- id: sleepy_taxonomy
+  name: Sleepy Taxonomy
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — Taxonomy"
+      url: "https://en.wikipedia.org/wiki/Taxonomy_(biology)"
+      license: "CC-BY-SA"
+      format: "Text — biological classification"
+    - name: "PubMed — Taxonomy"
+      url: "https://pubmed.ncbi.nlm.nih.gov/?term=taxonomy"
+      license: "Academic"
+      format: "Research papers — taxonomic classification"
+  spec:
+    format: "One taxonomic rank per episode, 60-120 min"
+    structure: "Taxonomy story — kingdom, phylum, class, order, family, genus, species"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Taxonomy — {Rank} for Sleep | {Duration}"
+      primary_keyword: "taxonomy sleep"
+      tags: ["taxonomy", "biology", "sleep", "classification", "science"]
+
+# ============================================================
+# FAMOUS LIBRARIES (E2 reading engine)
+# What books these people actually OWNED and read
+# ============================================================
+
+- id: newtons_library
+  name: Newton's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "The Newton Project"
+      url: "http://www.newtonproject.ox.ac.uk"
+      license: "Free"
+      format: "Text — Newton's library catalog, manuscripts, correspondence"
+    - name: "Wikipedia — Isaac Newton's library"
+      url: "https://en.wikipedia.org/wiki/Isaac_Newton%27s_personal_library"
+      license: "CC-BY-SA"
+      format: "Text — list of books Newton owned"
+    - name: "Christ's College Cambridge"
+      url: "https://www.christs.cam.ac.uk"
+      license: "Free"
+      format: "Text — Newton's annotated books in the college library"
+  spec:
+    format: "Books Newton owned, 60-120 min"
+    structure: "One book per episode — what Newton read, his annotations, how it shaped his thinking"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Newton's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "newton library sleep"
+      tags: ["newton", "library", "books", "sleep", "history", "science"]
+    notable_books:
+      - "Euclid's Elements — Newton's annotated copy survives"
+      - "Descartes' Geometry — Newton called it 'too easy'"
+      - "Kepler's Optics — shaped his light experiments"
+      - "The Bible — more annotated than any other book he owned"
+      - "Alchemy texts — heavily annotated, his true obsession"
+
+- id: darwins_library
+  name: Darwin's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Darwin Online"
+      url: "http://darwin-online.org.uk"
+      license: "Free"
+      format: "Text — Darwin's library catalog, marginalia, reading notes"
+    - name: "Wikipedia — Charles Darwin's library"
+      url: "https://en.wikipedia.org/wiki/Charles_Darwin%27s_library"
+      license: "CC-BY-SA"
+      format: "Text — list of books Darwin owned"
+    - name: "Cambridge University Library"
+      url: "https://www.lib.cam.ac.uk"
+      license: "Free"
+      format: "Text — Darwin's annotated books in the university library"
+  spec:
+    format: "Books Darwin owned, 60-120 min"
+    structure: "One book per episode — what Darwin read, his marginalia, how it shaped his thinking"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Darwin's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "darwin library sleep"
+      tags: ["darwin", "library", "books", "sleep", "evolution", "science"]
+    notable_books:
+      - "Lyell's Principles of Geology — the book that made him think in deep time"
+      - "Malthus on Population — the spark of natural selection"
+      - "Humboldt's Personal Narrative — Darwin's travel bible"
+      - "The Origin of Species — his own annotated copies with handwritten changes"
+      - "The Descent of Man — heavily annotated in his personal copy"
+
+- id: da_vincis_notebooks
+  name: Da Vinci's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — List of books owned by Leonardo da Vinci"
+      url: "https://en.wikipedia.org/wiki/List_of_books_owned_by_Leonardo_da_Vinci"
+      license: "CC-BY-SA"
+      format: "Text — books Leonardo owned"
+    - name: "The Leonardo da Vinci Society"
+      url: "https://www.leonardodavinci.net"
+      license: "Free"
+      format: "Text — Leonardo's library and reading habits"
+    - name: "Internet Archive — Da Vinci"
+      url: "https://archive.org/details/davinci"
+      license: "Public Domain"
+      format: "Text — historic Da Vinci publications"
+  spec:
+    format: "Books Leonardo owned, 60-120 min"
+    structure: "One book per episode — what Leonardo read, how it shaped his art and science"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Da Vinci's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "da vinci library sleep"
+      tags: ["da vinci", "library", "books", "sleep", "art", "science"]
+    notable_books:
+      - "Vitruvius' De Architectura — the bible of Renaissance architecture"
+      - "Pliny the Elder's Natural History — Leonardo's constant reference"
+      - "Leon Battista Alberti's De Pictura — the foundation of his art theory"
+      - "Anatomical texts — he owned and annotated several"
+      - "Fables and popular science — he loved them"
+
+- id: pepys_diary
+  name: Pepys' Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Pepys Library, Magdalene College"
+      url: "https://www.magd.cam.ac.uk/pepys-library"
+      license: "Free"
+      format: "Text — Pepys' library catalog and collection"
+    - name: "Wikipedia — Samuel Pepys' library"
+      url: "https://en.wikipedia.org/wiki/Samuel_Pepys%27s_library"
+      license: "CC-BY-SA"
+      format: "Text — list of books Pepys owned"
+    - name: "Project Gutenberg — Pepys"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Pepys"
+      license: "Public Domain"
+      format: "Text — Pepys' diary"
+  spec:
+    format: "Books Pepys owned, 60-120 min"
+    structure: "One book per episode — what Pepys read, his diary entries about reading"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Pepys' Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "pepys library sleep"
+      tags: ["pepys", "library", "books", "sleep", "history", "london"]
+    notable_books:
+      - "The Bible — his most-read book, extensively annotated"
+      - "Shakespeare's First Folio — he owned and annotated it"
+      - "Hobbes' Leviathan — he read it and wrote about it in his diary"
+      - "Navigation and seamanship texts — his professional reading"
+      - "French romances — his guilty pleasure reading"
+
+- id: senecas_library
+  name: Seneca's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Project Gutenberg — Seneca"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Seneca"
+      license: "Public Domain"
+      format: "Text — Seneca's works"
+    - name: "Internet Archive — Seneca"
+      url: "https://archive.org/details/seneca"
+      license: "Public Domain"
+      format: "Text — historic Seneca publications"
+    - name: "Wikipedia — Seneca the Younger"
+      url: "https://en.wikipedia.org/wiki/Seneca_the_Younger"
+      license: "CC-BY-SA"
+      format: "Text — Seneca's reading and influences"
+  spec:
+    format: "Books Seneca owned, 60-120 min"
+    structure: "One book per episode — what Seneca read, how it shaped his Stoic philosophy"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Seneca's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "seneca library sleep"
+      tags: ["seneca", "library", "books", "sleep", "stoicism", "philosophy"]
+    notable_books:
+      - "Lucretius' De Rerum Natura — his favorite poem, quoted constantly"
+      - "Cicero's Letters — his model for letter writing"
+      - "Virgil's Aeneid — he quoted it extensively"
+      - "Greek Stoic texts — Chrysippus, Cleanthes, Zeno"
+      - "Natural philosophy texts — he wrote about earthquakes, comets, weather"
+
+- id: epictetus_library
+  name: Epictetus' Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — Epictetus"
+      url: "https://en.wikipedia.org/wiki/Epictetus"
+      license: "CC-BY-SA"
+      format: "Text — Epictetus' life and influences"
+    - name: "Project Gutenberg — Epictetus"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Epictetus"
+      license: "Public Domain"
+      format: "Text — Epictetus' works"
+  spec:
+    format: "Books Epictetus owned, 60-120 min"
+    structure: "One book per episode — what Epictetus read, how it shaped his Stoic philosophy"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Epictetus' Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "epictetus library sleep"
+      tags: ["epictetus", "library", "books", "sleep", "stoicism", "philosophy"]
+    notable_books:
+      - "Marcus Aurelius' Meditations — the Stoic bible"
+      - "Chrysippus' writings — the second founder of Stoicism"
+      - "Cleanthes' Hymn to Zeus — the only surviving fragment"
+      - "Zeno's Republic — the original Stoic utopia"
+      - "Diogenes Laertius' Lives — the source for all Stoic biographies"
+
+- id: platos_library
+  name: Plato's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — Plato"
+      url: "https://en.wikipedia.org/wiki/Plato"
+      license: "CC-BY-SA"
+      format: "Text — Plato's life and influences"
+    - name: "Project Gutenberg — Plato"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Plato"
+      license: "Public Domain"
+      format: "Text — Plato's dialogues"
+  spec:
+    format: "Books Plato owned, 60-120 min"
+    structure: "One book per episode — what Plato read, how it shaped his philosophy"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Plato's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "plato library sleep"
+      tags: ["plato", "library", "books", "sleep", "philosophy"]
+    notable_books:
+      - "Pythagorean texts — Plato studied under Pythagoreans in Italy"
+      - "Heraclitus' writings — the doctrine of flux"
+      - "Parmenides' On Nature — the doctrine of permanence"
+      - "Socratic dialogues by Aeschines and Antisthenes"
+      - "Anaxagoras' On Nature — the mind that orders all things"
+
+- id: aristotles_library
+  name: Aristotle's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — Aristotle"
+      url: "https://en.wikipedia.org/wiki/Aristotle"
+      license: "CC-BY-SA"
+      format: "Text — Aristotle's life and influences"
+    - name: "Project Gutenberg — Aristotle"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Aristotle"
+      license: "Public Domain"
+      format: "Text — Aristotle's works"
+  spec:
+    format: "Books Aristotle owned, 60-120 min"
+    structure: "One book per episode — what Aristotle read, how it shaped his philosophy"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Aristotle's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "aristotle library sleep"
+      tags: ["aristotle", "library", "books", "sleep", "philosophy"]
+    notable_books:
+      - "Plato's dialogues — his teacher's works, which he criticized"
+      - "Pre-Socratic fragments — he quoted them extensively"
+      - "Hippocratic medical texts — his father was a physician"
+      - "Democritus' atomic theory — which he argued against"
+      - "Theophrastus' botanical works — his successor's research"
+
+- id: confucius_library
+  name: Confucius' Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — Confucius"
+      url: "https://en.wikipedia.org/wiki/Confucius"
+      license: "CC-BY-SA"
+      format: "Text — Confucius' life and influences"
+    - name: "Project Gutenberg — Confucius"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Confucius"
+      license: "Public Domain"
+      format: "Text — Confucius' works"
+  spec:
+    format: "Books Confucius owned, 60-120 min"
+    structure: "One book per episode — what Confucius read, how it shaped his philosophy"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Confucius' Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "confucius library sleep"
+      tags: ["confucius", "library", "books", "sleep", "chinese", "philosophy"]
+    notable_books:
+      - "The Book of Songs (Shijing) — 305 poems, his constant reference"
+      - "The Book of Documents (Shujing) — ancient historical records"
+      - "The I Ching (Book of Changes) — he studied it in old age"
+      - "The Book of Rites (Liji) — ceremonial and social norms"
+      - "The Spring and Autumn Annals — his own historical work"
+
+- id: lao_tzus_library
+  name: Lao Tzu's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — Laozi"
+      url: "https://en.wikipedia.org/wiki/Laozi"
+      license: "CC-BY-SA"
+      format: "Text — Laozi's life and influences"
+    - name: "Project Gutenberg — Lao Tzu"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Lao+Tzu"
+      license: "Public Domain"
+      format: "Text — Tao Te Ching"
+  spec:
+    format: "Books Lao Tzu owned, 60-120 min"
+    structure: "One book per episode — what Lao Tzu read, how it shaped his philosophy"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Lao Tzu's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "lao tzu library sleep"
+      tags: ["lao tzu", "library", "books", "sleep", "taoism", "philosophy"]
+    notable_books:
+      - "The I Ching (Book of Changes) — the foundation of Taoist cosmology"
+      - "Ancient historical records — he was a court archivist"
+      - "The Book of Songs — he knew it intimately"
+      - "Huang-Lao texts — the Yellow Emperor and Laozi tradition"
+      - "Wu Wei philosophical texts — the art of non-action"
+
+- id: virgils_library
+  name: Virgil's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — Virgil"
+      url: "https://en.wikipedia.org/wiki/Virgil"
+      license: "CC-BY-SA"
+      format: "Text — Virgil's life and influences"
+    - name: "Project Gutenberg — Virgil"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Virgil"
+      license: "Public Domain"
+      format: "Text — Virgil's works"
+  spec:
+    format: "Books Virgil owned, 60-120 min"
+    structure: "One book per episode — what Virgil read, how it shaped his poetry"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Virgil's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "virgil library sleep"
+      tags: ["virgil", "library", "books", "sleep", "roman", "poetry"]
+    notable_books:
+      - "Homer's Iliad and Odyssey — his constant models"
+      - "Ennius' Annales — the first Roman epic"
+      - "Lucretius' De Rerum Natura — Epicurean philosophy"
+      - "Hesiod's Theogony and Works and Days"
+      - "Greek lyric poets — Sappho, Alcaeus, Pindar"
+
+- id: homers_library
+  name: Homer's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — Homer"
+      url: "https://en.wikipedia.org/wiki/Homer"
+      license: "CC-BY-SA"
+      format: "Text — Homer's life and influences"
+    - name: "Project Gutenberg — Homer"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Homer"
+      license: "Public Domain"
+      format: "Text — Homer's works"
+  spec:
+    format: "Books Homer owned, 60-120 min"
+    structure: "One book per episode — what Homer read (or sang), how it shaped his epics"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Homer's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "homer library sleep"
+      tags: ["homer", "library", "books", "sleep", "greek", "poetry"]
+    notable_books:
+      - "The Iliad and Odyssey — his own works, which he may have written down"
+      - "The Homeric Hymns — attributed to his school"
+      - "The Epic Cycle — the lost epics of the Trojan War"
+      - "Hesiod's Theogony — the competing cosmology"
+      - "Ancient genealogical poems — the origin of the gods"
+
+- id: dantes_library
+  name: Dante's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — Dante Alighieri"
+      url: "https://en.wikipedia.org/wiki/Dante_Alighieri"
+      license: "CC-BY-SA"
+      format: "Text — Dante's life and influences"
+    - name: "Project Gutenberg — Dante"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Dante"
+      license: "Public Domain"
+      format: "Text — Dante's works"
+  spec:
+    format: "Books Dante owned, 60-120 min"
+    structure: "One book per episode — what Dante read, how it shaped the Divine Comedy"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Dante's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "dante library sleep"
+      tags: ["dante", "library", "books", "sleep", "italian", "poetry"]
+    notable_books:
+      - "Virgil's Aeneid — Dante's guide through Hell and Purgatory"
+      - "Aristotle's Ethics — the philosophical framework"
+      - "Augustine's Confessions — the model for spiritual autobiography"
+      - "Thomas Aquinas' Summa Theologica — the theological framework"
+      - "Ovid's Metamorphoses — the source of many of his images"
+
+- id: miltons_library
+  name: Milton's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — John Milton"
+      url: "https://en.wikipedia.org/wiki/John_Milton"
+      license: "CC-BY-SA"
+      format: "Text — Milton's life and influences"
+    - name: "Project Gutenberg — Milton"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Milton"
+      license: "Public Domain"
+      format: "Text — Milton's works"
+  spec:
+    format: "Books Milton owned, 60-120 min"
+    structure: "One book per episode — what Milton read, how it shaped Paradise Lost"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Milton's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "milton library sleep"
+      tags: ["milton", "library", "books", "sleep", "english", "poetry"]
+    notable_books:
+      - "The Bible — his most important source, known by heart"
+      - "Homer's Iliad and Odyssey — in Greek and Latin translation"
+      - "Virgil's Aeneid — his constant model"
+      - "Ovid's Metamorphoses — the source of his imagery"
+      - "Dante's Divine Comedy — the model for his epic journey"
+
+- id: shakespeares_library
+  name: Shakespeare's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — Shakespeare's library"
+      url: "https://en.wikipedia.org/wiki/Shakespeare%27s_library"
+      license: "CC-BY-SA"
+      format: "Text — books Shakespeare owned and read"
+    - name: "Project Gutenberg — Shakespeare"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Shakespeare"
+      license: "Public Domain"
+      format: "Text — Shakespeare's works"
+  spec:
+    format: "Books Shakespeare owned, 60-120 min"
+    structure: "One book per episode — what Shakespeare read, how it shaped his plays"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Shakespeare's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "shakespeare library sleep"
+      tags: ["shakespeare", "library", "books", "sleep", "drama", "poetry"]
+    notable_books:
+      - "Ovid's Metamorphoses — his most-quoted source"
+      - "Plutarch's Lives — the source for his Roman plays"
+      - "Holinshed's Chronicles — the source for his history plays"
+      - "Chaucer's Canterbury Tales — his English literary heritage"
+      - "The Bible — quoted over 1,300 times in his works"
+
+- id: emersons_library
+  name: Emerson's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — Ralph Waldo Emerson"
+      url: "https://en.wikipedia.org/wiki/Ralph_Waldo_Emerson"
+      license: "CC-BY-SA"
+      format: "Text — Emerson's life and influences"
+    - name: "Project Gutenberg — Emerson"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Emerson"
+      license: "Public Domain"
+      format: "Text — Emerson's works"
+  spec:
+    format: "Books Emerson owned, 60-120 min"
+    structure: "One book per episode — what Emerson read, how it shaped his essays"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Emerson's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "emerson library sleep"
+      tags: ["emerson", "library", "books", "sleep", "transcendentalism", "philosophy"]
+    notable_books:
+      - "The Bhagavad Gita — his 'most famous' book, carried everywhere"
+      - "The Upanishads — Hindu philosophy, deeply influential"
+      - "Plato's dialogues — his constant companion"
+      - "Montaigne's Essays — the model for his own essay form"
+      - "Goethe's works — his literary hero"
+
+- id: thoreaus_library
+  name: Thoreau's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — Henry David Thoreau"
+      url: "https://en.wikipedia.org/wiki/Henry_David_Thoreau"
+      license: "CC-BY-SA"
+      format: "Text — Thoreau's life and influences"
+    - name: "Project Gutenberg — Thoreau"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Thoreau"
+      license: "Public Domain"
+      format: "Text — Thoreau's works"
+  spec:
+    format: "Books Thoreau owned, 60-120 min"
+    structure: "One book per episode — what Thoreau read, how it shaped Walden"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Thoreau's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "thoreau library sleep"
+      tags: ["thoreau", "library", "books", "sleep", "transcendentalism", "philosophy"]
+    notable_books:
+      - "The Bhagavad Gita — his 'most famous' book, read daily"
+      - "The Upanishads — Hindu philosophy, deeply influential"
+      - "Walden Pond — his own experiment in simple living"
+      - "Emerson's essays — his mentor and friend"
+      - "The Bible — read critically but constantly"
+
+- id: burtons_anatomy
+  name: Burton's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — Robert Burton"
+      url: "https://en.wikipedia.org/wiki/Robert_Burton"
+      license: "CC-BY-SA"
+      format: "Text — Burton's life and influences"
+    - name: "Project Gutenberg — Burton"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Burton+Anatomy"
+      license: "Public Domain"
+      format: "Text — Burton's Anatomy of Melancholy"
+  spec:
+    format: "Books Burton owned, 60-120 min"
+    structure: "One book per episode — what Burton read, how it shaped the Anatomy"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Burton's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "burton library sleep"
+      tags: ["burton", "library", "books", "sleep", "melancholy", "philosophy"]
+    notable_books:
+      - "The Bible — quoted extensively throughout"
+      - "Galen's medical texts — the foundation of his medical theory"
+      - "Hippocrates' Aphorisms — the father of medicine"
+      - "Seneca's Letters — Stoic philosophy"
+      - "Montaigne's Essays — the model for his own encyclopedic style"
+
+- id: montaignes_library
+  name: Montaigne's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — Michel de Montaigne"
+      url: "https://en.wikipedia.org/wiki/Michel_de_Montaigne"
+      license: "CC-BY-SA"
+      format: "Text — Montaigne's life and influences"
+    - name: "Project Gutenberg — Montaigne"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Montaigne"
+      license: "Public Domain"
+      format: "Text — Montaigne's essays"
+  spec:
+    format: "Books Montaigne owned, 60-120 min"
+    structure: "One book per episode — what Montaigne read, how it shaped his essays"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Montaigne's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "montaigne library sleep"
+      tags: ["montaigne", "library", "books", "sleep", "philosophy", "essays"]
+    notable_books:
+      - "Plutarch's Lives — his 'most favorite' book, quoted constantly"
+      - "Seneca's Letters — his model for the essay form"
+      - "Lucretius' De Rerum Natura — his favorite poem"
+      - "The Bible — read critically and constantly"
+      - "Ovid's Metamorphoses — quoted extensively"
+
+- id: blakes_library
+  name: Blake's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — William Blake"
+      url: "https://en.wikipedia.org/wiki/William_Blake"
+      license: "CC-BY-SA"
+      format: "Text — Blake's life and influences"
+    - name: "Project Gutenberg — Blake"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Blake"
+      license: "Public Domain"
+      format: "Text — Blake's works"
+  spec:
+    format: "Books Blake owned, 60-120 min"
+    structure: "One book per episode — what Blake read, how it shaped his prophetic books"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Blake's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "blake library sleep"
+      tags: ["blake", "library", "books", "sleep", "mysticism", "poetry"]
+    notable_books:
+      - "The Bible — his most important source, read visionarily"
+      - "Milton's Paradise Lost — his constant companion and antagonist"
+      - "Dante's Divine Comedy — the model for his own epic vision"
+      - "Swedenborg's writings — the Swedish mystic who shaped his theology"
+      - "Jacob Boehme's works — the German mystic who influenced him deeply"
+
+- id: jamess_library
+  name: James's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — William James"
+      url: "https://en.wikipedia.org/wiki/William_James"
+      license: "CC-BY-SA"
+      format: "Text — James' life and influences"
+    - name: "Project Gutenberg — James"
+      url: "https://www.gutenberg.org/ebooks/search/?query=William+James"
+      license: "Public Domain"
+      format: "Text — William James' works"
+  spec:
+    format: "Books William James owned, 60-120 min"
+    structure: "One book per episode — what James read, how it shaped his psychology"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "James's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "james library sleep"
+      tags: ["james", "library", "books", "sleep", "psychology", "philosophy"]
+    notable_books:
+      - "Charles Darwin's Origin of Species — shaped his evolutionary thinking"
+      - "Alexander Bain's psychology texts — the foundation of his work"
+      - "Renouvier's essays — French philosophy, deeply influential"
+      - "Bergson's works — the process philosopher he admired"
+      - "The Varieties of Religious Experience — his own masterpiece"
+
+- id: goethes_library
+  name: Goethe's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — Johann Wolfgang von Goethe"
+      url: "https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe"
+      license: "CC-BY-SA"
+      format: "Text — Goethe's life and influences"
+    - name: "Project Gutenberg — Goethe"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Goethe"
+      license: "Public Domain"
+      format: "Text — Goethe's works"
+  spec:
+    format: "Books Goethe owned, 60-120 min"
+    structure: "One book per episode — what Goethe read, how it shaped his works"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Goethe's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "goethe library sleep"
+      tags: ["goethe", "library", "books", "sleep", "german", "literature"]
+    notable_books:
+      - "Shakespeare's works — his constant companion"
+      - "Homer's Iliad and Odyssey — in Greek and translation"
+      - "The Bible — read critically and constantly"
+      - "Spinoza's Ethics — the philosopher he admired most"
+      - "Herder's writings — his friend and collaborator"
+
+- id: nietzsches_library
+  name: Nietzsche's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — Friedrich Nietzsche"
+      url: "https://en.wikipedia.org/wiki/Friedrich_Nietzsche"
+      license: "CC-BY-SA"
+      format: "Text — Nietzsche's life and influences"
+    - name: "Project Gutenberg — Nietzsche"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Nietzsche"
+      license: "Public Domain"
+      format: "Text — Nietzsche's works"
+  spec:
+    format: "Books Nietzsche owned, 60-120 min"
+    structure: "One book per episode — what Nietzsche read, how it shaped his philosophy"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Nietzsche's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "nietzsche library sleep"
+      tags: ["nietzsche", "library", "books", "sleep", "german", "philosophy"]
+    notable_books:
+      - "Schopenhauer's The World as Will and Representation — his philosophical bible"
+      - "Lange's History of Materialism — the materialist he reacted against"
+      - "Dostoevsky's novels — the psychologist he admired most"
+      - "The Bible — read critically and constantly"
+      - "Greek philosophers — the pre-Socratics, especially Heraclitus"
+
+- id: dostoevskys_library
+  name: Dostoevsky's Library
+  engine: E2
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Wikipedia — Fyodor Dostoevsky"
+      url: "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky"
+      license: "CC-BY-SA"
+      format: "Text — Dostoevsky's life and influences"
+    - name: "Project Gutenberg — Dostoevsky"
+      url: "https://www.gutenberg.org/ebooks/search/?query=Dostoevsky"
+      license: "Public Domain"
+      format: "Text — Dostoevsky's works"
+  spec:
+    format: "Books Dostoevsky owned, 60-120 min"
+    structure: "One book per episode — what Dostoevsky read, how it shaped his novels"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Dostoevsky's Library — {Book} for Sleep | {Duration}"
+      primary_keyword: "dostoevsky library sleep"
+      tags: ["dostoevsky", "library", "books", "sleep", "russian", "literature"]
+    notable_books:
+      - "The Bible — his most important source, read constantly"
+      - "Shakespeare's works — Hamlet was his favorite"
+      - "Dickens' novels — the English novelist he admired most"
+      - "Balzac's novels — the French realist he learned from"
+      - "Gogol's works — the Russian writer who shaped his early style"
+
+# ============================================================
+# TRADES (E5 talk engine)
+# ============================================================
+
+- id: sleepy_electrical
+  name: Sleepy Electrical
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Project Gutenberg — Electrical"
+      url: "https://www.gutenberg.org"
+      license: "Public Domain"
+      format: "Text — electrical engineering textbooks"
+    - name: "Wikipedia — Electrical"
+      url: "https://en.wikipedia.org/wiki/Electrical_engineering"
+      license: "CC-BY-SA"
+      format: "Text — electrical concepts"
+  spec:
+    format: "One electrical concept per episode, 60-120 min"
+    structure: "Electrical story — concept, history, application, safety"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Electrical {Concept} — A Trade Story for Sleep | {Duration}"
+      primary_keyword: "electrical sleep"
+      tags: ["electrical", "trade", "sleep", "engineering", "learning"]
+
+- id: sleepy_plumbing
+  name: Sleepy Plumbing
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Project Gutenberg — Plumbing"
+      url: "https://www.gutenberg.org"
+      license: "Public Domain"
+      format: "Text — plumbing textbooks"
+    - name: "Wikipedia — Plumbing"
+      url: "https://en.wikipedia.org/wiki/Plumbing"
+      license: "CC-BY-SA"
+      format: "Text — plumbing concepts"
+  spec:
+    format: "One plumbing concept per episode, 60-120 min"
+    structure: "Plumbing story — concept, history, application, safety"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Plumbing {Concept} — A Trade Story for Sleep | {Duration}"
+      primary_keyword: "plumbing sleep"
+      tags: ["plumbing", "trade", "sleep", "learning"]
+
+- id: sleepy_carpentry
+  name: Sleepy Carpentry
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Project Gutenberg — Carpentry"
+      url: "https://www.gutenberg.org"
+      license: "Public Domain"
+      format: "Text — carpentry textbooks"
+    - name: "Wikipedia — Carpentry"
+      url: "https://en.wikipedia.org/wiki/Carpentry"
+      license: "CC-BY-SA"
+      format: "Text — carpentry concepts"
+  spec:
+    format: "One carpentry concept per episode, 60-120 min"
+    structure: "Carpentry story — concept, history, application, safety"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Carpentry {Concept} — A Trade Story for Sleep | {Duration}"
+      primary_keyword: "carpentry sleep"
+      tags: ["carpentry", "trade", "sleep", "woodworking", "learning"]
+
+- id: sleepy_hvac
+  name: Sleepy HVAC
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Project Gutenberg — HVAC"
+      url: "https://www.gutenberg.org"
+      license: "Public Domain"
+      format: "Text — HVAC textbooks"
+    - name: "Wikipedia — HVAC"
+      url: "https://en.wikipedia.org/wiki/HVAC"
+      license: "CC-BY-SA"
+      format: "Text — HVAC concepts"
+  spec:
+    format: "One HVAC concept per episode, 60-120 min"
+    structure: "HVAC story — concept, history, application, safety"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "HVAC {Concept} — A Trade Story for Sleep | {Duration}"
+      primary_keyword: "hvac sleep"
+      tags: ["hvac", "trade", "sleep", "learning"]
+
+- id: sleepy_welding
+  name: Sleepy Welding
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Project Gutenberg — Welding"
+      url: "https://www.gutenberg.org"
+      license: "Public Domain"
+      format: "Text — welding textbooks"
+    - name: "Wikipedia — Welding"
+      url: "https://en.wikipedia.org/wiki/Welding"
+      license: "CC-BY-SA"
+      format: "Text — welding concepts"
+  spec:
+    format: "One welding concept per episode, 60-120 min"
+    structure: "Welding story — concept, history, application, safety"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Welding {Concept} — A Trade Story for Sleep | {Duration}"
+      primary_keyword: "welding sleep"
+      tags: ["welding", "trade", "sleep", "learning"]
+
+- id: sleepy_masonry
+  name: Sleepy Masonry
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Project Gutenberg — Masonry"
+      url: "https://www.gutenberg.org"
+      license: "Public Domain"
+      format: "Text — masonry textbooks"
+    - name: "Wikipedia — Masonry"
+      url: "https://en.wikipedia.org/wiki/Masonry"
+      license: "CC-BY-SA"
+      format: "Text — masonry concepts"
+  spec:
+    format: "One masonry concept per episode, 60-120 min"
+    structure: "Masonry story — concept, history, application, safety"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Masonry {Concept} — A Trade Story for Sleep | {Duration}"
+      primary_keyword: "masonry sleep"
+      tags: ["masonry", "trade", "sleep", "learning"]
+
+- id: sleepy_roofing
+  name: Sleepy Roofing
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Project Gutenberg — Roofing"
+      url: "https://www.gutenberg.org"
+      license: "Public Domain"
+      format: "Text — roofing textbooks"
+    - name: "Wikipedia — Roofing"
+      url: "https://en.wikipedia.org/wiki/Roofing"
+      license: "CC-BY-SA"
+      format: "Text — roofing concepts"
+  spec:
+    format: "One roofing concept per episode, 60-120 min"
+    structure: "Roofing story — concept, history, application, safety"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Roofing {Concept} — A Trade Story for Sleep | {Duration}"
+      primary_keyword: "roofing sleep"
+      tags: ["roofing", "trade", "sleep", "learning"]
+
+- id: sleepy_painting
+  name: Sleepy Painting
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Project Gutenberg — Painting"
+      url: "https://www.gutenberg.org"
+      license: "Public Domain"
+      format: "Text — painting textbooks"
+    - name: "Wikipedia — Painting"
+      url: "https://en.wikipedia.org/wiki/Painting"
+      license: "CC-BY-SA"
+      format: "Text — painting concepts"
+  spec:
+    format: "One painting concept per episode, 60-120 min"
+    structure: "Painting story — concept, history, application, safety"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Painting {Concept} — A Trade Story for Sleep | {Duration}"
+      primary_keyword: "painting sleep"
+      tags: ["painting", "trade", "sleep", "learning"]
+
+- id: sleepy_landscaping
+  name: Sleepy Landscaping
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Project Gutenberg — Landscaping"
+      url: "https://www.gutenberg.org"
+      license: "Public Domain"
+      format: "Text — landscaping textbooks"
+    - name: "Wikipedia — Landscaping"
+      url: "https://en.wikipedia.org/wiki/Landscaping"
+      license: "CC-BY-SA"
+      format: "Text — landscaping concepts"
+  spec:
+    format: "One landscaping concept per episode, 60-120 min"
+    structure: "Landscaping story — concept, history, application, safety"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Landscaping {Concept} — A Trade Story for Sleep | {Duration}"
+      primary_keyword: "landscaping sleep"
+      tags: ["landscaping", "trade", "sleep", "learning"]
+
+- id: sleepy_auto_mechanics
+  name: Sleepy Auto Mechanics
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Project Gutenberg — Auto Mechanics"
+      url: "https://www.gutenberg.org"
+      license: "Public Domain"
+      format: "Text — auto mechanics textbooks"
+    - name: "Wikipedia — Auto Mechanics"
+      url: "https://en.wikipedia.org/wiki/Auto_mechanics"
+      license: "CC-BY-SA"
+      format: "Text — auto mechanics concepts"
+  spec:
+    format: "One auto mechanics concept per episode, 60-120 min"
+    structure: "Auto mechanics story — concept, history, application, safety"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "Auto Mechanics {Concept} — A Trade Story for Sleep | {Duration}"
+      primary_keyword: "auto mechanics sleep"
+      tags: ["auto mechanics", "trade", "sleep", "learning"]
+
+# ============================================================
+# SLEEPY BOTANY (E5 talk engine)
+# ============================================================
+
+- id: sleepy_botany
+  name: Sleepy Botany
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "Project Gutenberg — Botany"
+      url: "https://www.gutenberg.org"
+      license: "Public Domain"
+      format: "Text — botany textbooks and herbals"
+    - name: "Wikipedia — Botany"
+      url: "https://en.wikipedia.org/wiki/Botany"
+      license: "CC-BY-SA"
+      format: "Text — botanical concepts"
+    - name: "PubMed — Plant Science"
+      url: "https://pubmed.ncbi.nlm.nih.gov/?term=plant+science"
+      license: "Academic"
+      format: "Research papers — plant biology"
+  spec:
+    format: "One plant per episode, 60-120 min"
+    structure: "Plant story — taxonomy, habitat, uses, history, science"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "{Plant} — A Botanical Story for Sleep | {Duration}"
+      primary_keyword: "botany sleep"
+      tags: ["botany", "plants", "sleep", "science", "nature"]
+
+# ============================================================
+# SLEEP PSYCHEDELICS (E5 talk engine — NEW)
+# ============================================================
+
+- id: sleep_psychedelics
+  name: Sleep Psychedelics
+  engine: E5
+  shelf: MIND
+  readiness: ready
+  pa_sources:
+    - name: "PubMed — Psychedelics"
+      url: "https://pubmed.ncbi.nlm.nih.gov/?term=psychedelics"
+      license: "Academic"
+      format: "Research papers — psychedelic science"
+    - name: "Erowid"
+      url: "https://erowid.org"
+      license: "CC-BY-SA"
+      format: "Text — experiential reports, chemistry, history"
+    - name: "Chacruna"
+      url: "https://chacruna.net"
+      license: "CC-BY"
+      format: "Text — psychedelic research and culture"
+    - name: "MAPS"
+      url: "https://maps.org"
+      license: "CC-BY"
+      format: "Text — psychedelic research and therapy"
+  spec:
+    format: "One compound per episode, 60-120 min"
+    structure: "Compound story — chemistry, history, effects, therapy, risks, science"
+    audio: "Slow TTS + ambient bed"
+    visual: "Black screen"
+    voice: "V03 Lecturer"
+    seo:
+      title_formula: "{Compound} — A Psychedelic Story for Sleep | {Duration}"
+      primary_keyword: "psychedelics sleep"
+      tags: ["psychedelics", "science", "sleep", "chemistry", "therapy"]
+    compounds:
+      - name: "Ibogaine"
+        source: "Tabernanthe iboga"
+        class: "Tryptamine"
+        effects: "Oneirogenic, anti-addictive"
+        therapy: "Addiction interruption"
+      - name: "Psilocybin"
+        source: "Psilocybe mushrooms"
+        class: "Tryptamine"
+        effects: "Ego dissolution, mystical experience"
+        therapy: "Depression, anxiety, PTSD"
+      - name: "LSD"
+        source: "Ergot fungus"
+        class: "Lysergamide"
+        effects: "Visual hallucinations, time distortion"
+        therapy: "Cluster headaches, anxiety"
+      - name: "DMT"
+        source: "Psychotria viridis, Mimosa hostilis"
+        class: "Tryptamine"
+        effects: "Intense visual, entity encounters"
+        therapy: "End-of-life anxiety"
+      - name: "Mescaline"
+        source: "Peyote, San Pedro cactus"
+        class: "Phenethylamine"
+        effects: "Visual hallucinations, emotional openness"
+        therapy: "Addiction, depression"
+      - name: "Ketamine"
+        source: "Synthetic"
+        class: "Dissociative"
+        effects: "Dissociation, out-of-body"
+        therapy: "Treatment-resistant depression"
+      - name: "MDMA"
+        source: "Synthetic"
+        class: "Empathogen"
+        effects: "Euphoria, emotional openness"
+        therapy: "PTSD (Phase 3 trials)"
+      - name: "5-MeO-DMT"
+        source: "Incilius alvarius toad, synthetic"
+        class: "Tryptamine"
+        effects: "Ego death, unity experience"
+        therapy: "Depression, anxiety"
+      - name: "Ayahuasca"
+        source: "Banisteriopsis caapi + Psychotria viridis"
+        class: "Tryptamine + MAOI"
+        effects: "Purging, visionary, emotional release"
+        therapy: "Addiction, depression, PTSD"
+      - name: "Salvia divinorum"
+        source: "Salvia divinorum"
+        class: "Diterpene"
+        effects: "Dissociation, reality distortion"
+        therapy: "Research stage"
